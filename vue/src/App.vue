@@ -10,14 +10,12 @@
 </template>
 
 <script lang="ts">
-import MainContent from './components/MainContent.vue'
 import TopBar from './components/TopBar.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    MainContent,
     TopBar,
     Footer
   }

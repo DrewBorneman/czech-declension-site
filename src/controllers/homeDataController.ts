@@ -1,7 +1,12 @@
 import type { Request, Response } from "express";
-import type { THomeRouteInfo, TSiteInfo } from '../../vue/src/types/routes.ts'
+import type { TContactRouteInfo, THomeRouteInfo, TResumeRouteInfo, TSiteInfo } from '../../vue/src/types/routes.ts'
 import { TSocialMediaLink } from "../../vue/src/types/components.ts";
 import { IconType } from "../../vue/src/types/enums.ts";
+import dotenv from "dotenv";
+import path from "path";
+
+dotenv.config();
+const publicDir = process.env.PUBLIC_DIR || 'public';
 
 export const getHomeData = function(req: Request, res: Response): void  {
     res.send(<THomeRouteInfo>{
@@ -20,19 +25,40 @@ export const getSiteData = function(req: Request, res: Response): void  {
         iconPath: 'https://picsum.photos/48/48',
         links: [<TSocialMediaLink>{
             icon: IconType.Facebook,
-            subtext: "Facebook",
+            name: "Facebook",
             url: "https://www.facebook.com",
         },
         <TSocialMediaLink>{
             icon: IconType.Instagram,
-            subtext: "Instagram",
+            name: "Instagram",
             url: "https://www.instagram.com",
         },
         <TSocialMediaLink>{
             icon: IconType.LinkedIn,
-            subtext: "LinkedIn",
+            name: "LinkedIn",
             url: "https://www.linkedin.com",
         },
         ]
+    });
+} 
+
+export const getContactData = function(req: Request, res: Response): void  {
+    res.send(<TContactRouteInfo>{
+        title: 'Contact',
+        subtitle: 'Here\'s how to get ahold of me.',
+        email: 'drewwborneman@gmail.com',
+    });
+} 
+
+export const getResumeData = function(req: Request, res: Response): void  {
+    const pdfFilename = 'resume.pdf';
+    const docxFilename = 'resume.docx';
+    res.send(<TResumeRouteInfo>{
+        title: 'Resume',
+        text: 'Here you can download my resume in the following formats:',
+        pdfFilename: pdfFilename,
+        docxFilename: docxFilename,
+        pdfPath: path.join(publicDir, pdfFilename),
+        docxPath: path.join(publicDir, docxFilename),
     });
 } 

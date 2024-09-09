@@ -14,3 +14,18 @@ export type THomeRouteInfo = {
     text: string;
     imagePath: string;
 }
+
+export type TContactRouteInfo = {
+    title: string;
+    subtitle: string;
+    email: string;
+}
+
+export type TResumeRouteInfo = {
+    title: string;
+    text: string;
+    pdfFilename: string;
+    docxFilename: string;
+    pdfPath: string;
+    docxPath: string;
+}

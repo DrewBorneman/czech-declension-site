@@ -4,7 +4,7 @@
     <p class="flex-grow-0 flex-shrink-0 text-s ml-4">{{ SiteInfo.copyrightStatement }}</p>
     <div class="flex-grow-3 flex-shrink-0"></div>
     <div class="mr-8">
-      <IconLinks :links="SiteInfo.links"/>
+      <IconLinks :links="SiteInfo.links" :big="false"/>
     </div>
   </div>
 </template>

@@ -5,4 +5,6 @@ export enum IconType {
     SoundCloud = 'fa-brands fa-soundcloud',
     XTwitter = 'fa-brands fa-x-twitter',
     LinkedIn = 'fa-brands fa-linkedin',
+    PDF = 'fa-regular fa-file-pdf',
+    DOCX = 'fa-regular fa-file-word',
 }

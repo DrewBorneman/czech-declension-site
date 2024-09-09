@@ -9,8 +9,9 @@ import { AddIconsToLibrary } from './helpers/FontAwesome'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import MainContent from './components/MainContent.vue'
-import Contact from './components/Contact.vue'
+import MainContent from './views/MainContent.vue'
+import Contact from './views/Contact.vue'
+import Resume from './views/Resume.vue'
 
 /* add icons to the library */
 AddIconsToLibrary(library);
@@ -27,6 +28,11 @@ const router =  createRouter({
             path:'/contact',
             name:'contact',
             component: Contact,
+        },
+        {
+            path:'/resume',
+            name:'resume',
+            component: Resume,
         },
         {
             path: '/:pathMatch(.*)*',

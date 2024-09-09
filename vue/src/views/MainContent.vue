@@ -1,18 +1,20 @@
 <template>
-  <div class="contact">
-    <div class="flex flex-row space-x-12 mt-36">    
-        <h1>CONTACT</h1>   
-    </div>
-  </div>
+  <MainTemplate>
+      <div class = "flex flex-col pl-36">
+        <h1 class="text-5xl font-bold mb-2">{{ HomeData.title  }}</h1>
+        <h2 class="text-2xl text-slate-500">{{ HomeData.subtitle  }}</h2>
+        <p class="pt-4 w-3/4 text-xl">{{ HomeData.text  }}</p>
+      </div>
+  </MainTemplate>
 </template>
 
 <script lang="ts" setup>
 import { onBeforeMount } from 'vue';
 import { ref } from '@vue/reactivity';
-import { GetHomeData, GetSiteInfo } from './../helpers/homeRequests';
+import { GetHomeData } from './../helpers/homeRequests';
 //import { GetHomeData } from 'helpers/homeRequests';
-import { THomeRouteInfo, TSiteInfo } from '../types/routes';
-import IconLinks from './IconLinks.vue';
+import { THomeRouteInfo } from '../types/routes';
+import MainTemplate from '../components/MainTemplate.vue';
 
 // export default defineComponent({
 //   name: 'Content',
@@ -22,11 +24,9 @@ import IconLinks from './IconLinks.vue';
 // });
 
 const HomeData = ref<THomeRouteInfo>(<THomeRouteInfo>{});
-const SiteInfo = ref<TSiteInfo>(<TSiteInfo>{});
 
 onBeforeMount(async () => {
   HomeData.value = await GetHomeData();
-  SiteInfo.value = await GetSiteInfo();
 })
 </script>
 
