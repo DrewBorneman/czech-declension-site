@@ -20,26 +20,3 @@ const props = defineProps<{
   big: boolean,
 }>();
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.flex-grow-2 {
-  flex-grow: 2;
-}
-.flex-shrink-2 {
-  flex-shrink: 2;
-}
-.flex-grow-3 {
-  flex-grow: 3;
-}
-.flex-shrink-3 {
-  flex-shrink: 3;
-}
-.flex-basis-fourth {
-  flex-basis: 0%;
-}
-
-.flex-basis-half {
-  flex-basis: 25%;
-}
-</style>

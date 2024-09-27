@@ -1,26 +1,88 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <div class="flex flex-col h-screen">
-    <TopBar />
-    <RouterView class="flex-grow"/>
-    <!-- <MainContent class="flex-grow" /> -->
-    <Footer />
-  </div>
+      <div class="flex flex-col h-screen overflow-hidden">
+        <TopBar />
+        <router-view class="flex-grow main-overflow" v-slot="{ Component, route }">
+          <Transition :name="DetermineTransitionName(route.name)">
+            <component :is="Component"/>
+          </Transition>
+        </router-view>
+        <Footer />
+      </div>
 </template>
 
 <script lang="ts">
 import TopBar from './components/TopBar.vue'
 import Footer from './components/Footer.vue'
+import type { RouteRecordNameGeneric } from 'vue-router'
 
 export default {
   name: 'App',
   components: {
     TopBar,
     Footer
+  },
+  methods: {
+    DetermineTransitionName(routeName: RouteRecordNameGeneric) {
+      let fromRoute = this.$router.resolve({ path: this.$router.options.history.state.back?.toString()});
+      let toRoute = this.$router.resolve({ name: routeName?.toString() });
+      
+      if(!fromRoute.meta.order || !toRoute.meta.order) return 'fade';
+
+      if(fromRoute.meta.order < toRoute.meta.order) {
+        return 'slide-fade-right'
+      } 
+      else if(fromRoute.meta.order > toRoute.meta.order) {
+        return 'slide-fade-left'
+      }
+      else {
+        return 'fade'
+      }
+    }
   }
 }
 </script>
 
 <style>
+  /* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main-overflow {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  overflow-x:hidden;
+}
+
+.slide-fade-left-enter-active,
+.slide-fade-right-enter-active,
+.fade-enter-active {
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+.slide-fade-left-leave-active,
+.slide-fade-right-leave-active,
+.fade-leave-active {
+  visibility: hidden;
+}
+
+.slide-fade-left-enter-from,
+.slide-fade-left-leave-to {
+  transform: translateX(-50px);
+  opacity: 0.2;
+}
+
+.slide-fade-right-enter-from,
+.slide-fade-right-leave-to {
+  transform: translateX(50px);
+  opacity: 0.2;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  transform: scale(0.95, 0.95);
+  opacity: 0.2;
+}
 </style>

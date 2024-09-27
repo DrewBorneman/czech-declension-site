@@ -1,6 +1,14 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import { createVuetify } from 'vuetify'
+import {
+    VApp, // required
+    VCarousel,
+    VPagination,
+  } from 'vuetify/components';
+import 'vuetify/dist/vuetify.min.css'; // Ensure you are using css-loader
+import '@mdi/font/css/materialdesignicons.css'
+import './style.css';
+import App from './App.vue';
 import {createRouter, createWebHistory} from 'vue-router';
 
 /* import the fontawesome core */
@@ -12,6 +20,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import MainContent from './views/MainContent.vue'
 import Contact from './views/Contact.vue'
 import Resume from './views/Resume.vue'
+import Projects from './views/Projects.vue'
+import CMS from './views/cms.vue'
+import { verifyPassword } from './helpers/password';
 
 /* add icons to the library */
 AddIconsToLibrary(library);
@@ -23,16 +34,41 @@ const router =  createRouter({
             path:'/',
             name:'home',
             component: MainContent,
-        },
-        {
-            path:'/contact',
-            name:'contact',
-            component: Contact,
+            meta: {
+                order: 1
+            },
         },
         {
             path:'/resume',
             name:'resume',
             component: Resume,
+            meta: {
+                order: 2
+            },
+        },
+        {
+            path:'/projects',
+            name:'projects',
+            component: Projects,
+            meta: {
+                order: 3
+            },
+        },
+        {
+            path:'/contact',
+            name:'contact',
+            component: Contact,
+            meta: {
+                order: 4
+            },
+        },
+        {
+            path:'/cms',
+            name:'cms',
+            component: CMS,
+            beforeEnter: async (to, from) => {
+                return verifyPassword();
+            },
         },
         {
             path: '/:pathMatch(.*)*',
@@ -40,7 +76,21 @@ const router =  createRouter({
         },
     ]})
 
+const vuetify = createVuetify({
+    components: {
+        VApp,
+        VPagination,
+        VCarousel,
+    },
+    directives: {},
+    theme: {
+        defaultTheme: 'light',
+        //
+      },
+});
+
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
     .use(router)
+    .use(vuetify)
     .mount('#app')

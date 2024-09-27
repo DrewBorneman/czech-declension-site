@@ -7,4 +7,3 @@ export default function (config: HomeRouteConfig){
     // Requests  
     return router.get('/', express.static(config.rootPath), displayHome);
 }
-

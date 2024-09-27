@@ -9,7 +9,9 @@
       </div>
     </template>
     <template v-slot:right>
-      <slot></slot>
+      <div class="bg-neutral-100 pt-8 pb-12">
+        <slot></slot>
+      </div>
     </template>
   </TwoColumnTemplate>
 </template>
@@ -17,7 +19,7 @@
 <script lang="ts" setup>
 import { onBeforeMount } from 'vue';
 import { ref } from '@vue/reactivity';
-import { GetHomeData, GetSiteInfo } from './../helpers/homeRequests';
+import { GetHomeData, GetSiteInfo } from './../helpers/getRequests';
 import { THomeRouteInfo, TSiteInfo } from '../types/routes';
 import IconLinks from '../components/IconLinks.vue';
 import TwoColumnTemplate from './TwoColumnTemplate.vue';
@@ -30,20 +32,3 @@ onBeforeMount(async () => {
   SiteInfo.value = await GetSiteInfo();
 })
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.flex-grow-3 {
-  flex-grow: 3;
-}
-.flex-shrink-3 {
-  flex-shrink: 3;
-}
-.flex-basis-fourth {
-  flex-basis: 0%;
-}
-
-.flex-basis-half {
-  flex-basis: 25%;
-}
-</style>

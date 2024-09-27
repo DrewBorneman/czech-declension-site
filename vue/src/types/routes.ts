@@ -1,9 +1,10 @@
-import type { TSocialMediaLink } from "./components";
+import type { TProject, TSocialMediaLink, TResumeFile } from "./components";
 
 export type TSiteInfo = {
     name: string;
     iconPath: string;
     copyrightStatement: string;
+    passwordHash: string;
     links: TSocialMediaLink[];
 }
 
@@ -18,14 +19,17 @@ export type THomeRouteInfo = {
 export type TContactRouteInfo = {
     title: string;
     subtitle: string;
-    email: string;
+    text: string;
 }
 
 export type TResumeRouteInfo = {
     title: string;
     text: string;
-    pdfFilename: string;
-    docxFilename: string;
-    pdfPath: string;
-    docxPath: string;
+    files: TResumeFile[];
+}
+
+export type TProjectsRouteInfo = {
+    title: string;
+    text: string;
+    projects: TProject[];
 }
