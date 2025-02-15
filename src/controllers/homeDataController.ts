@@ -18,20 +18,23 @@ let homeData: THomeRouteInfo = <THomeRouteInfo>{
 
 let siteData: TSiteInfo = <TSiteInfo> {
     name: 'Drew Borneman',
-    copyrightStatement: '©2024 Drew Borneman',
+    copyrightStatement: '©2025 Drew Borneman',
     iconPath: './public/monogram.svg',
     passwordHash: 'f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b',   //asdf
     links: [<TSocialMediaLink>{
+        id: 0,
         icon: IconType.Facebook,
         name: "Facebook",
         url: "https://www.facebook.com/drew.borneman/",
     },
     <TSocialMediaLink>{
+        id: 1,
         icon: IconType.Instagram,
         name: "Instagram",
         url: "https://www.instagram.com/supersquashmann/",
     },
     <TSocialMediaLink>{
+        id: 2,
         icon: IconType.LinkedIn,
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/dborneman/",
