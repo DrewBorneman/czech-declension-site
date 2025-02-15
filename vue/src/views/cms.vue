@@ -222,8 +222,13 @@ const HomeData = ref<THomeRouteInfo>(<THomeRouteInfo>{});
 const ResumeData = ref<TResumeRouteInfo>(<TResumeRouteInfo>{});
 const ProjectsData = ref<TProjectsRouteInfo>(<TProjectsRouteInfo>{});
 
+let dataRefreshed = false;
+
 onBeforeMount(async () => {
-  refreshData();
+  if(!dataRefreshed){
+    dataRefreshed = true;
+    refreshData();
+  }
 })
 
 async function refreshData() {
@@ -234,8 +239,15 @@ async function refreshData() {
   ProjectsData.value = await getProjectsData();
 }
 
+type TSortableArray = TSocialMediaLink | TResumeFile | TProject;
+function getNextId(array: Array<TSortableArray>)
+{
+  array.sort((a: TSortableArray,b: TSortableArray) => a.id < b.id ? 1 : a.id > b.id ? -1 : 0);  //reverse sort
+  return(array[0].id + 1);
+}
+
 const addNewLink = (): void => {
-  SiteInfo.value.links.push(<TSocialMediaLink>{ name: '', icon: IconType.None, url: '' });
+  SiteInfo.value.links.push(<TSocialMediaLink>{ id: getNextId(SiteInfo.value.links), name: '', icon: IconType.None, url: '' });
 };
 
 const deleteLink = (index: number): void => {
@@ -243,7 +255,7 @@ const deleteLink = (index: number): void => {
 };
 
 const addNewFile = (): void => {
-  ResumeData.value.files.push(<TResumeFile>{ filename: '', path: '', icon: IconType.None, description: '' });
+  ResumeData.value.files.push(<TResumeFile>{ id: getNextId(ResumeData.value.files), filename: '', path: '', icon: IconType.None, description: '' });
 };
 
 const deleteFile = (index: number): void => {
@@ -251,7 +263,7 @@ const deleteFile = (index: number): void => {
 };
 
 const addNewProject = (): void => {
-  ProjectsData.value.projects.push(<TProject>{ id: ProjectsData.value.projects.length, title: '', date: '', url: '', imagePath: '', text: '' });
+  ProjectsData.value.projects.push(<TProject>{ id: getNextId(ProjectsData.value.projects), title: '', date: '', url: '', imagePath: '', text: '' });
 };
 
 const deleteProject = (index: number): void => {

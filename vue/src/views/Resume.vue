@@ -21,7 +21,6 @@ import { ref } from '@vue/reactivity';
 import { getResumeData } from './../helpers/getRequests';
 import { TResumeRouteInfo } from '../types/routes';
 import MainTemplate from '../components/MainTemplate.vue';
-import { IconType } from '../types/enums.ts';
 
 const ResumeData = ref<TResumeRouteInfo>(<TResumeRouteInfo>{});
 

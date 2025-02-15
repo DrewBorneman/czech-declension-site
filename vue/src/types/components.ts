@@ -1,12 +1,14 @@
 import { IconType } from "./enums";
 
 export interface TSocialMediaLink {
+    id: number;
     icon: IconType;
     url: string;
     name: string;
 }
 
 export interface TResumeFile {
+    id: number;
     filename: string;
     path: string;
     icon: IconType;

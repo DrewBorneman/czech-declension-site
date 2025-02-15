@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
-const port = 3000;
+const port = 8000;
 
 export async function JSONGetRequest<T> (url: string) : Promise<T> {
     const response: T = await MakeAxiosRequest({
