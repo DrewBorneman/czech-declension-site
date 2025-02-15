@@ -205,7 +205,7 @@
 </template>
 
 <script lang="ts" setup>
-import { onBeforeMount, onMounted } from 'vue';
+import { onBeforeMount } from 'vue';
 import { ref } from '@vue/reactivity';
 import { getContactData, GetSiteInfo, GetHomeData, getProjectsData, getResumeData } from '../helpers/getRequests';
 import { SetContactData, SetSiteInfo, SetHomeData, SetProjectsData, SetResumeData } from '../helpers/postRequests';
@@ -234,8 +234,6 @@ onBeforeMount(async () => {
 async function refreshData() {
   SiteInfo.value = await GetSiteInfo();
   ContactData.value = await getContactData();
-  console.log("getting home data - refresh from CMS");
-  console.trace();
   HomeData.value = await GetHomeData();
   ResumeData.value = await getResumeData();
   ProjectsData.value = await getProjectsData();
@@ -257,7 +255,6 @@ const deleteLink = (index: number): void => {
 };
 
 const addNewFile = (): void => {
-  console.log("adding new file with ID of " + getNextId(ResumeData.value.files));
   ResumeData.value.files.push(<TResumeFile>{ id: getNextId(ResumeData.value.files), filename: '', path: '', icon: IconType.None, description: '' });
 };
 

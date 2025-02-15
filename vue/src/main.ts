@@ -66,7 +66,7 @@ const router =  createRouter({
             path:'/cms',
             name:'cms',
             component: CMS,
-            beforeEnter: async (to, from) => {
+            beforeEnter: async () => {
                 return verifyPassword();
             },
         },

@@ -28,7 +28,6 @@ const HomeData = ref<THomeRouteInfo>(<THomeRouteInfo>{});
 const SiteInfo = ref<TSiteInfo>(<TSiteInfo>{});
 
 onBeforeMount(async () => {
-  console.log("getting home data - from MainTemplate");
   HomeData.value = await GetHomeData();
   SiteInfo.value = await GetSiteInfo();
 })

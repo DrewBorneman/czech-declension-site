@@ -18,7 +18,6 @@ import MainTemplate from '../components/MainTemplate.vue';
 const HomeData = ref<THomeRouteInfo>(<THomeRouteInfo>{});
 
 onBeforeMount(async () => {
-  console.log("getting home data - from MainContent");
   HomeData.value = await GetHomeData();
 })
 </script>

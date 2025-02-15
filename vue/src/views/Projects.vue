@@ -40,7 +40,6 @@ const ProjectsData = ref<TProjectsRouteInfo>(<TProjectsRouteInfo>{});
 const SortedProjects = computed(() => ProjectsData.value.projects? ProjectsData.value.projects.sort((a, b) => a.id - b.id) : []);
 const PaginatedProjects = computed(() => SortedProjects.value.slice(((currPage.value - 1) * pageSize), ((currPage.value - 1) * pageSize + pageSize)));
 const totalPages = computed(() => {
-  console.log(SortedProjects.value.length ? Math.ceil(SortedProjects.value.length / pageSize) : 1);
   return SortedProjects.value.length ? Math.ceil(SortedProjects.value.length / pageSize) : 1});
 const currPage = ref<number>(1);
 const pageSize = 3;

@@ -15,7 +15,7 @@ import { TSocialMediaLink } from '../types/components';
 const styleClassesSmall: string = "content flex flex-row space-x-3 mt-2 mr-2 items-center";
 const styleClassesLarge: string = "content flex flex-col space-y-6 mt-4 items-start";
 
-const props = defineProps<{
+defineProps<{
   links: Array<TSocialMediaLink>,
   big: boolean,
 }>();
