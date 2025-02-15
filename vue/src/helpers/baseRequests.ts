@@ -1,11 +1,12 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
-const port = 8000;
+const requestURL = "https://www.borneman.me";
+//const port = 8000;
 
 export async function JSONGetRequest<T> (url: string) : Promise<T> {
     const response: T = await MakeAxiosRequest({
         method: 'get',
         url: url,
-        baseURL: `http://localhost:${port}`,
+        baseURL: requestURL,
         responseType: 'json',
         headers: {},
     }).then((response) => {
@@ -18,7 +19,7 @@ export async function JSONPostRequest (url: string, jsonContent: string) : Promi
     const response: number = await MakeAxiosRequest({
         method: 'post',
         url: url,
-        baseURL: `http://localhost:${port}`,
+        baseURL: requestURL,
         headers: {"Content-Type": 'application/json'},
         data: jsonContent,
     }).then(response => response.data);
