@@ -20,10 +20,10 @@ class ResumeFileSeeder extends Seeder
             'description' => 'Resume (PDF)',
         ]);
         ResumeFile::create([
-            'filename' => 'resume.docx',
-            'path' => './files/resume.docx',
+            'filename' => 'resume.doc',
+            'path' => './files/resume.doc',
             'icon' => 'fa-regular fa-file-word',
-            'description' => 'Resume (DOCX)',
+            'description' => 'Resume (DOC)',
         ]);
     }
 }
