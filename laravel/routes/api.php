@@ -5,7 +5,6 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\ResumeController;
 use App\Http\Controllers\SiteController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*

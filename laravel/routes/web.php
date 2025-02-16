@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+if (file_exists(base_path('routes/api.php'))) {
+    require base_path('routes/api.php');
+}
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any}', function(){
-    return view('index');//pointing to the index file of the frontend
- })->where('any', '.*');
- 
+// 🔥 ENSURE API REQUESTS ARE NOT HANDLED HERE
+Route::prefix('api')->group(base_path('routes/api.php'));
+
+Route::middleware('web')->group(function () {
+    Route::get('/{any}', function () {
+        return view('index'); // Vue app entry point
+    })->where('any', '^(?!api).*'); // Exclude API requests
+});
