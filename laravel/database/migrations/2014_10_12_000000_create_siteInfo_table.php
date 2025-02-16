@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('siteInfo', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('copyrightStatement')->nullable();
-            $table->string('iconPath')->nullable();
-            $table->string('passwordHash')->nullable();
+            $table->string('Drew Borneman');
+            $table->string('2025, Drew Borneman')->nullable();
+            $table->string('./files/monogram.svg')->nullable();
+            $table->string('f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b')->nullable(); //asdf
         });
     }
 
