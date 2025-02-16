@@ -13,13 +13,17 @@ class ResumeFileSeeder extends Seeder
      */
     public function run(): void
     {
-        for($i = 0; $i < 1; $i++) {
-            ResumeFile::create([
-                'filename' => 'filename',
-                'path' => 'path',
-                'icon' => 'fa-regular fa-file-pdf',
-                'description' => 'description',
-            ]);
-        }
+        ResumeFile::create([
+            'filename' => 'resume.pdf',
+            'path' => './files/resume.pdf',
+            'icon' => 'fa-regular fa-file-pdf',
+            'description' => 'Resume (PDF)',
+        ]);
+        ResumeFile::create([
+            'filename' => 'resume.docx',
+            'path' => './files/resume.docx',
+            'icon' => 'fa-regular fa-file-word',
+            'description' => 'Resume (DOCX)',
+        ]);
     }
 }

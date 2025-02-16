@@ -15,9 +15,9 @@ class ContactDataSeeder extends Seeder
     public function run(): void
     {
         ContactData::create([
-            'title' => 'title',
-            'subtitle' => 'subtitle',
-            'text' => 'text',
+            'title' => 'Contact',
+            'subtitle' => 'Here\'s how to get ahold of me.',
+            'text' => 'Please send any inquiries to my email at <span class="font-bold">drewwborneman@gmail.com</span>.<br />You can also find me on the following platforms:',
         ]);
     }
 }

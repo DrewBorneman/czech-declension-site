@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('subtitle')->nullable();
             $table->string('tagline')->nullable();
-            $table->string('text');
+            $table->text('text');
             $table->string('imagePath')->nullable();
         });
     }

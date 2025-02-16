@@ -15,8 +15,8 @@ class ProjectDataSeeder extends Seeder
     {
         for($i = 0; $i < 1; $i++) {
             ProjectData::create([
-                'title' => 'title',
-                'text' => 'text',
+                'title' => 'Projects',
+                'text' => 'I have been lucky enough to work on a wide variety of projects, both while employed and for my own interest.  Here are some of the highlights:',
             ]);
         }
     }

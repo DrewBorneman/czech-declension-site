@@ -13,11 +13,9 @@ class ResumeDataSeeder extends Seeder
      */
     public function run(): void
     {
-        for($i = 0; $i < 1; $i++) {
-            ResumeData::create([
-                'title' => 'title',
-                'text' => 'text',
-            ]);
-        }
+        ResumeData::create([
+            'title' => 'Resume',
+            'text' => 'Here you can download my resume in the following formats:',
+        ]);
     }
 }

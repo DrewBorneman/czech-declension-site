@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('filename');
             $table->string('path');
             $table->string('icon');
-            $table->string('description');
+            $table->text('desccolumn: ription');
         });
     }
 
