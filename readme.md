@@ -6,3 +6,5 @@ Quick notes on how to deploy to Hostinger:
      - move `/public_html/laravel` one level up, to `/laravel`
      - move `/laravel/public/api` to `/public_html/api`
      - remove all irrelevant directories
+ - Connect to SSH, navigate to the `laravel` directory, and run `composer2 install`
+
