@@ -3,7 +3,7 @@
     <img :src="SiteInfo.iconPath" class="w-11 h-11 mr-4 ml-12 mt-1" />
     <!-- <img :src="SiteInfo.iconPath" class="w-11 h-11 mr-4 ml-12 mt-1" /> -->
     <!-- <h3 class="text-2xl font-bold">{{ SiteInfo.name }}</h3> -->
-    <h3 class="text-2xl font-bold">MOBILE</h3>
+    <h3 class="text-2xl font-bold">{{ SiteInfo.name }}</h3>
     <div class="flex-grow-3"></div>
     <div class="flex flex-row space-x-8 mt-2 items-center text-lg pr-12">    
     <v-menu
