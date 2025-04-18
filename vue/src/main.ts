@@ -4,6 +4,10 @@ import {
     VApp, // required
     VCarousel,
     VPagination,
+    VMenu,
+    VBtn,
+    VList,
+    VListItem
   } from 'vuetify/components';
 import 'vuetify/dist/vuetify.min.css'; // Ensure you are using css-loader
 import '@mdi/font/css/materialdesignicons.css'
@@ -81,6 +85,10 @@ const vuetify = createVuetify({
         VApp,
         VPagination,
         VCarousel,
+        VMenu, 
+        VBtn, 
+        VList, 
+        VListItem 
     },
     directives: {},
     theme: {

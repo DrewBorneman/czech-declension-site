@@ -1,24 +1,40 @@
 <template>
-      <div class="flex flex-col h-screen overflow-hidden">
-        <TopBar />
-        <router-view class="flex-grow main-overflow" v-slot="{ Component, route }">
-          <Transition :name="DetermineTransitionName(route.name)">
-            <component :is="Component"/>
-          </Transition>
-        </router-view>
-        <Footer />
-      </div>
+  <div v-if="mobile">
+    <div class="flex flex-col h-screen overflow-hidden">
+      <TopBarMobile />
+      <router-view class="flex-grow main-overflow" v-slot="{ Component, route }">
+        <Transition :name="DetermineTransitionName(route.name)">
+          <component :is="Component"/>
+        </Transition>
+      </router-view>
+    </div>
+  </div>
+  <div v-else>
+    <div class="flex flex-col h-screen overflow-hidden">
+      <TopBar />
+      <router-view class="flex-grow main-overflow" v-slot="{ Component, route }">
+        <Transition :name="DetermineTransitionName(route.name)">
+          <component :is="Component"/>
+        </Transition>
+      </router-view>
+      <Footer />
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
 import TopBar from './components/TopBar.vue'
+import TopBarMobile from './components/TopBarMobile.vue'
 import Footer from './components/Footer.vue'
+import { useIsMobile } from './composables/useIsMobile'
 import type { RouteRecordNameGeneric } from 'vue-router'
+import { computed, provide } from 'vue'
 
 export default {
   name: 'App',
   components: {
     TopBar,
+    TopBarMobile,
     Footer
   },
   methods: {
@@ -37,6 +53,19 @@ export default {
       else {
         return 'fade'
       }
+    }
+  },
+
+  setup() {
+    const { isMobile } = useIsMobile();
+    const mobile = computed(() =>
+      isMobile.value
+    )
+
+    provide('mobile', mobile)
+    
+    return {
+      mobile,
     }
   }
 }

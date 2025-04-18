@@ -1,15 +1,15 @@
 <template>
   <TwoColumnTemplate>
     <template v-slot:left>
-      <div class="flex flex-col items-end">
+      <div :class="'flex flex-col ' + mobile ? 'items-start' : 'items-end'">
         <h2 class="text-3xl font-bold mb-4">{{ ProjectsData.title }}</h2>
-        <p class="text-basis text-slate-600 ml-4 text-right">{{ ProjectsData.text }}</p>
+        <p :class="'text-basis text-slate-600 ml-4 ' + mobile ? '' : 'text-right'">{{ ProjectsData.text }}</p>
       </div>
     </template>
     <template v-slot:right>
       <div class="flex flex-col items-start mt-4">
           <div v-for="project in PaginatedProjects" :key="project.id" :class="'w-full flex flex-row px-4 py-4 ' + (((project.id + 1) % 2) ? 'bg-slate-200' : 'bg-neutral-100')">
-            <img v-if="project.imagePath" :src="project.imagePath" class="max-w-40 max-h-40 aspect-square m-4 mr-8" /><div v-else class="px-4"></div>
+            <img v-if="project.imagePath && !mobile" :src="project.imagePath" class="max-w-40 max-h-40 aspect-square m-4 mr-8" /><div v-else class="px-4"></div>
             <div class="flex flex-col flex-grow-3 space-y-3">
               <div class="flex flex-row items-center justify-between">
                 <a v-if="project.url && project.url !== ''" :href="project.url" class="flex flex-row items-center space-x-2">
@@ -17,9 +17,11 @@
                   <font-awesome-icon class="text-slate-600" :icon="IconType.link" size="l"></font-awesome-icon>
                 </a>
                 <h3 v-else class="text-2xl font-bold">{{ project.title }}</h3>
-                <h4 class="text-xl font-bold text-slate-600 mr-8">{{ project.date }}</h4>
+                <h4 v-if="!mobile" class="text-xl font-bold text-slate-600 mr-8">{{ project.date }}</h4>
               </div>
-              <div class="text-lg ml-2 mb-3" v-html="project.text"></div>
+              <img v-if="project.imagePath && mobile" :src="project.imagePath" class="max-w-40 max-h-40 aspect-square mt-4 mb-2" /><div v-else class="px-4"></div>
+              <h4 v-if="mobile" class="text-l font-bold text-slate-600 mr-8 mb-2">{{ project.date }}</h4>
+              <div class="text-lg mb-3" v-html="project.text"></div>
             </div>
           </div>
           <v-pagination class="pt-4" v-if="ProjectsData.projects ? (ProjectsData.projects.length > pageSize) : false" v-model="currPage" :total-visible="totalPages" :length="totalPages"></v-pagination>
@@ -29,7 +31,7 @@
 </template>
 
 <script lang="ts" setup>
-import { onBeforeMount } from 'vue';
+import { onBeforeMount, inject } from 'vue';
 import { computed, ref } from '@vue/reactivity';
 import { getProjectsData } from './../helpers/getRequests';
 import { TProjectsRouteInfo } from '../types/routes';
@@ -43,6 +45,8 @@ const totalPages = computed(() => {
   return SortedProjects.value.length ? Math.ceil(SortedProjects.value.length / pageSize) : 1});
 const currPage = ref<number>(1);
 const pageSize = 3;
+
+const mobile = inject('mobile');
 
 onBeforeMount(async () => {
   ProjectsData.value = await getProjectsData();

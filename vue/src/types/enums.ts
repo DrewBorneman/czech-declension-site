@@ -10,7 +10,8 @@ export enum IconType {
     DOCX = 'fa-regular fa-file-word',
     link = 'fa-solid fa-link',
     trashCan = 'fa-regular fa-trash-can',
-    plus = 'fa-solid fa-plus'
+    plus = 'fa-solid fa-plus',
+    bars = 'fa-solid fa-bars'
 }
 
 export const IconTypeLinkMapping: Partial<Record<IconType, string>> = {

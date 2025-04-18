@@ -1,11 +1,11 @@
 <template>
   <TwoColumnTemplate>
     <template v-slot:left>
-      <div class="flex flex-col items-end">
+      <div v-if="!mobile" class="flex flex-col items-end">
         <img :src="HomeData.imagePath" class="max-w-xs mb-8" />
         <h2 class="text-2xl font-bold">{{ SiteInfo.name }}</h2>
         <h3 class="text-basis text-slate-500">{{ HomeData.tagline }}</h3>
-        <IconLinks :links="SiteInfo.links" :big="false"/>
+        <IconLinks :links="SiteInfo.links" size="xl" :text="false" :col="false"/>
       </div>
     </template>
     <template v-slot:right>
@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts" setup>
-import { onBeforeMount } from 'vue';
+import { onBeforeMount, inject } from 'vue';
 import { ref } from '@vue/reactivity';
 import { GetHomeData, GetSiteInfo } from './../helpers/getRequests';
 import { THomeRouteInfo, TSiteInfo } from '../types/routes';
@@ -26,6 +26,8 @@ import TwoColumnTemplate from './TwoColumnTemplate.vue';
 
 const HomeData = ref<THomeRouteInfo>(<THomeRouteInfo>{});
 const SiteInfo = ref<TSiteInfo>(<TSiteInfo>{});
+
+const mobile = inject('mobile');
 
 onBeforeMount(async () => {
   HomeData.value = await GetHomeData();

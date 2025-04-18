@@ -1,11 +1,13 @@
 <template>
-  <div class="content flex flex-row mt-2 pb-2 items-center">
-    <img :src="SiteInfo.iconPath" class="flex-grow-0 w-8 h-8 ml-4" />
-    <p class="flex-grow-0 text-s ml-4">{{ SiteInfo.copyrightStatement }} · <RouterLink class="underline" to="/cms">CMS</RouterLink></p>
-    <div class="flex-grow-3"></div>
-    <div class="mr-8">
-      <IconLinks :links="SiteInfo.links" size="xl" :text="false" :col="false"/>
+  <div class="content flex flex-row mt-16 items-center">
+    <div class="ml-16">
+      <IconLinks :links="SiteInfo.links" size="2x" :text="false" :col="false"/>
     </div>
+  </div>
+  <div class="content flex flex-row mt-2 mb-8 items-center">
+    <p class="flex-grow-0 text-m ml-16">{{ SiteInfo.copyrightStatement }}</p>
+    <div class="flex-grow-3"></div>
+    <RouterLink class="underline mr-16 text-m" to="/cms">CMS</RouterLink>
   </div>
 </template>
 
