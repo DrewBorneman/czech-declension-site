@@ -26,7 +26,7 @@
 import TopBar from './components/TopBar.vue'
 import TopBarMobile from './components/TopBarMobile.vue'
 import Footer from './components/Footer.vue'
-import { useIsMobile } from './composables/useIsMobile'
+import { useIsMobile } from './composables/useIsMobile.ts'
 import type { RouteRecordNameGeneric } from 'vue-router'
 import { computed, provide } from 'vue'
 
