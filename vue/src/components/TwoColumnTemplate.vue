@@ -1,6 +1,6 @@
 <template>
   <div v-if="mobile" class="content">
-    <div class="flex flex-col mt-6 pl-16 pr-16">
+    <div class="flex flex-col mt-6 pl-8 pr-8">
       <div class="flex-grow flex-shrink flex-basis-half mb-6">
         <slot name="left"></slot>
       </div>

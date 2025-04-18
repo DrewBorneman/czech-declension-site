@@ -1,6 +1,6 @@
 <template>
   <MainTemplate>
-      <div :class = "'flex flex-col ' + mobile ? 'pl-10 pr-10' : 'pl-24'">
+      <div :class = "'flex flex-col ' + mobile ? 'pl-8 pr-8' : 'pl-24'">
         <h1 class="text-5xl font-bold mb-2">{{ ContactData.title  }}</h1>
         <h2 class="text-2xl text-slate-500 mb-4">{{ ContactData.subtitle  }}</h2>
         <div class="pt-4 text-xl" v-html="ContactData.text"></div>

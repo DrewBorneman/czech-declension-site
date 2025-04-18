@@ -1,6 +1,6 @@
 <template>
   <MainTemplate>
-      <div :class = "'flex flex-col ' + mobile ? 'pl-10 pr-10' : 'pl-24'">
+      <div :class = "'flex flex-col ' + mobile ? 'pl-8 pr-8' : 'pl-24'">
         <h1 class="text-5xl font-bold mb-2">{{ ResumeData.title }}</h1>
         <p class="pt-4 text-xl">{{ ResumeData.text }}</p>
         <div class="content flex flex-col space-y-6 mt-8 ml-6 items-start">

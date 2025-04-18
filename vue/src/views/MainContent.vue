@@ -1,10 +1,10 @@
 <template>
   <MainTemplate>
-    <div :class = "'flex flex-col ' + mobile ? 'pl-10 pr-10' : 'pl-24'">
+    <div :class = "'flex flex-col ' + mobile ? 'pl-8 pr-8' : 'pl-24'">
       <h1 class="text-5xl font-bold mb-2">{{ HomeData.title  }}</h1>
       <h2 class="text-2xl text-slate-500">{{ HomeData.subtitle  }}</h2>
     <div v-if="mobile" class="mt-16">
-        <img :src="HomeData.imagePath" class="portrait-mobile" />
+        <img src="../../../files/me.jpg" class="portrait-mobile" />
     </div>
       <div class="pt-4 text-xl" v-html="HomeData.text"></div>
     </div>
@@ -31,7 +31,8 @@ onBeforeMount(async () => {
 
 <style lang="css" scoped>
   .portrait-mobile {
-    max-width: 16rem;
+    width: 16rem;
+    max-width: 80%;
     margin-bottom: 2rem;
   }
 </style>
