@@ -1,0 +1,8748 @@
+{
+  "nouns": [
+    {
+      "word": "rok",
+      "an": false
+    },
+    {
+      "word": "člověk",
+      "an": true
+    },
+    {
+      "word": "den",
+      "an": false
+    },
+    {
+      "word": "doba",
+      "an": false
+    },
+    {
+      "word": "místo",
+      "an": false
+    },
+    {
+      "word": "život",
+      "an": false
+    },
+    {
+      "word": "práce",
+      "an": false
+    },
+    {
+      "word": "ruka",
+      "an": false
+    },
+    {
+      "word": "strana",
+      "an": false
+    },
+    {
+      "word": "věc",
+      "an": false
+    },
+    {
+      "word": "země",
+      "an": false
+    },
+    {
+      "word": "čas",
+      "an": false
+    },
+    {
+      "word": "případ",
+      "an": false
+    },
+    {
+      "word": "svět",
+      "an": false
+    },
+    {
+      "word": "hodina",
+      "an": false
+    },
+    {
+      "word": "cesta",
+      "an": false
+    },
+    {
+      "word": "dítě",
+      "an": false
+    },
+    {
+      "word": "hlava",
+      "an": false
+    },
+    {
+      "word": "část",
+      "an": false
+    },
+    {
+      "word": "problém",
+      "an": false
+    },
+    {
+      "word": "oko",
+      "an": false
+    },
+    {
+      "word": "konec",
+      "an": false
+    },
+    {
+      "word": "chvíle",
+      "an": false
+    },
+    {
+      "word": "město",
+      "an": false
+    },
+    {
+      "word": "muž",
+      "an": true
+    },
+    {
+      "word": "pan",
+      "an": true
+    },
+    {
+      "word": "způsob",
+      "an": false
+    },
+    {
+      "word": "slovo",
+      "an": false
+    },
+    {
+      "word": "žena",
+      "an": false
+    },
+    {
+      "word": "společnost",
+      "an": false
+    },
+    {
+      "word": "řada",
+      "an": false
+    },
+    {
+      "word": "týden",
+      "an": false
+    },
+    {
+      "word": "voda",
+      "an": false
+    },
+    {
+      "word": "koruna",
+      "an": false
+    },
+    {
+      "word": "měsíc",
+      "an": false
+    },
+    {
+      "word": "dům",
+      "an": false
+    },
+    {
+      "word": "peníze",
+      "an": false
+    },
+    {
+      "word": "možnost",
+      "an": false
+    },
+    {
+      "word": "škola",
+      "an": false
+    },
+    {
+      "word": "stát",
+      "an": false
+    },
+    {
+      "word": "otázka",
+      "an": false
+    },
+    {
+      "word": "skupina",
+      "an": false
+    },
+    {
+      "word": "pravda",
+      "an": false
+    },
+    {
+      "word": "cena",
+      "an": false
+    },
+    {
+      "word": "systém",
+      "an": false
+    },
+    {
+      "word": "oblast",
+      "an": false
+    },
+    {
+      "word": "situace",
+      "an": false
+    },
+    {
+      "word": "půl",
+      "an": false
+    },
+    {
+      "word": "většina",
+      "an": false
+    },
+    {
+      "word": "firma",
+      "an": false
+    },
+    {
+      "word": "jméno",
+      "an": false
+    },
+    {
+      "word": "důvod",
+      "an": false
+    },
+    {
+      "word": "změna",
+      "an": false
+    },
+    {
+      "word": "síla",
+      "an": false
+    },
+    {
+      "word": "noc",
+      "an": false
+    },
+    {
+      "word": "výsledek",
+      "an": false
+    },
+    {
+      "word": "pohled",
+      "an": false
+    },
+    {
+      "word": "zájem",
+      "an": false
+    },
+    {
+      "word": "vztah",
+      "an": false
+    },
+    {
+      "word": "dveře",
+      "an": false
+    },
+    {
+      "word": "auto",
+      "an": false
+    },
+    {
+      "word": "informace",
+      "an": false
+    },
+    {
+      "word": "noha",
+      "an": false
+    },
+    {
+      "word": "stav",
+      "an": false
+    },
+    {
+      "word": "základ",
+      "an": false
+    },
+    {
+      "word": "podmínka",
+      "an": false
+    },
+    {
+      "word": "rodina",
+      "an": false
+    },
+    {
+      "word": "služba",
+      "an": false
+    },
+    {
+      "word": "zákon",
+      "an": false
+    },
+    {
+      "word": "počet",
+      "an": false
+    },
+    {
+      "word": "tvář",
+      "an": false
+    },
+    {
+      "word": "právo",
+      "an": false
+    },
+    {
+      "word": "začátek",
+      "an": false
+    },
+    {
+      "word": "pocit",
+      "an": false
+    },
+    {
+      "word": "skutečnost",
+      "an": false
+    },
+    {
+      "word": "typ",
+      "an": false
+    },
+    {
+      "word": "směr",
+      "an": false
+    },
+    {
+      "word": "hlas",
+      "an": false
+    },
+    {
+      "word": "druh",
+      "an": false
+    },
+    {
+      "word": "vláda",
+      "an": false
+    },
+    {
+      "word": "minuta",
+      "an": false
+    },
+    {
+      "word": "cíl",
+      "an": false
+    },
+    {
+      "word": "jmenovat",
+      "an": false
+    },
+    {
+      "word": "tělo",
+      "an": false
+    },
+    {
+      "word": "smysl",
+      "an": false
+    },
+    {
+      "word": "rozdíl",
+      "an": false
+    },
+    {
+      "word": "program",
+      "an": false
+    },
+    {
+      "word": "ulice",
+      "an": false
+    },
+    {
+      "word": "člen",
+      "an": true
+    },
+    {
+      "word": "prostor",
+      "an": false
+    },
+    {
+      "word": "forma",
+      "an": false
+    },
+    {
+      "word": "činnost",
+      "an": false
+    },
+    {
+      "word": "hodnota",
+      "an": false
+    },
+    {
+      "word": "smrt",
+      "an": false
+    },
+    {
+      "word": "paní",
+      "an": false
+    },
+    {
+      "word": "polovina",
+      "an": false
+    },
+    {
+      "word": "republika",
+      "an": false
+    },
+    {
+      "word": "názor",
+      "an": false
+    },
+    {
+      "word": "prostředí",
+      "an": false
+    },
+    {
+      "word": "léto",
+      "an": false
+    },
+    {
+      "word": "zpráva",
+      "an": false
+    },
+    {
+      "word": "osoba",
+      "an": false
+    },
+    {
+      "word": "století",
+      "an": false
+    },
+    {
+      "word": "otec",
+      "an": true
+    },
+    {
+      "word": "válka",
+      "an": false
+    },
+    {
+      "word": "kniha",
+      "an": false
+    },
+    {
+      "word": "okno",
+      "an": false
+    },
+    {
+      "word": "období",
+      "an": false
+    },
+    {
+      "word": "hra",
+      "an": false
+    },
+    {
+      "word": "procento",
+      "an": false
+    },
+    {
+      "word": "číslo",
+      "an": false
+    },
+    {
+      "word": "stůl",
+      "an": false
+    },
+    {
+      "word": "trh",
+      "an": false
+    },
+    {
+      "word": "úřad",
+      "an": false
+    },
+    {
+      "word": "vývoj",
+      "an": false
+    },
+    {
+      "word": "proces",
+      "an": false
+    },
+    {
+      "word": "prostředek",
+      "an": false
+    },
+    {
+      "word": "úroveň",
+      "an": false
+    },
+    {
+      "word": "role",
+      "an": false
+    },
+    {
+      "word": "vliv",
+      "an": false
+    },
+    {
+      "word": "akce",
+      "an": false
+    },
+    {
+      "word": "míra",
+      "an": false
+    },
+    {
+      "word": "pomoc",
+      "an": false
+    },
+    {
+      "word": "krok",
+      "an": false
+    },
+    {
+      "word": "světlo",
+      "an": false
+    },
+    {
+      "word": "funkce",
+      "an": false
+    },
+    {
+      "word": "ředitel",
+      "an": true
+    },
+    {
+      "word": "zkušenost",
+      "an": false
+    },
+    {
+      "word": "přítel",
+      "an": true
+    },
+    {
+      "word": "představa",
+      "an": false
+    },
+    {
+      "word": "pokoj",
+      "an": false
+    },
+    {
+      "word": "kluk",
+      "an": true
+    },
+    {
+      "word": "potřeba",
+      "an": false
+    },
+    {
+      "word": "matka",
+      "an": false
+    },
+    {
+      "word": "rámec",
+      "an": false
+    },
+    {
+      "word": "obraz",
+      "an": false
+    },
+    {
+      "word": "zdroj",
+      "an": false
+    },
+    {
+      "word": "řešení",
+      "an": false
+    },
+    {
+      "word": "postup",
+      "an": false
+    },
+    {
+      "word": "film",
+      "an": false
+    },
+    {
+      "word": "hodit",
+      "an": false
+    },
+    {
+      "word": "hranice",
+      "an": false
+    },
+    {
+      "word": "dílo",
+      "an": false
+    },
+    {
+      "word": "kolo",
+      "an": false
+    },
+    {
+      "word": "rada",
+      "an": false
+    },
+    {
+      "word": "množství",
+      "an": false
+    },
+    {
+      "word": "podoba",
+      "an": false
+    },
+    {
+      "word": "byt",
+      "an": false
+    },
+    {
+      "word": "stránka",
+      "an": false
+    },
+    {
+      "word": "centrum",
+      "an": false
+    },
+    {
+      "word": "okamžik",
+      "an": false
+    },
+    {
+      "word": "metr",
+      "an": false
+    },
+    {
+      "word": "holka",
+      "an": false
+    },
+    {
+      "word": "srdce",
+      "an": false
+    },
+    {
+      "word": "Bůh",
+      "an": true
+    },
+    {
+      "word": "spousta",
+      "an": false
+    },
+    {
+      "word": "bod",
+      "an": false
+    },
+    {
+      "word": "televize",
+      "an": false
+    },
+    {
+      "word": "myšlenka",
+      "an": false
+    },
+    {
+      "word": "vedení",
+      "an": false
+    },
+    {
+      "word": "policie",
+      "an": false
+    },
+    {
+      "word": "materiál",
+      "an": false
+    },
+    {
+      "word": "podnik",
+      "an": false
+    },
+    {
+      "word": "úspěch",
+      "an": false
+    },
+    {
+      "word": "soud",
+      "an": false
+    },
+    {
+      "word": "podstata",
+      "an": false
+    },
+    {
+      "word": "autor",
+      "an": true
+    },
+    {
+      "word": "význam",
+      "an": false
+    },
+    {
+      "word": "syn",
+      "an": true
+    },
+    {
+      "word": "obchod",
+      "an": false
+    },
+    {
+      "word": "škoda",
+      "an": false
+    },
+    {
+      "word": "úkol",
+      "an": false
+    },
+    {
+      "word": "věk",
+      "an": false
+    },
+    {
+      "word": "počátek",
+      "an": false
+    },
+    {
+      "word": "organizace",
+      "an": false
+    },
+    {
+      "word": "táta",
+      "an": true
+    },
+    {
+      "word": "barva",
+      "an": false
+    },
+    {
+      "word": "příklad",
+      "an": false
+    },
+    {
+      "word": "jednání",
+      "an": false
+    },
+    {
+      "word": "smlouva",
+      "an": false
+    },
+    {
+      "word": "plán",
+      "an": false
+    },
+    {
+      "word": "pohyb",
+      "an": false
+    },
+    {
+      "word": "večer",
+      "an": false
+    },
+    {
+      "word": "fakt",
+      "an": false
+    },
+    {
+      "word": "rozhodnutí",
+      "an": false
+    },
+    {
+      "word": "kousek",
+      "an": false
+    },
+    {
+      "word": "rodič",
+      "an": true
+    },
+    {
+      "word": "láska",
+      "an": false
+    },
+    {
+      "word": "neděle",
+      "an": false
+    },
+    {
+      "word": "projekt",
+      "an": false
+    },
+    {
+      "word": "jazyk",
+      "an": false
+    },
+    {
+      "word": "přístup",
+      "an": false
+    },
+    {
+      "word": "duch",
+      "an": false
+    },
+    {
+      "word": "návrh",
+      "an": false
+    },
+    {
+      "word": "náklad",
+      "an": false
+    },
+    {
+      "word": "výkon",
+      "an": false
+    },
+    {
+      "word": "vlas",
+      "an": false
+    },
+    {
+      "word": "strach",
+      "an": false
+    },
+    {
+      "word": "papír",
+      "an": false
+    },
+    {
+      "word": "závěr",
+      "an": false
+    },
+    {
+      "word": "průběh",
+      "an": false
+    },
+    {
+      "word": "volba",
+      "an": false
+    },
+    {
+      "word": "radost",
+      "an": false
+    },
+    {
+      "word": "řízení",
+      "an": false
+    },
+    {
+      "word": "podpora",
+      "an": false
+    },
+    {
+      "word": "klub",
+      "an": false
+    },
+    {
+      "word": "let",
+      "an": false
+    },
+    {
+      "word": "zařízení",
+      "an": false
+    },
+    {
+      "word": "schopnost",
+      "an": false
+    },
+    {
+      "word": "stovka",
+      "an": false
+    },
+    {
+      "word": "kraj",
+      "an": false
+    },
+    {
+      "word": "název",
+      "an": false
+    },
+    {
+      "word": "máma",
+      "an": false
+    },
+    {
+      "word": "šéf",
+      "an": true
+    },
+    {
+      "word": "jídlo",
+      "an": false
+    },
+    {
+      "word": "pozornost",
+      "an": false
+    },
+    {
+      "word": "odpověd",
+      "an": false
+    },
+    {
+      "word": "zima",
+      "an": false
+    },
+    {
+      "word": "prezident",
+      "an": true
+    },
+    {
+      "word": "politika",
+      "an": false
+    },
+    {
+      "word": "sobota",
+      "an": false
+    },
+    {
+      "word": "souvislost",
+      "an": false
+    },
+    {
+      "word": "důsledek",
+      "an": false
+    },
+    {
+      "word": "zbytek",
+      "an": false
+    },
+    {
+      "word": "příležitost",
+      "an": false
+    },
+    {
+      "word": "předmět",
+      "an": false
+    },
+    {
+      "word": "pes",
+      "an": true
+    },
+    {
+      "word": "řeč",
+      "an": false
+    },
+    {
+      "word": "boj",
+      "an": false
+    },
+    {
+      "word": "požadavek",
+      "an": false
+    },
+    {
+      "word": "výroba",
+      "an": false
+    },
+    {
+      "word": "ministr",
+      "an": true
+    },
+    {
+      "word": "hledisko",
+      "an": false
+    },
+    {
+      "word": "téma",
+      "an": false
+    },
+    {
+      "word": "vedoucí",
+      "an": false
+    },
+    {
+      "word": "stavba",
+      "an": false
+    },
+    {
+      "word": "hora",
+      "an": false
+    },
+    {
+      "word": "vzduch",
+      "an": false
+    },
+    {
+      "word": "obyvatel",
+      "an": true
+    },
+    {
+      "word": "rameno",
+      "an": false
+    },
+    {
+      "word": "snaha",
+      "an": false
+    },
+    {
+      "word": "prst",
+      "an": false
+    },
+    {
+      "word": "pátek",
+      "an": false
+    },
+    {
+      "word": "třída",
+      "an": false
+    },
+    {
+      "word": "pole",
+      "an": false
+    },
+    {
+      "word": "kvalita",
+      "an": false
+    },
+    {
+      "word": "pořádek",
+      "an": false
+    },
+    {
+      "word": "ministerstvo",
+      "an": false
+    },
+    {
+      "word": "událost",
+      "an": false
+    },
+    {
+      "word": "divadlo",
+      "an": false
+    },
+    {
+      "word": "les",
+      "an": false
+    },
+    {
+      "word": "vůz",
+      "an": false
+    },
+    {
+      "word": "návštěva",
+      "an": false
+    },
+    {
+      "word": "okolí",
+      "an": false
+    },
+    {
+      "word": "strom",
+      "an": false
+    },
+    {
+      "word": "telefon",
+      "an": false
+    },
+    {
+      "word": "sít",
+      "an": false
+    },
+    {
+      "word": "budova",
+      "an": false
+    },
+    {
+      "word": "klid",
+      "an": false
+    },
+    {
+      "word": "list",
+      "an": false
+    },
+    {
+      "word": "historie",
+      "an": false
+    },
+    {
+      "word": "chyba",
+      "an": false
+    },
+    {
+      "word": "lékař",
+      "an": true
+    },
+    {
+      "word": "ochrana",
+      "an": false
+    },
+    {
+      "word": "noviny",
+      "an": false
+    },
+    {
+      "word": "záda",
+      "an": false
+    },
+    {
+      "word": "nemocnice",
+      "an": false
+    },
+    {
+      "word": "soutěž",
+      "an": false
+    },
+    {
+      "word": "šance",
+      "an": false
+    },
+    {
+      "word": "čelo",
+      "an": false
+    },
+    {
+      "word": "pokus",
+      "an": false
+    },
+    {
+      "word": "zástupce",
+      "an": true
+    },
+    {
+      "word": "tým",
+      "an": false
+    },
+    {
+      "word": "stupeň",
+      "an": false
+    },
+    {
+      "word": "metoda",
+      "an": false
+    },
+    {
+      "word": "mluvčí",
+      "an": false
+    },
+    {
+      "word": "příprava",
+      "an": false
+    },
+    {
+      "word": "majitel",
+      "an": true
+    },
+    {
+      "word": "pravidlo",
+      "an": false
+    },
+    {
+      "word": "krev",
+      "an": false
+    },
+    {
+      "word": "desítka",
+      "an": false
+    },
+    {
+      "word": "postel",
+      "an": false
+    },
+    {
+      "word": "nabídka",
+      "an": false
+    },
+    {
+      "word": "září",
+      "an": false
+    },
+    {
+      "word": "místnost",
+      "an": false
+    },
+    {
+      "word": "slunce",
+      "an": false
+    },
+    {
+      "word": "zahrada",
+      "an": false
+    },
+    {
+      "word": "bratr",
+      "an": true
+    },
+    {
+      "word": "ztráta",
+      "an": false
+    },
+    {
+      "word": "umění",
+      "an": false
+    },
+    {
+      "word": "záležitost",
+      "an": false
+    },
+    {
+      "word": "rozvoj",
+      "an": false
+    },
+    {
+      "word": "babička",
+      "an": false
+    },
+    {
+      "word": "štěstí",
+      "an": false
+    },
+    {
+      "word": "kontrola",
+      "an": false
+    },
+    {
+      "word": "předseda",
+      "an": true
+    },
+    {
+      "word": "text",
+      "an": false
+    },
+    {
+      "word": "chvilka",
+      "an": false
+    },
+    {
+      "word": "obec",
+      "an": false
+    },
+    {
+      "word": "dívka",
+      "an": false
+    },
+    {
+      "word": "obličej",
+      "an": false
+    },
+    {
+      "word": "studium",
+      "an": false
+    },
+    {
+      "word": "minulost",
+      "an": false
+    },
+    {
+      "word": "ohled",
+      "an": false
+    },
+    {
+      "word": "občan",
+      "an": true
+    },
+    {
+      "word": "chut",
+      "an": false
+    },
+    {
+      "word": "technika",
+      "an": false
+    },
+    {
+      "word": "rozhovor",
+      "an": false
+    },
+    {
+      "word": "veřejnost",
+      "an": false
+    },
+    {
+      "word": "příčina",
+      "an": false
+    },
+    {
+      "word": "manžel",
+      "an": true
+    },
+    {
+      "word": "dopis",
+      "an": false
+    },
+    {
+      "word": "postava",
+      "an": false
+    },
+    {
+      "word": "praxe",
+      "an": false
+    },
+    {
+      "word": "zaměstnanec",
+      "an": true
+    },
+    {
+      "word": "vstup",
+      "an": false
+    },
+    {
+      "word": "kultura",
+      "an": false
+    },
+    {
+      "word": "dojem",
+      "an": false
+    },
+    {
+      "word": "aktivita",
+      "an": false
+    },
+    {
+      "word": "spolupráce",
+      "an": false
+    },
+    {
+      "word": "hudba",
+      "an": false
+    },
+    {
+      "word": "banka",
+      "an": false
+    },
+    {
+      "word": "provoz",
+      "an": false
+    },
+    {
+      "word": "odborník",
+      "an": true
+    },
+    {
+      "word": "tlak",
+      "an": false
+    },
+    {
+      "word": "dcera",
+      "an": false
+    },
+    {
+      "word": "stěna",
+      "an": false
+    },
+    {
+      "word": "pracovník",
+      "an": true
+    },
+    {
+      "word": "zed",
+      "an": false
+    },
+    {
+      "word": "silnice",
+      "an": false
+    },
+    {
+      "word": "obsah",
+      "an": false
+    },
+    {
+      "word": "hvězda",
+      "an": false
+    },
+    {
+      "word": "kamarád",
+      "an": true
+    },
+    {
+      "word": "naděje",
+      "an": false
+    },
+    {
+      "word": "chlap",
+      "an": true
+    },
+    {
+      "word": "zvíře",
+      "an": false
+    },
+    {
+      "word": "chování",
+      "an": false
+    },
+    {
+      "word": "manželka",
+      "an": false
+    },
+    {
+      "word": "struktura",
+      "an": false
+    },
+    {
+      "word": "maminka",
+      "an": false
+    },
+    {
+      "word": "vznik",
+      "an": false
+    },
+    {
+      "word": "článek",
+      "an": false
+    },
+    {
+      "word": "pondělí",
+      "an": false
+    },
+    {
+      "word": "povinnost",
+      "an": false
+    },
+    {
+      "word": "svoboda",
+      "an": false
+    },
+    {
+      "word": "energie",
+      "an": false
+    },
+    {
+      "word": "starost",
+      "an": false
+    },
+    {
+      "word": "moře",
+      "an": false
+    },
+    {
+      "word": "sen",
+      "an": false
+    },
+    {
+      "word": "výše",
+      "an": false
+    },
+    {
+      "word": "úvaha",
+      "an": false
+    },
+    {
+      "word": "území",
+      "an": false
+    },
+    {
+      "word": "výraz",
+      "an": false
+    },
+    {
+      "word": "poměr",
+      "an": false
+    },
+    {
+      "word": "příběh",
+      "an": false
+    },
+    {
+      "word": "maso",
+      "an": false
+    },
+    {
+      "word": "kancelář",
+      "an": false
+    },
+    {
+      "word": "víno",
+      "an": false
+    },
+    {
+      "word": "výhoda",
+      "an": false
+    },
+    {
+      "word": "osud",
+      "an": false
+    },
+    {
+      "word": "spojení",
+      "an": false
+    },
+    {
+      "word": "kolega",
+      "an": true
+    },
+    {
+      "word": "prvek",
+      "an": false
+    },
+    {
+      "word": "princip",
+      "an": false
+    },
+    {
+      "word": "pivo",
+      "an": false
+    },
+    {
+      "word": "doktor",
+      "an": true
+    },
+    {
+      "word": "nedostatek",
+      "an": false
+    },
+    {
+      "word": "počítač",
+      "an": false
+    },
+    {
+      "word": "útok",
+      "an": false
+    },
+    {
+      "word": "výjimka",
+      "an": false
+    },
+    {
+      "word": "zkouška",
+      "an": false
+    },
+    {
+      "word": "host",
+      "an": true
+    },
+    {
+      "word": "látka",
+      "an": false
+    },
+    {
+      "word": "pohoda",
+      "an": false
+    },
+    {
+      "word": "ústa",
+      "an": false
+    },
+    {
+      "word": "budoucnost",
+      "an": false
+    },
+    {
+      "word": "velikost",
+      "an": false
+    },
+    {
+      "word": "leden",
+      "an": false
+    },
+    {
+      "word": "nástroj",
+      "an": false
+    },
+    {
+      "word": "obor",
+      "an": false
+    },
+    {
+      "word": "model",
+      "an": false
+    },
+    {
+      "word": "styl",
+      "an": false
+    },
+    {
+      "word": "kámen",
+      "an": false
+    },
+    {
+      "word": "jednotka",
+      "an": false
+    },
+    {
+      "word": "víkend",
+      "an": false
+    },
+    {
+      "word": "pozice",
+      "an": false
+    },
+    {
+      "word": "rána",
+      "an": false
+    },
+    {
+      "word": "chlapec",
+      "an": true
+    },
+    {
+      "word": "dispozice",
+      "an": false
+    },
+    {
+      "word": "krk",
+      "an": false
+    },
+    {
+      "word": "prodej",
+      "an": false
+    },
+    {
+      "word": "údaj",
+      "an": false
+    },
+    {
+      "word": "podíl",
+      "an": false
+    },
+    {
+      "word": "účel",
+      "an": false
+    },
+    {
+      "word": "tvar",
+      "an": false
+    },
+    {
+      "word": "příroda",
+      "an": false
+    },
+    {
+      "word": "postavení",
+      "an": false
+    },
+    {
+      "word": "duše",
+      "an": false
+    },
+    {
+      "word": "půda",
+      "an": false
+    },
+    {
+      "word": "doprava",
+      "an": false
+    },
+    {
+      "word": "ráno",
+      "an": false
+    },
+    {
+      "word": "ucho",
+      "an": false
+    },
+    {
+      "word": "sestra",
+      "an": false
+    },
+    {
+      "word": "scéna",
+      "an": false
+    },
+    {
+      "word": "projev",
+      "an": false
+    },
+    {
+      "word": "moc",
+      "an": false
+    },
+    {
+      "word": "kilometr",
+      "an": false
+    },
+    {
+      "word": "proud",
+      "an": false
+    },
+    {
+      "word": "výběr",
+      "an": false
+    },
+    {
+      "word": "osobnost",
+      "an": false
+    },
+    {
+      "word": "správa",
+      "an": false
+    },
+    {
+      "word": "řád",
+      "an": false
+    },
+    {
+      "word": "zdraví",
+      "an": false
+    },
+    {
+      "word": "zákazník",
+      "an": true
+    },
+    {
+      "word": "dolar",
+      "an": false
+    },
+    {
+      "word": "student",
+      "an": true
+    },
+    {
+      "word": "zahraničí",
+      "an": false
+    },
+    {
+      "word": "čtvrt",
+      "an": false
+    },
+    {
+      "word": "úprava",
+      "an": false
+    },
+    {
+      "word": "rychlost",
+      "an": false
+    },
+    {
+      "word": "zápas",
+      "an": false
+    },
+    {
+      "word": "majetek",
+      "an": false
+    },
+    {
+      "word": "červen",
+      "an": false
+    },
+    {
+      "word": "reakce",
+      "an": false
+    },
+    {
+      "word": "autobus",
+      "an": false
+    },
+    {
+      "word": "květen",
+      "an": false
+    },
+    {
+      "word": "zub",
+      "an": false
+    },
+    {
+      "word": "stanice",
+      "an": false
+    },
+    {
+      "word": "oběd",
+      "an": false
+    },
+    {
+      "word": "řeka",
+      "an": false
+    },
+    {
+      "word": "lod",
+      "an": false
+    },
+    {
+      "word": "vrstva",
+      "an": false
+    },
+    {
+      "word": "orgán",
+      "an": false
+    },
+    {
+      "word": "objekt",
+      "an": false
+    },
+    {
+      "word": "jaro",
+      "an": false
+    },
+    {
+      "word": "plocha",
+      "an": false
+    },
+    {
+      "word": "potíž",
+      "an": false
+    },
+    {
+      "word": "stroj",
+      "an": false
+    },
+    {
+      "word": "policista",
+      "an": true
+    },
+    {
+      "word": "čin",
+      "an": false
+    },
+    {
+      "word": "kůže",
+      "an": false
+    },
+    {
+      "word": "časopis",
+      "an": false
+    },
+    {
+      "word": "vítr",
+      "an": false
+    },
+    {
+      "word": "datum",
+      "an": false
+    },
+    {
+      "word": "divák",
+      "an": true
+    },
+    {
+      "word": "péče",
+      "an": false
+    },
+    {
+      "word": "hotel",
+      "an": false
+    },
+    {
+      "word": "kuchyně",
+      "an": false
+    },
+    {
+      "word": "nebezpečí",
+      "an": false
+    },
+    {
+      "word": "návrat",
+      "an": false
+    },
+    {
+      "word": "charakter",
+      "an": false
+    },
+    {
+      "word": "partner",
+      "an": true
+    },
+    {
+      "word": "voják",
+      "an": true
+    },
+    {
+      "word": "kůň",
+      "an": true
+    },
+    {
+      "word": "náměstí",
+      "an": false
+    },
+    {
+      "word": "okolnost",
+      "an": false
+    },
+    {
+      "word": "vlna",
+      "an": false
+    },
+    {
+      "word": "růst",
+      "an": false
+    },
+    {
+      "word": "zásada",
+      "an": false
+    },
+    {
+      "word": "opatření",
+      "an": false
+    },
+    {
+      "word": "tvorba",
+      "an": false
+    },
+    {
+      "word": "obět",
+      "an": false
+    },
+    {
+      "word": "čtvrtek",
+      "an": false
+    },
+    {
+      "word": "účast",
+      "an": false
+    },
+    {
+      "word": "fotografie",
+      "an": false
+    },
+    {
+      "word": "středa",
+      "an": false
+    },
+    {
+      "word": "zbraň",
+      "an": false
+    },
+    {
+      "word": "zboží",
+      "an": false
+    },
+    {
+      "word": "komise",
+      "an": false
+    },
+    {
+      "word": "úsměv",
+      "an": false
+    },
+    {
+      "word": "předpoklad",
+      "an": false
+    },
+    {
+      "word": "vlastnost",
+      "an": false
+    },
+    {
+      "word": "kontakt",
+      "an": false
+    },
+    {
+      "word": "stopa",
+      "an": false
+    },
+    {
+      "word": "domov",
+      "an": false
+    },
+    {
+      "word": "termín",
+      "an": false
+    },
+    {
+      "word": "použití",
+      "an": false
+    },
+    {
+      "word": "internet",
+      "an": false
+    },
+    {
+      "word": "univerzita",
+      "an": false
+    },
+    {
+      "word": "zvuk",
+      "an": false
+    },
+    {
+      "word": "obrázek",
+      "an": false
+    },
+    {
+      "word": "nápad",
+      "an": false
+    },
+    {
+      "word": "deska",
+      "an": false
+    },
+    {
+      "word": "existence",
+      "an": false
+    },
+    {
+      "word": "informovat",
+      "an": false
+    },
+    {
+      "word": "výrobek",
+      "an": false
+    },
+    {
+      "word": "unie",
+      "an": false
+    },
+    {
+      "word": "obava",
+      "an": false
+    },
+    {
+      "word": "listopad",
+      "an": false
+    },
+    {
+      "word": "titul",
+      "an": false
+    },
+    {
+      "word": "říjen",
+      "an": false
+    },
+    {
+      "word": "tma",
+      "an": false
+    },
+    {
+      "word": "riziko",
+      "an": false
+    },
+    {
+      "word": "pojem",
+      "an": false
+    },
+    {
+      "word": "střecha",
+      "an": false
+    },
+    {
+      "word": "hráč",
+      "an": true
+    },
+    {
+      "word": "operace",
+      "an": false
+    },
+    {
+      "word": "bota",
+      "an": false
+    },
+    {
+      "word": "vědomí",
+      "an": false
+    },
+    {
+      "word": "hospoda",
+      "an": false
+    },
+    {
+      "word": "výška",
+      "an": false
+    },
+    {
+      "word": "přednost",
+      "an": false
+    },
+    {
+      "word": "mysl",
+      "an": false
+    },
+    {
+      "word": "agentura",
+      "an": false
+    },
+    {
+      "word": "generace",
+      "an": false
+    },
+    {
+      "word": "roh",
+      "an": false
+    },
+    {
+      "word": "březen",
+      "an": false
+    },
+    {
+      "word": "tradice",
+      "an": false
+    },
+    {
+      "word": "barák",
+      "an": false
+    },
+    {
+      "word": "oddělení",
+      "an": false
+    },
+    {
+      "word": "výstava",
+      "an": false
+    },
+    {
+      "word": "technologie",
+      "an": false
+    },
+    {
+      "word": "vesnice",
+      "an": false
+    },
+    {
+      "word": "nárok",
+      "an": false
+    },
+    {
+      "word": "bolest",
+      "an": false
+    },
+    {
+      "word": "komunikace",
+      "an": false
+    },
+    {
+      "word": "okraj",
+      "an": false
+    },
+    {
+      "word": "dohoda",
+      "an": false
+    },
+    {
+      "word": "vlak",
+      "an": false
+    },
+    {
+      "word": "vůle",
+      "an": false
+    },
+    {
+      "word": "armáda",
+      "an": false
+    },
+    {
+      "word": "příjem",
+      "an": false
+    },
+    {
+      "word": "závod",
+      "an": false
+    },
+    {
+      "word": "pamět",
+      "an": false
+    },
+    {
+      "word": "výzkum",
+      "an": false
+    },
+    {
+      "word": "soubor",
+      "an": false
+    },
+    {
+      "word": "duben",
+      "an": false
+    },
+    {
+      "word": "rozsah",
+      "an": false
+    },
+    {
+      "word": "řidič",
+      "an": true
+    },
+    {
+      "word": "kapsa",
+      "an": false
+    },
+    {
+      "word": "král",
+      "an": true
+    },
+    {
+      "word": "učitel",
+      "an": true
+    },
+    {
+      "word": "adresa",
+      "an": false
+    },
+    {
+      "word": "setkání",
+      "an": false
+    },
+    {
+      "word": "využití",
+      "an": false
+    },
+    {
+      "word": "večeře",
+      "an": false
+    },
+    {
+      "word": "stín",
+      "an": false
+    },
+    {
+      "word": "pád",
+      "an": false
+    },
+    {
+      "word": "nemoc",
+      "an": false
+    },
+    {
+      "word": "srpen",
+      "an": false
+    },
+    {
+      "word": "jistota",
+      "an": false
+    },
+    {
+      "word": "kategorie",
+      "an": false
+    },
+    {
+      "word": "podzim",
+      "an": false
+    },
+    {
+      "word": "důkaz",
+      "an": false
+    },
+    {
+      "word": "postoj",
+      "an": false
+    },
+    {
+      "word": "díl",
+      "an": false
+    },
+    {
+      "word": "karta",
+      "an": false
+    },
+    {
+      "word": "koleno",
+      "an": false
+    },
+    {
+      "word": "povrch",
+      "an": false
+    },
+    {
+      "word": "mistr",
+      "an": true
+    },
+    {
+      "word": "sezóna",
+      "an": false
+    },
+    {
+      "word": "knížka",
+      "an": false
+    },
+    {
+      "word": "spor",
+      "an": false
+    },
+    {
+      "word": "přítomnost",
+      "an": false
+    },
+    {
+      "word": "délka",
+      "an": false
+    },
+    {
+      "word": "nos",
+      "an": false
+    },
+    {
+      "word": "instituce",
+      "an": false
+    },
+    {
+      "word": "představitel",
+      "an": true
+    },
+    {
+      "word": "produkt",
+      "an": false
+    },
+    {
+      "word": "obrana",
+      "an": false
+    },
+    {
+      "word": "vazba",
+      "an": false
+    },
+    {
+      "word": "národ",
+      "an": false
+    },
+    {
+      "word": "značka",
+      "an": false
+    },
+    {
+      "word": "šaty",
+      "an": false
+    },
+    {
+      "word": "věta",
+      "an": false
+    },
+    {
+      "word": "částka",
+      "an": false
+    },
+    {
+      "word": "park",
+      "an": false
+    },
+    {
+      "word": "fáze",
+      "an": false
+    },
+    {
+      "word": "dějiny",
+      "an": false
+    },
+    {
+      "word": "ústav",
+      "an": false
+    },
+    {
+      "word": "kapitola",
+      "an": false
+    },
+    {
+      "word": "únor",
+      "an": false
+    },
+    {
+      "word": "teorie",
+      "an": false
+    },
+    {
+      "word": "seznam",
+      "an": false
+    },
+    {
+      "word": "kostel",
+      "an": false
+    },
+    {
+      "word": "politik",
+      "an": true
+    },
+    {
+      "word": "průměr",
+      "an": false
+    },
+    {
+      "word": "teplo",
+      "an": false
+    },
+    {
+      "word": "chodba",
+      "an": false
+    },
+    {
+      "word": "úterý",
+      "an": false
+    },
+    {
+      "word": "kruh",
+      "an": false
+    },
+    {
+      "word": "následek",
+      "an": false
+    },
+    {
+      "word": "ročník",
+      "an": false
+    },
+    {
+      "word": "dokument",
+      "an": false
+    },
+    {
+      "word": "nebe",
+      "an": false
+    },
+    {
+      "word": "vítězství",
+      "an": false
+    },
+    {
+      "word": "prosinec",
+      "an": false
+    },
+    {
+      "word": "oheň",
+      "an": false
+    },
+    {
+      "word": "červenec",
+      "an": false
+    },
+    {
+      "word": "zisk",
+      "an": false
+    },
+    {
+      "word": "letadlo",
+      "an": false
+    },
+    {
+      "word": "znalost",
+      "an": false
+    },
+    {
+      "word": "fond",
+      "an": false
+    },
+    {
+      "word": "mamka",
+      "an": false
+    },
+    {
+      "word": "daň",
+      "an": false
+    },
+    {
+      "word": "východ",
+      "an": false
+    },
+    {
+      "word": "návštěvník",
+      "an": true
+    },
+    {
+      "word": "norma",
+      "an": false
+    },
+    {
+      "word": "trest",
+      "an": false
+    },
+    {
+      "word": "hrůza",
+      "an": false
+    },
+    {
+      "word": "režim",
+      "an": false
+    },
+    {
+      "word": "pozor",
+      "an": false
+    },
+    {
+      "word": "analýza",
+      "an": false
+    },
+    {
+      "word": "dráha",
+      "an": false
+    },
+    {
+      "word": "zvýšení",
+      "an": false
+    },
+    {
+      "word": "médium",
+      "an": false
+    },
+    {
+      "word": "srovnání",
+      "an": false
+    },
+    {
+      "word": "chléb",
+      "an": false
+    },
+    {
+      "word": "záměr",
+      "an": false
+    },
+    {
+      "word": "účastník",
+      "an": true
+    },
+    {
+      "word": "restaurace",
+      "an": false
+    },
+    {
+      "word": "původ",
+      "an": false
+    },
+    {
+      "word": "rozpočet",
+      "an": false
+    },
+    {
+      "word": "počasí",
+      "an": false
+    },
+    {
+      "word": "západ",
+      "an": false
+    },
+    {
+      "word": "zámek",
+      "an": false
+    },
+    {
+      "word": "podlaha",
+      "an": false
+    },
+    {
+      "word": "vzpomínka",
+      "an": false
+    },
+    {
+      "word": "výrobce",
+      "an": true
+    },
+    {
+      "word": "věda",
+      "an": false
+    },
+    {
+      "word": "schod",
+      "an": false
+    },
+    {
+      "word": "novinář",
+      "an": true
+    },
+    {
+      "word": "muzeum",
+      "an": false
+    },
+    {
+      "word": "svaz",
+      "an": false
+    },
+    {
+      "word": "nálada",
+      "an": false
+    },
+    {
+      "word": "teplota",
+      "an": false
+    },
+    {
+      "word": "ženská",
+      "an": false
+    },
+    {
+      "word": "snímek",
+      "an": false
+    },
+    {
+      "word": "odchod",
+      "an": false
+    },
+    {
+      "word": "povaha",
+      "an": false
+    },
+    {
+      "word": "most",
+      "an": false
+    },
+    {
+      "word": "bok",
+      "an": false
+    },
+    {
+      "word": "klíč",
+      "an": false
+    },
+    {
+      "word": "literatura",
+      "an": false
+    },
+    {
+      "word": "nákup",
+      "an": false
+    },
+    {
+      "word": "průmysl",
+      "an": false
+    },
+    {
+      "word": "ostrov",
+      "an": false
+    },
+    {
+      "word": "půlka",
+      "an": false
+    },
+    {
+      "word": "ticho",
+      "an": false
+    },
+    {
+      "word": "jízda",
+      "an": false
+    },
+    {
+      "word": "smích",
+      "an": false
+    },
+    {
+      "word": "fotka",
+      "an": false
+    },
+    {
+      "word": "koncert",
+      "an": false
+    },
+    {
+      "word": "poznámka",
+      "an": false
+    },
+    {
+      "word": "podnikatel",
+      "an": true
+    },
+    {
+      "word": "odpor",
+      "an": false
+    },
+    {
+      "word": "láhev",
+      "an": false
+    },
+    {
+      "word": "žádost",
+      "an": false
+    },
+    {
+      "word": "židle",
+      "an": false
+    },
+    {
+      "word": "váha",
+      "an": false
+    },
+    {
+      "word": "pobyt",
+      "an": false
+    },
+    {
+      "word": "střed",
+      "an": false
+    },
+    {
+      "word": "bezpečnost",
+      "an": false
+    },
+    {
+      "word": "krajina",
+      "an": false
+    },
+    {
+      "word": "břeh",
+      "an": false
+    },
+    {
+      "word": "konstatovat",
+      "an": false
+    },
+    {
+      "word": "atmosféra",
+      "an": false
+    },
+    {
+      "word": "sníh",
+      "an": false
+    },
+    {
+      "word": "vina",
+      "an": false
+    },
+    {
+      "word": "touha",
+      "an": false
+    },
+    {
+      "word": "dovolená",
+      "an": false
+    },
+    {
+      "word": "kurs",
+      "an": false
+    },
+    {
+      "word": "verze",
+      "an": false
+    },
+    {
+      "word": "soused",
+      "an": true
+    },
+    {
+      "word": "účet",
+      "an": false
+    },
+    {
+      "word": "působení",
+      "an": false
+    },
+    {
+      "word": "účinek",
+      "an": false
+    },
+    {
+      "word": "faktor",
+      "an": false
+    },
+    {
+      "word": "napětí",
+      "an": false
+    },
+    {
+      "word": "čaj",
+      "an": false
+    },
+    {
+      "word": "investice",
+      "an": false
+    },
+    {
+      "word": "děda",
+      "an": true
+    },
+    {
+      "word": "dřevo",
+      "an": false
+    },
+    {
+      "word": "kombinace",
+      "an": false
+    },
+    {
+      "word": "mír",
+      "an": false
+    },
+    {
+      "word": "vrchol",
+      "an": false
+    },
+    {
+      "word": "víra",
+      "an": false
+    },
+    {
+      "word": "přechod",
+      "an": false
+    },
+    {
+      "word": "ryba",
+      "an": false
+    },
+    {
+      "word": "úředník",
+      "an": true
+    },
+    {
+      "word": "znak",
+      "an": false
+    },
+    {
+      "word": "předpis",
+      "an": false
+    },
+    {
+      "word": "složka",
+      "an": false
+    },
+    {
+      "word": "špička",
+      "an": false
+    },
+    {
+      "word": "varianta",
+      "an": false
+    },
+    {
+      "word": "příbuzný",
+      "an": false
+    },
+    {
+      "word": "výbor",
+      "an": false
+    },
+    {
+      "word": "tráva",
+      "an": false
+    },
+    {
+      "word": "ekonomika",
+      "an": false
+    },
+    {
+      "word": "úloha",
+      "an": false
+    },
+    {
+      "word": "kost",
+      "an": false
+    },
+    {
+      "word": "vězení",
+      "an": false
+    },
+    {
+      "word": "sklo",
+      "an": false
+    },
+    {
+      "word": "finance",
+      "an": false
+    },
+    {
+      "word": "ret",
+      "an": false
+    },
+    {
+      "word": "tabulka",
+      "an": false
+    },
+    {
+      "word": "poslanec",
+      "an": true
+    },
+    {
+      "word": "produkce",
+      "an": false
+    },
+    {
+      "word": "krása",
+      "an": false
+    },
+    {
+      "word": "radnice",
+      "an": false
+    },
+    {
+      "word": "dech",
+      "an": false
+    },
+    {
+      "word": "kino",
+      "an": false
+    },
+    {
+      "word": "prospěch",
+      "an": false
+    },
+    {
+      "word": "vydání",
+      "an": false
+    },
+    {
+      "word": "přání",
+      "an": false
+    },
+    {
+      "word": "profesor",
+      "an": true
+    },
+    {
+      "word": "styk",
+      "an": false
+    },
+    {
+      "word": "mozek",
+      "an": false
+    },
+    {
+      "word": "svědek",
+      "an": true
+    },
+    {
+      "word": "herec",
+      "an": true
+    },
+    {
+      "word": "tábor",
+      "an": false
+    },
+    {
+      "word": "výstavba",
+      "an": false
+    },
+    {
+      "word": "poloha",
+      "an": false
+    },
+    {
+      "word": "rozměr",
+      "an": false
+    },
+    {
+      "word": "mladík",
+      "an": true
+    },
+    {
+      "word": "křeslo",
+      "an": false
+    },
+    {
+      "word": "hladina",
+      "an": false
+    },
+    {
+      "word": "kopec",
+      "an": false
+    },
+    {
+      "word": "žák",
+      "an": true
+    },
+    {
+      "word": "brána",
+      "an": false
+    },
+    {
+      "word": "čtenář",
+      "an": true
+    },
+    {
+      "word": "krize",
+      "an": false
+    },
+    {
+      "word": "výměna",
+      "an": false
+    },
+    {
+      "word": "zvyk",
+      "an": false
+    },
+    {
+      "word": "starosta",
+      "an": true
+    },
+    {
+      "word": "současnost",
+      "an": false
+    },
+    {
+      "word": "tisk",
+      "an": false
+    },
+    {
+      "word": "rys",
+      "an": false
+    },
+    {
+      "word": "konstrukce",
+      "an": false
+    },
+    {
+      "word": "zásah",
+      "an": false
+    },
+    {
+      "word": "region",
+      "an": false
+    },
+    {
+      "word": "lístek",
+      "an": false
+    },
+    {
+      "word": "pták",
+      "an": true
+    },
+    {
+      "word": "kariéra",
+      "an": false
+    },
+    {
+      "word": "reklama",
+      "an": false
+    },
+    {
+      "word": "objem",
+      "an": false
+    },
+    {
+      "word": "patro",
+      "an": false
+    },
+    {
+      "word": "automobil",
+      "an": false
+    },
+    {
+      "word": "tajemství",
+      "an": false
+    },
+    {
+      "word": "studie",
+      "an": false
+    },
+    {
+      "word": "fronta",
+      "an": false
+    },
+    {
+      "word": "sál",
+      "an": false
+    },
+    {
+      "word": "alkohol",
+      "an": false
+    },
+    {
+      "word": "píseň",
+      "an": false
+    },
+    {
+      "word": "dno",
+      "an": false
+    },
+    {
+      "word": "déšt",
+      "an": false
+    },
+    {
+      "word": "svátek",
+      "an": false
+    },
+    {
+      "word": "hodnocení",
+      "an": false
+    },
+    {
+      "word": "klient",
+      "an": true
+    },
+    {
+      "word": "okruh",
+      "an": false
+    },
+    {
+      "word": "sport",
+      "an": false
+    },
+    {
+      "word": "odpovědnost",
+      "an": false
+    },
+    {
+      "word": "manažer",
+      "an": true
+    },
+    {
+      "word": "sdružení",
+      "an": false
+    },
+    {
+      "word": "vzor",
+      "an": false
+    },
+    {
+      "word": "chudák",
+      "an": true
+    },
+    {
+      "word": "dvůr",
+      "an": false
+    },
+    {
+      "word": "motor",
+      "an": false
+    },
+    {
+      "word": "hnutí",
+      "an": false
+    },
+    {
+      "word": "parlament",
+      "an": false
+    },
+    {
+      "word": "zážitek",
+      "an": false
+    },
+    {
+      "word": "trenér",
+      "an": true
+    },
+    {
+      "word": "tón",
+      "an": false
+    },
+    {
+      "word": "dávka",
+      "an": false
+    },
+    {
+      "word": "plyn",
+      "an": false
+    },
+    {
+      "word": "nepřítel",
+      "an": true
+    },
+    {
+      "word": "umělec",
+      "an": true
+    },
+    {
+      "word": "omezení",
+      "an": false
+    },
+    {
+      "word": "knihovna",
+      "an": false
+    },
+    {
+      "word": "sídlo",
+      "an": false
+    },
+    {
+      "word": "sbírka",
+      "an": false
+    },
+    {
+      "word": "příspěvek",
+      "an": false
+    },
+    {
+      "word": "hrad",
+      "an": false
+    },
+    {
+      "word": "jev",
+      "an": false
+    },
+    {
+      "word": "zpracování",
+      "an": false
+    },
+    {
+      "word": "vzdálenost",
+      "an": false
+    },
+    {
+      "word": "pacient",
+      "an": true
+    },
+    {
+      "word": "linka",
+      "an": false
+    },
+    {
+      "word": "deník",
+      "an": false
+    },
+    {
+      "word": "dlaň",
+      "an": false
+    },
+    {
+      "word": "křídlo",
+      "an": false
+    },
+    {
+      "word": "středisko",
+      "an": false
+    },
+    {
+      "word": "realita",
+      "an": false
+    },
+    {
+      "word": "překvapení",
+      "an": false
+    },
+    {
+      "word": "kalhoty",
+      "an": false
+    },
+    {
+      "word": "známka",
+      "an": false
+    },
+    {
+      "word": "přístroj",
+      "an": false
+    },
+    {
+      "word": "oprava",
+      "an": false
+    },
+    {
+      "word": "moment",
+      "an": false
+    },
+    {
+      "word": "díra",
+      "an": false
+    },
+    {
+      "word": "snížení",
+      "an": false
+    },
+    {
+      "word": "premiér",
+      "an": true
+    },
+    {
+      "word": "test",
+      "an": false
+    },
+    {
+      "word": "dáma",
+      "an": false
+    },
+    {
+      "word": "výlet",
+      "an": false
+    },
+    {
+      "word": "rozum",
+      "an": false
+    },
+    {
+      "word": "vteřina",
+      "an": false
+    },
+    {
+      "word": "přehled",
+      "an": false
+    },
+    {
+      "word": "pošta",
+      "an": false
+    },
+    {
+      "word": "hlad",
+      "an": false
+    },
+    {
+      "word": "zájemce",
+      "an": true
+    },
+    {
+      "word": "hmota",
+      "an": false
+    },
+    {
+      "word": "plat",
+      "an": false
+    },
+    {
+      "word": "trend",
+      "an": false
+    },
+    {
+      "word": "soulad",
+      "an": false
+    },
+    {
+      "word": "koncepce",
+      "an": false
+    },
+    {
+      "word": "olej",
+      "an": false
+    },
+    {
+      "word": "cigareta",
+      "an": false
+    },
+    {
+      "word": "omyl",
+      "an": false
+    },
+    {
+      "word": "zaměstnání",
+      "an": false
+    },
+    {
+      "word": "věž",
+      "an": false
+    },
+    {
+      "word": "pořad",
+      "an": false
+    },
+    {
+      "word": "hala",
+      "an": false
+    },
+    {
+      "word": "domácnost",
+      "an": false
+    },
+    {
+      "word": "dálka",
+      "an": false
+    },
+    {
+      "word": "vzdělání",
+      "an": false
+    },
+    {
+      "word": "série",
+      "an": false
+    },
+    {
+      "word": "hromada",
+      "an": false
+    },
+    {
+      "word": "efekt",
+      "an": false
+    },
+    {
+      "word": "představení",
+      "an": false
+    },
+    {
+      "word": "rádio",
+      "an": false
+    },
+    {
+      "word": "problematika",
+      "an": false
+    },
+    {
+      "word": "konflikt",
+      "an": false
+    },
+    {
+      "word": "symbol",
+      "an": false
+    },
+    {
+      "word": "úsek",
+      "an": false
+    },
+    {
+      "word": "zásoba",
+      "an": false
+    },
+    {
+      "word": "pozemek",
+      "an": false
+    },
+    {
+      "word": "tatínek",
+      "an": true
+    },
+    {
+      "word": "spánek",
+      "an": false
+    },
+    {
+      "word": "narozeniny",
+      "an": false
+    },
+    {
+      "word": "taška",
+      "an": false
+    },
+    {
+      "word": "nůž",
+      "an": false
+    },
+    {
+      "word": "konference",
+      "an": false
+    },
+    {
+      "word": "košile",
+      "an": false
+    },
+    {
+      "word": "oslava",
+      "an": false
+    },
+    {
+      "word": "liga",
+      "an": false
+    },
+    {
+      "word": "mléko",
+      "an": false
+    },
+    {
+      "word": "vybavení",
+      "an": false
+    },
+    {
+      "word": "mapa",
+      "an": false
+    },
+    {
+      "word": "závislost",
+      "an": false
+    },
+    {
+      "word": "zranění",
+      "an": false
+    },
+    {
+      "word": "vytvoření",
+      "an": false
+    },
+    {
+      "word": "kritika",
+      "an": false
+    },
+    {
+      "word": "rozšíření",
+      "an": false
+    },
+    {
+      "word": "sever",
+      "an": false
+    },
+    {
+      "word": "břicho",
+      "an": false
+    },
+    {
+      "word": "cizinec",
+      "an": true
+    },
+    {
+      "word": "slečna",
+      "an": false
+    },
+    {
+      "word": "památka",
+      "an": false
+    },
+    {
+      "word": "lék",
+      "an": false
+    },
+    {
+      "word": "konkurence",
+      "an": false
+    },
+    {
+      "word": "fotbal",
+      "an": false
+    },
+    {
+      "word": "režisér",
+      "an": true
+    },
+    {
+      "word": "zábava",
+      "an": false
+    },
+    {
+      "word": "doklad",
+      "an": false
+    },
+    {
+      "word": "záchod",
+      "an": false
+    },
+    {
+      "word": "realizace",
+      "an": false
+    },
+    {
+      "word": "vítěz",
+      "an": true
+    },
+    {
+      "word": "schůzka",
+      "an": false
+    },
+    {
+      "word": "brýle",
+      "an": false
+    },
+    {
+      "word": "souhlas",
+      "an": false
+    },
+    {
+      "word": "budoucno",
+      "an": false
+    },
+    {
+      "word": "aplikace",
+      "an": false
+    },
+    {
+      "word": "prach",
+      "an": false
+    },
+    {
+      "word": "kafe",
+      "an": false
+    },
+    {
+      "word": "nutnost",
+      "an": false
+    },
+    {
+      "word": "dvojice",
+      "an": false
+    },
+    {
+      "word": "jih",
+      "an": false
+    },
+    {
+      "word": "pas",
+      "an": false
+    },
+    {
+      "word": "slza",
+      "an": false
+    },
+    {
+      "word": "důvěra",
+      "an": false
+    },
+    {
+      "word": "hrdina",
+      "an": true
+    },
+    {
+      "word": "myšlení",
+      "an": false
+    },
+    {
+      "word": "káva",
+      "an": false
+    },
+    {
+      "word": "blízkost",
+      "an": false
+    },
+    {
+      "word": "svatba",
+      "an": false
+    },
+    {
+      "word": "sranda",
+      "an": false
+    },
+    {
+      "word": "cit",
+      "an": false
+    },
+    {
+      "word": "kočka",
+      "an": false
+    },
+    {
+      "word": "fakulta",
+      "an": false
+    },
+    {
+      "word": "obchodník",
+      "an": true
+    },
+    {
+      "word": "pár",
+      "an": false
+    },
+    {
+      "word": "blok",
+      "an": false
+    },
+    {
+      "word": "vražda",
+      "an": false
+    },
+    {
+      "word": "domek",
+      "an": false
+    },
+    {
+      "word": "dluh",
+      "an": false
+    },
+    {
+      "word": "hřiště",
+      "an": false
+    },
+    {
+      "word": "nádraží",
+      "an": false
+    },
+    {
+      "word": "prázdniny",
+      "an": false
+    },
+    {
+      "word": "prdel",
+      "an": false
+    },
+    {
+      "word": "kritérium",
+      "an": false
+    },
+    {
+      "word": "děvče",
+      "an": false
+    },
+    {
+      "word": "příslušník",
+      "an": true
+    },
+    {
+      "word": "realizovat",
+      "an": false
+    },
+    {
+      "word": "jádro",
+      "an": false
+    },
+    {
+      "word": "strategie",
+      "an": false
+    },
+    {
+      "word": "signál",
+      "an": false
+    },
+    {
+      "word": "kapacita",
+      "an": false
+    },
+    {
+      "word": "záznam",
+      "an": false
+    },
+    {
+      "word": "znamení",
+      "an": false
+    },
+    {
+      "word": "provedení",
+      "an": false
+    },
+    {
+      "word": "prsa",
+      "an": false
+    },
+    {
+      "word": "rovina",
+      "an": false
+    },
+    {
+      "word": "průzkum",
+      "an": false
+    },
+    {
+      "word": "označení",
+      "an": false
+    },
+    {
+      "word": "poznání",
+      "an": false
+    },
+    {
+      "word": "nula",
+      "an": false
+    },
+    {
+      "word": "důl",
+      "an": false
+    },
+    {
+      "word": "kořen",
+      "an": false
+    },
+    {
+      "word": "hledání",
+      "an": false
+    },
+    {
+      "word": "investor",
+      "an": true
+    },
+    {
+      "word": "úmysl",
+      "an": false
+    },
+    {
+      "word": "vozidlo",
+      "an": false
+    },
+    {
+      "word": "motiv",
+      "an": false
+    },
+    {
+      "word": "dar",
+      "an": false
+    },
+    {
+      "word": "led",
+      "an": false
+    },
+    {
+      "word": "násilí",
+      "an": false
+    },
+    {
+      "word": "nehoda",
+      "an": false
+    },
+    {
+      "word": "vystoupení",
+      "an": false
+    },
+    {
+      "word": "příchod",
+      "an": false
+    },
+    {
+      "word": "palác",
+      "an": false
+    },
+    {
+      "word": "rekonstrukce",
+      "an": false
+    },
+    {
+      "word": "pojetí",
+      "an": false
+    },
+    {
+      "word": "detail",
+      "an": false
+    },
+    {
+      "word": "novinka",
+      "an": false
+    },
+    {
+      "word": "dík",
+      "an": false
+    },
+    {
+      "word": "podezření",
+      "an": false
+    },
+    {
+      "word": "spisovatel",
+      "an": true
+    },
+    {
+      "word": "odhad",
+      "an": false
+    },
+    {
+      "word": "zlato",
+      "an": false
+    },
+    {
+      "word": "euro",
+      "an": false
+    },
+    {
+      "word": "letiště",
+      "an": false
+    },
+    {
+      "word": "překážka",
+      "an": false
+    },
+    {
+      "word": "paže",
+      "an": false
+    },
+    {
+      "word": "výchova",
+      "an": false
+    },
+    {
+      "word": "popis",
+      "an": false
+    },
+    {
+      "word": "areál",
+      "an": false
+    },
+    {
+      "word": "vysvětlení",
+      "an": false
+    },
+    {
+      "word": "duchovní",
+      "an": false
+    },
+    {
+      "word": "tendence",
+      "an": false
+    },
+    {
+      "word": "kandidát",
+      "an": true
+    },
+    {
+      "word": "přednáška",
+      "an": false
+    },
+    {
+      "word": "výklad",
+      "an": false
+    },
+    {
+      "word": "mobil",
+      "an": false
+    },
+    {
+      "word": "sláva",
+      "an": false
+    },
+    {
+      "word": "utkání",
+      "an": false
+    },
+    {
+      "word": "prohlášení",
+      "an": false
+    },
+    {
+      "word": "festival",
+      "an": false
+    },
+    {
+      "word": "pověst",
+      "an": false
+    },
+    {
+      "word": "rozpor",
+      "an": false
+    },
+    {
+      "word": "náhoda",
+      "an": false
+    },
+    {
+      "word": "turista",
+      "an": true
+    },
+    {
+      "word": "teta",
+      "an": false
+    },
+    {
+      "word": "blázen",
+      "an": true
+    },
+    {
+      "word": "potravina",
+      "an": false
+    },
+    {
+      "word": "výzva",
+      "an": false
+    },
+    {
+      "word": "poplatek",
+      "an": false
+    },
+    {
+      "word": "spotřeba",
+      "an": false
+    },
+    {
+      "word": "strop",
+      "an": false
+    },
+    {
+      "word": "dárek",
+      "an": false
+    },
+    {
+      "word": "jedinec",
+      "an": true
+    },
+    {
+      "word": "vyjádření",
+      "an": false
+    },
+    {
+      "word": "zajištění",
+      "an": false
+    },
+    {
+      "word": "angličtina",
+      "an": false
+    },
+    {
+      "word": "soupeř",
+      "an": true
+    },
+    {
+      "word": "vůně",
+      "an": false
+    },
+    {
+      "word": "galerie",
+      "an": false
+    },
+    {
+      "word": "subjekt",
+      "an": false
+    },
+    {
+      "word": "polévka",
+      "an": false
+    },
+    {
+      "word": "kampaň",
+      "an": false
+    },
+    {
+      "word": "odvaha",
+      "an": false
+    },
+    {
+      "word": "pramen",
+      "an": false
+    },
+    {
+      "word": "platnost",
+      "an": false
+    },
+    {
+      "word": "svazek",
+      "an": false
+    },
+    {
+      "word": "kilo",
+      "an": false
+    },
+    {
+      "word": "sbor",
+      "an": false
+    },
+    {
+      "word": "poledne",
+      "an": false
+    },
+    {
+      "word": "pozadí",
+      "an": false
+    },
+    {
+      "word": "dětství",
+      "an": false
+    },
+    {
+      "word": "pokles",
+      "an": false
+    },
+    {
+      "word": "tvrzení",
+      "an": false
+    },
+    {
+      "word": "jed",
+      "an": false
+    },
+    {
+      "word": "kapela",
+      "an": false
+    },
+    {
+      "word": "dopad",
+      "an": false
+    },
+    {
+      "word": "přestávka",
+      "an": false
+    },
+    {
+      "word": "centimetr",
+      "an": false
+    },
+    {
+      "word": "nerv",
+      "an": false
+    },
+    {
+      "word": "kolej",
+      "an": false
+    },
+    {
+      "word": "vchod",
+      "an": false
+    },
+    {
+      "word": "větev",
+      "an": false
+    },
+    {
+      "word": "expert",
+      "an": true
+    },
+    {
+      "word": "argument",
+      "an": false
+    },
+    {
+      "word": "písnička",
+      "an": false
+    },
+    {
+      "word": "revoluce",
+      "an": false
+    },
+    {
+      "word": "církev",
+      "an": false
+    },
+    {
+      "word": "demokracie",
+      "an": false
+    },
+    {
+      "word": "mechanismus",
+      "an": false
+    },
+    {
+      "word": "lid",
+      "an": false
+    },
+    {
+      "word": "očekávání",
+      "an": false
+    },
+    {
+      "word": "přijetí",
+      "an": false
+    },
+    {
+      "word": "podezřelý",
+      "an": false
+    },
+    {
+      "word": "svědomí",
+      "an": false
+    },
+    {
+      "word": "brambor",
+      "an": false
+    },
+    {
+      "word": "komunista",
+      "an": true
+    },
+    {
+      "word": "písek",
+      "an": false
+    },
+    {
+      "word": "skříň",
+      "an": false
+    },
+    {
+      "word": "ložnice",
+      "an": false
+    },
+    {
+      "word": "zloděj",
+      "an": true
+    },
+    {
+      "word": "rostlina",
+      "an": false
+    },
+    {
+      "word": "houba",
+      "an": false
+    },
+    {
+      "word": "procházka",
+      "an": false
+    },
+    {
+      "word": "dostatek",
+      "an": false
+    },
+    {
+      "word": "kamera",
+      "an": false
+    },
+    {
+      "word": "reforma",
+      "an": false
+    },
+    {
+      "word": "zákaz",
+      "an": false
+    },
+    {
+      "word": "vlastník",
+      "an": true
+    },
+    {
+      "word": "poznatek",
+      "an": false
+    },
+    {
+      "word": "vědec",
+      "an": true
+    },
+    {
+      "word": "komentovat",
+      "an": false
+    },
+    {
+      "word": "litr",
+      "an": false
+    },
+    {
+      "word": "nápis",
+      "an": false
+    },
+    {
+      "word": "hrob",
+      "an": false
+    },
+    {
+      "word": "důchod",
+      "an": false
+    },
+    {
+      "word": "sněmovna",
+      "an": false
+    },
+    {
+      "word": "kráva",
+      "an": false
+    },
+    {
+      "word": "bitva",
+      "an": false
+    },
+    {
+      "word": "mládež",
+      "an": false
+    },
+    {
+      "word": "div",
+      "an": false
+    },
+    {
+      "word": "chata",
+      "an": false
+    },
+    {
+      "word": "zrcadlo",
+      "an": false
+    },
+    {
+      "word": "droga",
+      "an": false
+    },
+    {
+      "word": "uspořádání",
+      "an": false
+    },
+    {
+      "word": "komora",
+      "an": false
+    },
+    {
+      "word": "dav",
+      "an": false
+    },
+    {
+      "word": "soudce",
+      "an": true
+    },
+    {
+      "word": "zahájení",
+      "an": false
+    },
+    {
+      "word": "obloha",
+      "an": false
+    },
+    {
+      "word": "oblečení",
+      "an": false
+    },
+    {
+      "word": "kout",
+      "an": false
+    },
+    {
+      "word": "premiéra",
+      "an": false
+    },
+    {
+      "word": "zázrak",
+      "an": false
+    },
+    {
+      "word": "linie",
+      "an": false
+    },
+    {
+      "word": "básník",
+      "an": true
+    },
+    {
+      "word": "zločin",
+      "an": false
+    },
+    {
+      "word": "manželství",
+      "an": false
+    },
+    {
+      "word": "pokuta",
+      "an": false
+    },
+    {
+      "word": "shoda",
+      "an": false
+    },
+    {
+      "word": "heslo",
+      "an": false
+    },
+    {
+      "word": "dodávka",
+      "an": false
+    },
+    {
+      "word": "trat",
+      "an": false
+    },
+    {
+      "word": "cyklus",
+      "an": false
+    },
+    {
+      "word": "plot",
+      "an": false
+    },
+    {
+      "word": "román",
+      "an": false
+    },
+    {
+      "word": "rozhodování",
+      "an": false
+    },
+    {
+      "word": "povolení",
+      "an": false
+    },
+    {
+      "word": "porucha",
+      "an": false
+    },
+    {
+      "word": "orientace",
+      "an": false
+    },
+    {
+      "word": "zóna",
+      "an": false
+    },
+    {
+      "word": "podnět",
+      "an": false
+    },
+    {
+      "word": "desetiletí",
+      "an": false
+    },
+    {
+      "word": "obrat",
+      "an": false
+    },
+    {
+      "word": "učení",
+      "an": false
+    },
+    {
+      "word": "definovat",
+      "an": false
+    },
+    {
+      "word": "blbost",
+      "an": false
+    },
+    {
+      "word": "důraz",
+      "an": false
+    },
+    {
+      "word": "odměna",
+      "an": false
+    },
+    {
+      "word": "prachy",
+      "an": false
+    },
+    {
+      "word": "přenos",
+      "an": false
+    },
+    {
+      "word": "jezero",
+      "an": false
+    },
+    {
+      "word": "investovat",
+      "an": false
+    },
+    {
+      "word": "společenství",
+      "an": false
+    },
+    {
+      "word": "kanál",
+      "an": false
+    },
+    {
+      "word": "tat",
+      "an": false
+    },
+    {
+      "word": "peklo",
+      "an": false
+    },
+    {
+      "word": "zavedení",
+      "an": false
+    },
+    {
+      "word": "zelenina",
+      "an": false
+    },
+    {
+      "word": "základna",
+      "an": false
+    },
+    {
+      "word": "trasa",
+      "an": false
+    },
+    {
+      "word": "kamarádka",
+      "an": false
+    },
+    {
+      "word": "podklad",
+      "an": false
+    },
+    {
+      "word": "mládí",
+      "an": false
+    },
+    {
+      "word": "útočník",
+      "an": true
+    },
+    {
+      "word": "přesvědčení",
+      "an": false
+    },
+    {
+      "word": "nástup",
+      "an": false
+    },
+    {
+      "word": "příkaz",
+      "an": false
+    },
+    {
+      "word": "snídaně",
+      "an": false
+    },
+    {
+      "word": "filozofie",
+      "an": false
+    },
+    {
+      "word": "malíř",
+      "an": true
+    },
+    {
+      "word": "cukr",
+      "an": false
+    },
+    {
+      "word": "půlnoc",
+      "an": false
+    },
+    {
+      "word": "hospodářství",
+      "an": false
+    },
+    {
+      "word": "vyšetřování",
+      "an": false
+    },
+    {
+      "word": "dosažení",
+      "an": false
+    },
+    {
+      "word": "brácha",
+      "an": true
+    },
+    {
+      "word": "bytost",
+      "an": false
+    },
+    {
+      "word": "skladba",
+      "an": false
+    },
+    {
+      "word": "charakterizovat",
+      "an": false
+    },
+    {
+      "word": "pohádka",
+      "an": false
+    },
+    {
+      "word": "socha",
+      "an": false
+    },
+    {
+      "word": "výpověd",
+      "an": false
+    },
+    {
+      "word": "pořadí",
+      "an": false
+    },
+    {
+      "word": "mistrovství",
+      "an": false
+    },
+    {
+      "word": "tvůrce",
+      "an": true
+    },
+    {
+      "word": "skála",
+      "an": false
+    },
+    {
+      "word": "aspekt",
+      "an": false
+    },
+    {
+      "word": "kříž",
+      "an": false
+    },
+    {
+      "word": "kapitán",
+      "an": true
+    },
+    {
+      "word": "dotaz",
+      "an": false
+    },
+    {
+      "word": "podnikání",
+      "an": false
+    },
+    {
+      "word": "sůl",
+      "an": false
+    },
+    {
+      "word": "pytel",
+      "an": false
+    },
+    {
+      "word": "soustava",
+      "an": false
+    },
+    {
+      "word": "koupelna",
+      "an": false
+    },
+    {
+      "word": "stanovisko",
+      "an": false
+    },
+    {
+      "word": "nábytek",
+      "an": false
+    },
+    {
+      "word": "spravedlnost",
+      "an": false
+    },
+    {
+      "word": "seriál",
+      "an": false
+    },
+    {
+      "word": "nesmysl",
+      "an": false
+    },
+    {
+      "word": "úvod",
+      "an": false
+    },
+    {
+      "word": "přítelkyně",
+      "an": false
+    },
+    {
+      "word": "údolí",
+      "an": false
+    },
+    {
+      "word": "ovoce",
+      "an": false
+    },
+    {
+      "word": "vůdce",
+      "an": true
+    },
+    {
+      "word": "uživatel",
+      "an": true
+    },
+    {
+      "word": "výdaj",
+      "an": false
+    },
+    {
+      "word": "bar",
+      "an": false
+    },
+    {
+      "word": "tempo",
+      "an": false
+    },
+    {
+      "word": "legrace",
+      "an": false
+    },
+    {
+      "word": "krabice",
+      "an": false
+    },
+    {
+      "word": "podpis",
+      "an": false
+    },
+    {
+      "word": "žaludek",
+      "an": false
+    },
+    {
+      "word": "směs",
+      "an": false
+    },
+    {
+      "word": "jednotlivec",
+      "an": true
+    },
+    {
+      "word": "krám",
+      "an": false
+    },
+    {
+      "word": "hovor",
+      "an": false
+    },
+    {
+      "word": "dělník",
+      "an": true
+    },
+    {
+      "word": "náměstek",
+      "an": true
+    },
+    {
+      "word": "plus",
+      "an": false
+    },
+    {
+      "word": "rod",
+      "an": false
+    },
+    {
+      "word": "chalupa",
+      "an": false
+    },
+    {
+      "word": "fotbalista",
+      "an": true
+    },
+    {
+      "word": "dálnice",
+      "an": false
+    },
+    {
+      "word": "výrok",
+      "an": false
+    },
+    {
+      "word": "jednička",
+      "an": false
+    },
+    {
+      "word": "vrchní",
+      "an": false
+    },
+    {
+      "word": "koberec",
+      "an": false
+    },
+    {
+      "word": "hloubka",
+      "an": false
+    },
+    {
+      "word": "nadšení",
+      "an": false
+    },
+    {
+      "word": "pravděpodobnost",
+      "an": false
+    },
+    {
+      "word": "dotace",
+      "an": false
+    },
+    {
+      "word": "hodinky",
+      "an": false
+    },
+    {
+      "word": "sklep",
+      "an": false
+    },
+    {
+      "word": "odpoledne",
+      "an": false
+    },
+    {
+      "word": "dohled",
+      "an": false
+    },
+    {
+      "word": "zlepšení",
+      "an": false
+    },
+    {
+      "word": "dílna",
+      "an": false
+    },
+    {
+      "word": "sféra",
+      "an": false
+    },
+    {
+      "word": "pojišt",
+      "an": false
+    },
+    {
+      "word": "pás",
+      "an": false
+    },
+    {
+      "word": "hrozba",
+      "an": false
+    },
+    {
+      "word": "tanec",
+      "an": false
+    },
+    {
+      "word": "talíř",
+      "an": false
+    },
+    {
+      "word": "jablko",
+      "an": false
+    },
+    {
+      "word": "tragedie",
+      "an": false
+    },
+    {
+      "word": "2846",
+      "an": false
+    },
+    {
+      "word": "právník",
+      "an": true
+    },
+    {
+      "word": "choroba",
+      "an": false
+    },
+    {
+      "word": "vtip",
+      "an": false
+    },
+    {
+      "word": "prádlo",
+      "an": false
+    },
+    {
+      "word": "pusa",
+      "an": false
+    },
+    {
+      "word": "podrobnost",
+      "an": false
+    },
+    {
+      "word": "debata",
+      "an": false
+    },
+    {
+      "word": "zjištění",
+      "an": false
+    },
+    {
+      "word": "publikum",
+      "an": false
+    },
+    {
+      "word": "továrna",
+      "an": false
+    },
+    {
+      "word": "velitel",
+      "an": true
+    },
+    {
+      "word": "obyvatelstvo",
+      "an": false
+    },
+    {
+      "word": "závazek",
+      "an": false
+    },
+    {
+      "word": "chodník",
+      "an": false
+    },
+    {
+      "word": "absolvovat",
+      "an": false
+    },
+    {
+      "word": "organizovat",
+      "an": false
+    },
+    {
+      "word": "tok",
+      "an": false
+    },
+    {
+      "word": "buňka",
+      "an": false
+    },
+    {
+      "word": "říše",
+      "an": false
+    },
+    {
+      "word": "důstojník",
+      "an": true
+    },
+    {
+      "word": "prášek",
+      "an": false
+    },
+    {
+      "word": "kmen",
+      "an": false
+    },
+    {
+      "word": "složení",
+      "an": false
+    },
+    {
+      "word": "měřítko",
+      "an": false
+    },
+    {
+      "word": "odpad",
+      "an": false
+    },
+    {
+      "word": "pití",
+      "an": false
+    },
+    {
+      "word": "mzda",
+      "an": false
+    },
+    {
+      "word": "klobouk",
+      "an": false
+    },
+    {
+      "word": "městečko",
+      "an": false
+    },
+    {
+      "word": "podání",
+      "an": false
+    },
+    {
+      "word": "zakázka",
+      "an": false
+    },
+    {
+      "word": "prohlídka",
+      "an": false
+    },
+    {
+      "word": "obvinění",
+      "an": false
+    },
+    {
+      "word": "hoch",
+      "an": true
+    },
+    {
+      "word": "pracoviště",
+      "an": false
+    },
+    {
+      "word": "vidění",
+      "an": false
+    },
+    {
+      "word": "branka",
+      "an": false
+    },
+    {
+      "word": "organismus",
+      "an": false
+    },
+    {
+      "word": "záruka",
+      "an": false
+    },
+    {
+      "word": "požár",
+      "an": false
+    },
+    {
+      "word": "pobřeží",
+      "an": false
+    },
+    {
+      "word": "gesto",
+      "an": false
+    },
+    {
+      "word": "katastrofa",
+      "an": false
+    },
+    {
+      "word": "získání",
+      "an": false
+    },
+    {
+      "word": "povolání",
+      "an": false
+    },
+    {
+      "word": "účinnost",
+      "an": false
+    },
+    {
+      "word": "náhrada",
+      "an": false
+    },
+    {
+      "word": "útvar",
+      "an": false
+    },
+    {
+      "word": "charakteristika",
+      "an": false
+    },
+    {
+      "word": "sklon",
+      "an": false
+    },
+    {
+      "word": "ulička",
+      "an": false
+    },
+    {
+      "word": "kabát",
+      "an": false
+    },
+    {
+      "word": "květina",
+      "an": false
+    },
+    {
+      "word": "úcta",
+      "an": false
+    },
+    {
+      "word": "holčička",
+      "an": false
+    },
+    {
+      "word": "vrah",
+      "an": true
+    },
+    {
+      "word": "sklad",
+      "an": false
+    },
+    {
+      "word": "mínění",
+      "an": false
+    },
+    {
+      "word": "zpěvák",
+      "an": true
+    },
+    {
+      "word": "gól",
+      "an": false
+    },
+    {
+      "word": "start",
+      "an": false
+    },
+    {
+      "word": "narození",
+      "an": false
+    },
+    {
+      "word": "pokyn",
+      "an": false
+    },
+    {
+      "word": "souboj",
+      "an": false
+    },
+    {
+      "word": "síň",
+      "an": false
+    },
+    {
+      "word": "dodavatel",
+      "an": true
+    },
+    {
+      "word": "vejce",
+      "an": false
+    },
+    {
+      "word": "květ",
+      "an": false
+    },
+    {
+      "word": "nárůst",
+      "an": false
+    },
+    {
+      "word": "vzhled",
+      "an": false
+    },
+    {
+      "word": "čára",
+      "an": false
+    },
+    {
+      "word": "akademie",
+      "an": false
+    },
+    {
+      "word": "zpěv",
+      "an": false
+    },
+    {
+      "word": "úvěr",
+      "an": false
+    },
+    {
+      "word": "prase",
+      "an": false
+    },
+    {
+      "word": "okres",
+      "an": false
+    },
+    {
+      "word": "akcie",
+      "an": false
+    },
+    {
+      "word": "odbor",
+      "an": false
+    },
+    {
+      "word": "používání",
+      "an": false
+    },
+    {
+      "word": "učitelka",
+      "an": false
+    },
+    {
+      "word": "smůla",
+      "an": false
+    },
+    {
+      "word": "komplex",
+      "an": false
+    },
+    {
+      "word": "královna",
+      "an": false
+    },
+    {
+      "word": "scénář",
+      "an": false
+    },
+    {
+      "word": "pochybnost",
+      "an": false
+    },
+    {
+      "word": "obvod",
+      "an": false
+    },
+    {
+      "word": "finále",
+      "an": false
+    },
+    {
+      "word": "cestující",
+      "an": false
+    },
+    {
+      "word": "mužstvo",
+      "an": false
+    },
+    {
+      "word": "plášt",
+      "an": false
+    },
+    {
+      "word": "cvičení",
+      "an": false
+    },
+    {
+      "word": "obrazovka",
+      "an": false
+    },
+    {
+      "word": "rozdělení",
+      "an": false
+    },
+    {
+      "word": "slib",
+      "an": false
+    },
+    {
+      "word": "uplatnění",
+      "an": false
+    },
+    {
+      "word": "rovnováha",
+      "an": false
+    },
+    {
+      "word": "čtení",
+      "an": false
+    },
+    {
+      "word": "volno",
+      "an": false
+    },
+    {
+      "word": "obal",
+      "an": false
+    },
+    {
+      "word": "správce",
+      "an": true
+    },
+    {
+      "word": "pachatel",
+      "an": true
+    },
+    {
+      "word": "hasič",
+      "an": true
+    },
+    {
+      "word": "pokrok",
+      "an": false
+    },
+    {
+      "word": "generál",
+      "an": true
+    },
+    {
+      "word": "čest",
+      "an": false
+    },
+    {
+      "word": "sval",
+      "an": false
+    },
+    {
+      "word": "báseň",
+      "an": false
+    },
+    {
+      "word": "vnitro",
+      "an": false
+    },
+    {
+      "word": "iniciativa",
+      "an": false
+    },
+    {
+      "word": "kapka",
+      "an": false
+    },
+    {
+      "word": "zásluha",
+      "an": false
+    },
+    {
+      "word": "zasedání",
+      "an": false
+    },
+    {
+      "word": "vajíčko",
+      "an": false
+    },
+    {
+      "word": "výstup",
+      "an": false
+    },
+    {
+      "word": "pokračování",
+      "an": false
+    },
+    {
+      "word": "neštěstí",
+      "an": false
+    },
+    {
+      "word": "šok",
+      "an": false
+    },
+    {
+      "word": "sloup",
+      "an": false
+    },
+    {
+      "word": "etapa",
+      "an": false
+    },
+    {
+      "word": "zadek",
+      "an": false
+    },
+    {
+      "word": "běh",
+      "an": false
+    },
+    {
+      "word": "poradce",
+      "an": true
+    },
+    {
+      "word": "přínos",
+      "an": false
+    },
+    {
+      "word": "pochopení",
+      "an": false
+    },
+    {
+      "word": "úhel",
+      "an": false
+    },
+    {
+      "word": "humor",
+      "an": false
+    },
+    {
+      "word": "drát",
+      "an": false
+    },
+    {
+      "word": "senát",
+      "an": false
+    },
+    {
+      "word": "pata",
+      "an": false
+    },
+    {
+      "word": "dnešek",
+      "an": false
+    },
+    {
+      "word": "hřbitov",
+      "an": false
+    },
+    {
+      "word": "psaní",
+      "an": false
+    },
+    {
+      "word": "písmeno",
+      "an": false
+    },
+    {
+      "word": "porážka",
+      "an": false
+    },
+    {
+      "word": "řádek",
+      "an": false
+    },
+    {
+      "word": "prezentovat",
+      "an": false
+    },
+    {
+      "word": "léčba",
+      "an": false
+    },
+    {
+      "word": "pěst",
+      "an": false
+    },
+    {
+      "word": "zrak",
+      "an": false
+    },
+    {
+      "word": "vzorek",
+      "an": false
+    },
+    {
+      "word": "pero",
+      "an": false
+    },
+    {
+      "word": "koš",
+      "an": false
+    },
+    {
+      "word": "rytmus",
+      "an": false
+    },
+    {
+      "word": "anděl",
+      "an": true
+    },
+    {
+      "word": "organizátor",
+      "an": true
+    },
+    {
+      "word": "vytváření",
+      "an": false
+    },
+    {
+      "word": "protest",
+      "an": false
+    },
+    {
+      "word": "suma",
+      "an": false
+    },
+    {
+      "word": "výhled",
+      "an": false
+    },
+    {
+      "word": "stolek",
+      "an": false
+    },
+    {
+      "word": "chrám",
+      "an": false
+    },
+    {
+      "word": "plamen",
+      "an": false
+    },
+    {
+      "word": "ukončení",
+      "an": false
+    },
+    {
+      "word": "zmatek",
+      "an": false
+    },
+    {
+      "word": "obnova",
+      "an": false
+    },
+    {
+      "word": "terén",
+      "an": false
+    },
+    {
+      "word": "kov",
+      "an": false
+    },
+    {
+      "word": "pobočka",
+      "an": false
+    },
+    {
+      "word": "architektura",
+      "an": false
+    },
+    {
+      "word": "mrak",
+      "an": false
+    },
+    {
+      "word": "mez",
+      "an": false
+    },
+    {
+      "word": "bydlení",
+      "an": false
+    },
+    {
+      "word": "sklenice",
+      "an": false
+    },
+    {
+      "word": "skok",
+      "an": false
+    },
+    {
+      "word": "ukázka",
+      "an": false
+    },
+    {
+      "word": "máslo",
+      "an": false
+    },
+    {
+      "word": "post",
+      "an": false
+    },
+    {
+      "word": "prodejna",
+      "an": false
+    },
+    {
+      "word": "management",
+      "an": false
+    },
+    {
+      "word": "potomek",
+      "an": true
+    },
+    {
+      "word": "louka",
+      "an": false
+    },
+    {
+      "word": "tramvaj",
+      "an": false
+    },
+    {
+      "word": "stadión",
+      "an": false
+    },
+    {
+      "word": "herečka",
+      "an": false
+    },
+    {
+      "word": "sklenička",
+      "an": false
+    },
+    {
+      "word": "školství",
+      "an": false
+    },
+    {
+      "word": "lavice",
+      "an": false
+    },
+    {
+      "word": "ohrožení",
+      "an": false
+    },
+    {
+      "word": "recept",
+      "an": false
+    },
+    {
+      "word": "dědeček",
+      "an": true
+    },
+    {
+      "word": "turnaj",
+      "an": false
+    },
+    {
+      "word": "sluníčko",
+      "an": false
+    },
+    {
+      "word": "porovnání",
+      "an": false
+    },
+    {
+      "word": "babi",
+      "an": false
+    },
+    {
+      "word": "překlad",
+      "an": false
+    },
+    {
+      "word": "hmotnost",
+      "an": false
+    },
+    {
+      "word": "družstvo",
+      "an": false
+    },
+    {
+      "word": "kněz",
+      "an": true
+    },
+    {
+      "word": "elektřina",
+      "an": false
+    },
+    {
+      "word": "tah",
+      "an": false
+    },
+    {
+      "word": "standard",
+      "an": false
+    },
+    {
+      "word": "asociace",
+      "an": false
+    },
+    {
+      "word": "pojištění",
+      "an": false
+    },
+    {
+      "word": "garáž",
+      "an": false
+    },
+    {
+      "word": "zaměstnavatel",
+      "an": true
+    },
+    {
+      "word": "založení",
+      "an": false
+    },
+    {
+      "word": "umístění",
+      "an": false
+    },
+    {
+      "word": "sýr",
+      "an": false
+    },
+    {
+      "word": "paprsek",
+      "an": false
+    },
+    {
+      "word": "výročí",
+      "an": false
+    },
+    {
+      "word": "výbuch",
+      "an": false
+    },
+    {
+      "word": "úder",
+      "an": false
+    },
+    {
+      "word": "fantazie",
+      "an": false
+    },
+    {
+      "word": "statistika",
+      "an": false
+    },
+    {
+      "word": "pokladna",
+      "an": false
+    },
+    {
+      "word": "pohár",
+      "an": false
+    },
+    {
+      "word": "oznámení",
+      "an": false
+    },
+    {
+      "word": "poptávka",
+      "an": false
+    },
+    {
+      "word": "onemocnění",
+      "an": false
+    },
+    {
+      "word": "sektor",
+      "an": false
+    },
+    {
+      "word": "volič",
+      "an": true
+    },
+    {
+      "word": "vlastnictví",
+      "an": false
+    },
+    {
+      "word": "legenda",
+      "an": false
+    },
+    {
+      "word": "doporučení",
+      "an": false
+    },
+    {
+      "word": "obtíž",
+      "an": false
+    },
+    {
+      "word": "zrušení",
+      "an": false
+    },
+    {
+      "word": "plátno",
+      "an": false
+    },
+    {
+      "word": "sex",
+      "an": false
+    },
+    {
+      "word": "oddíl",
+      "an": false
+    },
+    {
+      "word": "kufr",
+      "an": false
+    },
+    {
+      "word": "financování",
+      "an": false
+    },
+    {
+      "word": "záběr",
+      "an": false
+    },
+    {
+      "word": "lůžko",
+      "an": false
+    },
+    {
+      "word": "populace",
+      "an": false
+    },
+    {
+      "word": "samota",
+      "an": false
+    },
+    {
+      "word": "komedie",
+      "an": false
+    },
+    {
+      "word": "talent",
+      "an": false
+    },
+    {
+      "word": "likvidace",
+      "an": false
+    },
+    {
+      "word": "otvor",
+      "an": false
+    },
+    {
+      "word": "demokrat",
+      "an": true
+    },
+    {
+      "word": "zemědělství",
+      "an": false
+    },
+    {
+      "word": "bohatství",
+      "an": false
+    },
+    {
+      "word": "stan",
+      "an": false
+    },
+    {
+      "word": "architekt",
+      "an": true
+    },
+    {
+      "word": "planeta",
+      "an": false
+    },
+    {
+      "word": "otevření",
+      "an": false
+    },
+    {
+      "word": "tuna",
+      "an": false
+    },
+    {
+      "word": "plod",
+      "an": false
+    },
+    {
+      "word": "kytka",
+      "an": false
+    },
+    {
+      "word": "kritik",
+      "an": true
+    },
+    {
+      "word": "drama",
+      "an": false
+    },
+    {
+      "word": "lidstvo",
+      "an": false
+    },
+    {
+      "word": "přehlídka",
+      "an": false
+    },
+    {
+      "word": "vášeň",
+      "an": false
+    },
+    {
+      "word": "kouzlo",
+      "an": false
+    },
+    {
+      "word": "měření",
+      "an": false
+    },
+    {
+      "word": "útěk",
+      "an": false
+    },
+    {
+      "word": "hluk",
+      "an": false
+    },
+    {
+      "word": "pravomoc",
+      "an": false
+    },
+    {
+      "word": "hovno",
+      "an": false
+    },
+    {
+      "word": "metropole",
+      "an": false
+    },
+    {
+      "word": "elektrárna",
+      "an": false
+    },
+    {
+      "word": "agent",
+      "an": true
+    },
+    {
+      "word": "posluchač",
+      "an": true
+    },
+    {
+      "word": "palec",
+      "an": false
+    },
+    {
+      "word": "sedadlo",
+      "an": false
+    },
+    {
+      "word": "náboženství",
+      "an": false
+    },
+    {
+      "word": "spolupracovník",
+      "an": true
+    },
+    {
+      "word": "úspora",
+      "an": false
+    },
+    {
+      "word": "obálka",
+      "an": false
+    },
+    {
+      "word": "výprava",
+      "an": false
+    },
+    {
+      "word": "dění",
+      "an": false
+    },
+    {
+      "word": "lampa",
+      "an": false
+    },
+    {
+      "word": "sazba",
+      "an": false
+    },
+    {
+      "word": "ráj",
+      "an": false
+    },
+    {
+      "word": "redakce",
+      "an": false
+    },
+    {
+      "word": "místopředseda",
+      "an": true
+    },
+    {
+      "word": "dvojka",
+      "an": false
+    },
+    {
+      "word": "orientovat",
+      "an": false
+    },
+    {
+      "word": "trouba",
+      "an": false
+    },
+    {
+      "word": "objev",
+      "an": false
+    },
+    {
+      "word": "vyšetření",
+      "an": false
+    },
+    {
+      "word": "důchodce",
+      "an": true
+    },
+    {
+      "word": "koule",
+      "an": false
+    },
+    {
+      "word": "huba",
+      "an": false
+    },
+    {
+      "word": "tyč",
+      "an": false
+    },
+    {
+      "word": "hokej",
+      "an": false
+    },
+    {
+      "word": "tričko",
+      "an": false
+    },
+    {
+      "word": "chod",
+      "an": false
+    },
+    {
+      "word": "album",
+      "an": false
+    },
+    {
+      "word": "krabička",
+      "an": false
+    },
+    {
+      "word": "blbec",
+      "an": true
+    },
+    {
+      "word": "sebevražda",
+      "an": false
+    },
+    {
+      "word": "minimum",
+      "an": false
+    },
+    {
+      "word": "zastávka",
+      "an": false
+    },
+    {
+      "word": "parametr",
+      "an": false
+    },
+    {
+      "word": "bouře",
+      "an": false
+    },
+    {
+      "word": "kauza",
+      "an": false
+    },
+    {
+      "word": "záchrana",
+      "an": false
+    },
+    {
+      "word": "trocha",
+      "an": false
+    },
+    {
+      "word": "trénink",
+      "an": false
+    },
+    {
+      "word": "křižovatka",
+      "an": false
+    },
+    {
+      "word": "pruh",
+      "an": false
+    },
+    {
+      "word": "venkov",
+      "an": false
+    },
+    {
+      "word": "výhra",
+      "an": false
+    },
+    {
+      "word": "odstranění",
+      "an": false
+    },
+    {
+      "word": "autorita",
+      "an": false
+    },
+    {
+      "word": "statek",
+      "an": false
+    },
+    {
+      "word": "stabilita",
+      "an": false
+    },
+    {
+      "word": "proměna",
+      "an": false
+    },
+    {
+      "word": "pásmo",
+      "an": false
+    },
+    {
+      "word": "příloha",
+      "an": false
+    },
+    {
+      "word": "zdravotnictví",
+      "an": false
+    },
+    {
+      "word": "sestava",
+      "an": false
+    },
+    {
+      "word": "cizina",
+      "an": false
+    },
+    {
+      "word": "ředitelka",
+      "an": false
+    },
+    {
+      "word": "vypovídat",
+      "an": false
+    },
+    {
+      "word": "profese",
+      "an": false
+    },
+    {
+      "word": "zaměření",
+      "an": false
+    },
+    {
+      "word": "děj",
+      "an": false
+    },
+    {
+      "word": "bazén",
+      "an": false
+    },
+    {
+      "word": "vztek",
+      "an": false
+    },
+    {
+      "word": "klín",
+      "an": false
+    },
+    {
+      "word": "poškození",
+      "an": false
+    },
+    {
+      "word": "kolečko",
+      "an": false
+    },
+    {
+      "word": "vojsko",
+      "an": false
+    },
+    {
+      "word": "balík",
+      "an": false
+    },
+    {
+      "word": "užívání",
+      "an": false
+    },
+    {
+      "word": "konto",
+      "an": false
+    },
+    {
+      "word": "nápoj",
+      "an": false
+    },
+    {
+      "word": "mlha",
+      "an": false
+    },
+    {
+      "word": "shromáždění",
+      "an": false
+    },
+    {
+      "word": "koncentrace",
+      "an": false
+    },
+    {
+      "word": "čert",
+      "an": true
+    },
+    {
+      "word": "obliba",
+      "an": false
+    },
+    {
+      "word": "příznivec",
+      "an": true
+    },
+    {
+      "word": "kavárna",
+      "an": false
+    },
+    {
+      "word": "utrpení",
+      "an": false
+    },
+    {
+      "word": "činitel",
+      "an": false
+    },
+    {
+      "word": "úleva",
+      "an": false
+    },
+    {
+      "word": "vila",
+      "an": false
+    },
+    {
+      "word": "vyprávění",
+      "an": false
+    },
+    {
+      "word": "kresba",
+      "an": false
+    },
+    {
+      "word": "kontext",
+      "an": false
+    },
+    {
+      "word": "zlo",
+      "an": false
+    },
+    {
+      "word": "odkaz",
+      "an": false
+    },
+    {
+      "word": "brada",
+      "an": false
+    },
+    {
+      "word": "móda",
+      "an": false
+    },
+    {
+      "word": "fórum",
+      "an": false
+    },
+    {
+      "word": "doprovod",
+      "an": false
+    },
+    {
+      "word": "balíček",
+      "an": false
+    },
+    {
+      "word": "podvod",
+      "an": false
+    },
+    {
+      "word": "seminář",
+      "an": false
+    },
+    {
+      "word": "práh",
+      "an": false
+    },
+    {
+      "word": "maska",
+      "an": false
+    },
+    {
+      "word": "opera",
+      "an": false
+    },
+    {
+      "word": "kapitál",
+      "an": false
+    },
+    {
+      "word": "radní",
+      "an": false
+    },
+    {
+      "word": "plnění",
+      "an": false
+    },
+    {
+      "word": "blesk",
+      "an": false
+    },
+    {
+      "word": "odvolání",
+      "an": false
+    },
+    {
+      "word": "sukně",
+      "an": false
+    },
+    {
+      "word": "lokalita",
+      "an": false
+    },
+    {
+      "word": "akt",
+      "an": false
+    },
+    {
+      "word": "disciplína",
+      "an": false
+    },
+    {
+      "word": "komentář",
+      "an": false
+    },
+    {
+      "word": "vize",
+      "an": false
+    },
+    {
+      "word": "stanovení",
+      "an": false
+    },
+    {
+      "word": "rozvod",
+      "an": false
+    },
+    {
+      "word": "ustanovení",
+      "an": false
+    },
+    {
+      "word": "přístav",
+      "an": false
+    },
+    {
+      "word": "historka",
+      "an": false
+    },
+    {
+      "word": "určení",
+      "an": false
+    },
+    {
+      "word": "průvodce",
+      "an": true
+    },
+    {
+      "word": "zachování",
+      "an": false
+    },
+    {
+      "word": "civilizace",
+      "an": false
+    },
+    {
+      "word": "mrtvola",
+      "an": false
+    },
+    {
+      "word": "vlast",
+      "an": false
+    },
+    {
+      "word": "námět",
+      "an": false
+    },
+    {
+      "word": "zabezpečení",
+      "an": false
+    },
+    {
+      "word": "komunikovat",
+      "an": false
+    },
+    {
+      "word": "spolek",
+      "an": false
+    },
+    {
+      "word": "přelom",
+      "an": false
+    },
+    {
+      "word": "výnos",
+      "an": false
+    },
+    {
+      "word": "mráz",
+      "an": false
+    },
+    {
+      "word": "stánek",
+      "an": false
+    },
+    {
+      "word": "osa",
+      "an": false
+    },
+    {
+      "word": "nejistota",
+      "an": false
+    },
+    {
+      "word": "skončení",
+      "an": false
+    },
+    {
+      "word": "smutek",
+      "an": false
+    },
+    {
+      "word": "hůl",
+      "an": false
+    },
+    {
+      "word": "reprezentace",
+      "an": false
+    },
+    {
+      "word": "plíce",
+      "an": false
+    },
+    {
+      "word": "potenciál",
+      "an": false
+    },
+    {
+      "word": "růže",
+      "an": false
+    },
+    {
+      "word": "krádež",
+      "an": false
+    },
+    {
+      "word": "střet",
+      "an": false
+    },
+    {
+      "word": "kouř",
+      "an": false
+    },
+    {
+      "word": "rybník",
+      "an": false
+    },
+    {
+      "word": "sledování",
+      "an": false
+    },
+    {
+      "word": "uhlí",
+      "an": false
+    },
+    {
+      "word": "salát",
+      "an": false
+    },
+    {
+      "word": "ústava",
+      "an": false
+    },
+    {
+      "word": "perspektiva",
+      "an": false
+    },
+    {
+      "word": "lavička",
+      "an": false
+    },
+    {
+      "word": "definice",
+      "an": false
+    },
+    {
+      "word": "rukáv",
+      "an": false
+    },
+    {
+      "word": "rekord",
+      "an": false
+    },
+    {
+      "word": "pevnost",
+      "an": false
+    },
+    {
+      "word": "slavnost",
+      "an": false
+    },
+    {
+      "word": "klášter",
+      "an": false
+    },
+    {
+      "word": "schodiště",
+      "an": false
+    },
+    {
+      "word": "št",
+      "an": false
+    },
+    {
+      "word": "svah",
+      "an": false
+    },
+    {
+      "word": "poslání",
+      "an": false
+    },
+    {
+      "word": "posádka",
+      "an": false
+    },
+    {
+      "word": "hrdlo",
+      "an": false
+    },
+    {
+      "word": "nezaměstnanost",
+      "an": false
+    },
+    {
+      "word": "znalec",
+      "an": true
+    },
+    {
+      "word": "odstup",
+      "an": false
+    },
+    {
+      "word": "výkřik",
+      "an": false
+    },
+    {
+      "word": "pochyba",
+      "an": false
+    },
+    {
+      "word": "pláž",
+      "an": false
+    },
+    {
+      "word": "strejda",
+      "an": true
+    },
+    {
+      "word": "logika",
+      "an": false
+    },
+    {
+      "word": "vyšetřovatel",
+      "an": true
+    },
+    {
+      "word": "uniforma",
+      "an": false
+    },
+    {
+      "word": "zmínka",
+      "an": false
+    },
+    {
+      "word": "lež",
+      "an": false
+    },
+    {
+      "word": "zahrádka",
+      "an": false
+    },
+    {
+      "word": "únava",
+      "an": false
+    },
+    {
+      "word": "pistole",
+      "an": false
+    },
+    {
+      "word": "přátelství",
+      "an": false
+    },
+    {
+      "word": "pochod",
+      "an": false
+    },
+    {
+      "word": "surovina",
+      "an": false
+    },
+    {
+      "word": "uznání",
+      "an": false
+    },
+    {
+      "word": "rozhlas",
+      "an": false
+    },
+    {
+      "word": "vězeň",
+      "an": true
+    },
+    {
+      "word": "institut",
+      "an": false
+    },
+    {
+      "word": "vesmír",
+      "an": false
+    },
+    {
+      "word": "stáří",
+      "an": false
+    },
+    {
+      "word": "oblek",
+      "an": false
+    },
+    {
+      "word": "dobro",
+      "an": false
+    },
+    {
+      "word": "parta",
+      "an": false
+    },
+    {
+      "word": "pohřeb",
+      "an": false
+    },
+    {
+      "word": "spis",
+      "an": false
+    },
+    {
+      "word": "pult",
+      "an": false
+    },
+    {
+      "word": "alternativa",
+      "an": false
+    },
+    {
+      "word": "zakladatel",
+      "an": true
+    },
+    {
+      "word": "servis",
+      "an": false
+    },
+    {
+      "word": "porušení",
+      "an": false
+    },
+    {
+      "word": "odvětví",
+      "an": false
+    },
+    {
+      "word": "sídliště",
+      "an": false
+    },
+    {
+      "word": "éra",
+      "an": false
+    },
+    {
+      "word": "lhůta",
+      "an": false
+    },
+    {
+      "word": "inspirovat",
+      "an": false
+    },
+    {
+      "word": "parkoviště",
+      "an": false
+    },
+    {
+      "word": "nenávist",
+      "an": false
+    },
+    {
+      "word": "potěšení",
+      "an": false
+    },
+    {
+      "word": "únik",
+      "an": false
+    },
+    {
+      "word": "rozsudek",
+      "an": false
+    },
+    {
+      "word": "privatizace",
+      "an": false
+    },
+    {
+      "word": "lázně",
+      "an": false
+    },
+    {
+      "word": "řetězec",
+      "an": false
+    },
+    {
+      "word": "kvalifikace",
+      "an": false
+    },
+    {
+      "word": "hřích",
+      "an": false
+    },
+    {
+      "word": "spolužák",
+      "an": true
+    },
+    {
+      "word": "nakladatelství",
+      "an": false
+    },
+    {
+      "word": "prezentace",
+      "an": false
+    },
+    {
+      "word": "řetěz",
+      "an": false
+    },
+    {
+      "word": "kuře",
+      "an": false
+    },
+    {
+      "word": "novela",
+      "an": false
+    },
+    {
+      "word": "náznak",
+      "an": false
+    },
+    {
+      "word": "interpretace",
+      "an": false
+    },
+    {
+      "word": "hokejista",
+      "an": true
+    },
+    {
+      "word": "nasazení",
+      "an": false
+    },
+    {
+      "word": "pilot",
+      "an": true
+    },
+    {
+      "word": "království",
+      "an": false
+    },
+    {
+      "word": "personál",
+      "an": false
+    },
+    {
+      "word": "využívání",
+      "an": false
+    },
+    {
+      "word": "zázemí",
+      "an": false
+    },
+    {
+      "word": "vedro",
+      "an": false
+    },
+    {
+      "word": "iluze",
+      "an": false
+    },
+    {
+      "word": "koupě",
+      "an": false
+    },
+    {
+      "word": "nemovitost",
+      "an": false
+    },
+    {
+      "word": "bunda",
+      "an": false
+    },
+    {
+      "word": "povodeň",
+      "an": false
+    },
+    {
+      "word": "písmo",
+      "an": false
+    },
+    {
+      "word": "zápis",
+      "an": false
+    },
+    {
+      "word": "primátor",
+      "an": true
+    },
+    {
+      "word": "opora",
+      "an": false
+    },
+    {
+      "word": "priorita",
+      "an": false
+    },
+    {
+      "word": "odpůrce",
+      "an": true
+    },
+    {
+      "word": "tuk",
+      "an": false
+    },
+    {
+      "word": "zklamání",
+      "an": false
+    },
+    {
+      "word": "milenec",
+      "an": true
+    },
+    {
+      "word": "nádobí",
+      "an": false
+    },
+    {
+      "word": "laboratoř",
+      "an": false
+    },
+    {
+      "word": "bezpečí",
+      "an": false
+    },
+    {
+      "word": "kouč",
+      "an": true
+    },
+    {
+      "word": "svíčka",
+      "an": false
+    },
+    {
+      "word": "hračka",
+      "an": false
+    },
+    {
+      "word": "ségra",
+      "an": false
+    },
+    {
+      "word": "potok",
+      "an": false
+    },
+    {
+      "word": "vzdělávání",
+      "an": false
+    },
+    {
+      "word": "výuka",
+      "an": false
+    },
+    {
+      "word": "pauza",
+      "an": false
+    },
+    {
+      "word": "myš",
+      "an": false
+    },
+    {
+      "word": "specialista",
+      "an": true
+    },
+    {
+      "word": "záloha",
+      "an": false
+    },
+    {
+      "word": "kopie",
+      "an": false
+    },
+    {
+      "word": "inženýr",
+      "an": true
+    },
+    {
+      "word": "výskyt",
+      "an": false
+    },
+    {
+      "word": "výpočet",
+      "an": false
+    },
+    {
+      "word": "kroužek",
+      "an": false
+    },
+    {
+      "word": "portrét",
+      "an": false
+    },
+    {
+      "word": "dosah",
+      "an": false
+    },
+    {
+      "word": "císař",
+      "an": true
+    },
+    {
+      "word": "žaloba",
+      "an": false
+    },
+    {
+      "word": "míč",
+      "an": false
+    },
+    {
+      "word": "nehet",
+      "an": false
+    },
+    {
+      "word": "oděv",
+      "an": false
+    },
+    {
+      "word": "asistent",
+      "an": true
+    },
+    {
+      "word": "stížnost",
+      "an": false
+    },
+    {
+      "word": "inteligence",
+      "an": false
+    },
+    {
+      "word": "motivace",
+      "an": false
+    },
+    {
+      "word": "pořadatel",
+      "an": true
+    },
+    {
+      "word": "pohlaví",
+      "an": false
+    },
+    {
+      "word": "skvrna",
+      "an": false
+    },
+    {
+      "word": "reprezentovat",
+      "an": false
+    },
+    {
+      "word": "námaha",
+      "an": false
+    },
+    {
+      "word": "tužka",
+      "an": false
+    },
+    {
+      "word": "opozice",
+      "an": false
+    },
+    {
+      "word": "koalice",
+      "an": false
+    },
+    {
+      "word": "klika",
+      "an": false
+    },
+    {
+      "word": "intenzita",
+      "an": false
+    },
+    {
+      "word": "schéma",
+      "an": false
+    },
+    {
+      "word": "rozpaky",
+      "an": false
+    },
+    {
+      "word": "panna",
+      "an": false
+    },
+    {
+      "word": "fotograf",
+      "an": true
+    },
+    {
+      "word": "oblouk",
+      "an": false
+    },
+    {
+      "word": "balkón",
+      "an": false
+    },
+    {
+      "word": "idea",
+      "an": false
+    },
+    {
+      "word": "rezerva",
+      "an": false
+    },
+    {
+      "word": "údržba",
+      "an": false
+    },
+    {
+      "word": "obránce",
+      "an": true
+    },
+    {
+      "word": "polštář",
+      "an": false
+    },
+    {
+      "word": "sleva",
+      "an": false
+    },
+    {
+      "word": "gymnázium",
+      "an": false
+    },
+    {
+      "word": "brankář",
+      "an": true
+    },
+    {
+      "word": "nádoba",
+      "an": false
+    },
+    {
+      "word": "aplikovat",
+      "an": false
+    },
+    {
+      "word": "rozkaz",
+      "an": false
+    },
+    {
+      "word": "předchůdce",
+      "an": true
+    },
+    {
+      "word": "kabinet",
+      "an": false
+    },
+    {
+      "word": "opak",
+      "an": false
+    },
+    {
+      "word": "chůze",
+      "an": false
+    },
+    {
+      "word": "producent",
+      "an": true
+    },
+    {
+      "word": "okénko",
+      "an": false
+    },
+    {
+      "word": "eso",
+      "an": false
+    },
+    {
+      "word": "poezie",
+      "an": false
+    },
+    {
+      "word": "spektrum",
+      "an": false
+    },
+    {
+      "word": "trpělivost",
+      "an": false
+    },
+    {
+      "word": "plech",
+      "an": false
+    },
+    {
+      "word": "advokát",
+      "an": true
+    },
+    {
+      "word": "položka",
+      "an": false
+    },
+    {
+      "word": "tajemník",
+      "an": true
+    },
+    {
+      "word": "průkaz",
+      "an": false
+    },
+    {
+      "word": "ocenění",
+      "an": false
+    },
+    {
+      "word": "režie",
+      "an": false
+    },
+    {
+      "word": "limit",
+      "an": false
+    },
+    {
+      "word": "miska",
+      "an": false
+    },
+    {
+      "word": "medaile",
+      "an": false
+    },
+    {
+      "word": "tisícovka",
+      "an": false
+    },
+    {
+      "word": "reprezentant",
+      "an": true
+    },
+    {
+      "word": "nález",
+      "an": false
+    },
+    {
+      "word": "policajt",
+      "an": true
+    },
+    {
+      "word": "náplň",
+      "an": false
+    },
+    {
+      "word": "kontinent",
+      "an": false
+    },
+    {
+      "word": "uzavření",
+      "an": false
+    },
+    {
+      "word": "miláček",
+      "an": true
+    },
+    {
+      "word": "integrace",
+      "an": false
+    },
+    {
+      "word": "čokoláda",
+      "an": false
+    },
+    {
+      "word": "profil",
+      "an": false
+    },
+    {
+      "word": "potrava",
+      "an": false
+    },
+    {
+      "word": "pot",
+      "an": false
+    },
+    {
+      "word": "schránka",
+      "an": false
+    },
+    {
+      "word": "spoj",
+      "an": false
+    },
+    {
+      "word": "hlavička",
+      "an": false
+    },
+    {
+      "word": "ukazatel",
+      "an": false
+    },
+    {
+      "word": "potvrzení",
+      "an": false
+    },
+    {
+      "word": "návod",
+      "an": false
+    },
+    {
+      "word": "mince",
+      "an": false
+    },
+    {
+      "word": "svědectví",
+      "an": false
+    },
+    {
+      "word": "historik",
+      "an": true
+    },
+    {
+      "word": "záplava",
+      "an": false
+    },
+    {
+      "word": "metro",
+      "an": false
+    },
+    {
+      "word": "hospodaření",
+      "an": false
+    },
+    {
+      "word": "zpěvačka",
+      "an": false
+    },
+    {
+      "word": "nádrž",
+      "an": false
+    },
+    {
+      "word": "dokumentace",
+      "an": false
+    },
+    {
+      "word": "rozbor",
+      "an": false
+    },
+    {
+      "word": "neschopnost",
+      "an": false
+    },
+    {
+      "word": "převaha",
+      "an": false
+    },
+    {
+      "word": "posun",
+      "an": false
+    },
+    {
+      "word": "nezávislost",
+      "an": false
+    },
+    {
+      "word": "oceán",
+      "an": false
+    },
+    {
+      "word": "bordel",
+      "an": false
+    },
+    {
+      "word": "jeviště",
+      "an": false
+    },
+    {
+      "word": "bedna",
+      "an": false
+    },
+    {
+      "word": "štít",
+      "an": false
+    },
+    {
+      "word": "senátor",
+      "an": true
+    },
+    {
+      "word": "vozík",
+      "an": false
+    },
+    {
+      "word": "medicína",
+      "an": false
+    },
+    {
+      "word": "odjezd",
+      "an": false
+    },
+    {
+      "word": "vysílání",
+      "an": false
+    },
+    {
+      "word": "vana",
+      "an": false
+    },
+    {
+      "word": "deka",
+      "an": false
+    },
+    {
+      "word": "zátěž",
+      "an": false
+    },
+    {
+      "word": "dialog",
+      "an": false
+    },
+    {
+      "word": "námitka",
+      "an": false
+    },
+    {
+      "word": "video",
+      "an": false
+    },
+    {
+      "word": "neúspěch",
+      "an": false
+    },
+    {
+      "word": "magistrát",
+      "an": false
+    },
+    {
+      "word": "had",
+      "an": true
+    },
+    {
+      "word": "hlasování",
+      "an": false
+    },
+    {
+      "word": "kostka",
+      "an": false
+    },
+    {
+      "word": "slovník",
+      "an": false
+    },
+    {
+      "word": "emoce",
+      "an": false
+    },
+    {
+      "word": "skandál",
+      "an": false
+    },
+    {
+      "word": "sad",
+      "an": false
+    },
+    {
+      "word": "řemeslo",
+      "an": false
+    },
+    {
+      "word": "výtah",
+      "an": false
+    },
+    {
+      "word": "palivo",
+      "an": false
+    },
+    {
+      "word": "hlídka",
+      "an": false
+    },
+    {
+      "word": "frekvence",
+      "an": false
+    },
+    {
+      "word": "soustředění",
+      "an": false
+    },
+    {
+      "word": "ubytování",
+      "an": false
+    },
+    {
+      "word": "nevýhoda",
+      "an": false
+    },
+    {
+      "word": "muzika",
+      "an": false
+    },
+    {
+      "word": "jídelna",
+      "an": false
+    },
+    {
+      "word": "loket",
+      "an": false
+    },
+    {
+      "word": "odpočinek",
+      "an": false
+    },
+    {
+      "word": "party",
+      "an": false
+    },
+    {
+      "word": "hlína",
+      "an": false
+    },
+    {
+      "word": "půjčka",
+      "an": false
+    },
+    {
+      "word": "nositel",
+      "an": true
+    },
+    {
+      "word": "izolace",
+      "an": false
+    },
+    {
+      "word": "mlýn",
+      "an": false
+    },
+    {
+      "word": "trávník",
+      "an": false
+    },
+    {
+      "word": "tabule",
+      "an": false
+    },
+    {
+      "word": "maximum",
+      "an": false
+    },
+    {
+      "word": "jednota",
+      "an": false
+    },
+    {
+      "word": "spojenec",
+      "an": true
+    },
+    {
+      "word": "mezera",
+      "an": false
+    },
+    {
+      "word": "debil",
+      "an": true
+    },
+    {
+      "word": "mísa",
+      "an": false
+    },
+    {
+      "word": "bába",
+      "an": false
+    },
+    {
+      "word": "sdělení",
+      "an": false
+    },
+    {
+      "word": "zastupitelstvo",
+      "an": false
+    },
+    {
+      "word": "dědictví",
+      "an": false
+    },
+    {
+      "word": "obzor",
+      "an": false
+    },
+    {
+      "word": "chlapík",
+      "an": true
+    },
+    {
+      "word": "báze",
+      "an": false
+    },
+    {
+      "word": "nouze",
+      "an": false
+    },
+    {
+      "word": "konkurs",
+      "an": false
+    },
+    {
+      "word": "příjezd",
+      "an": false
+    },
+    {
+      "word": "dobrodružství",
+      "an": false
+    },
+    {
+      "word": "převod",
+      "an": false
+    },
+    {
+      "word": "čtvrt",
+      "an": false
+    },
+    {
+      "word": "benzín",
+      "an": false
+    },
+    {
+      "word": "regulace",
+      "an": false
+    },
+    {
+      "word": "střela",
+      "an": false
+    },
+    {
+      "word": "soukromí",
+      "an": false
+    },
+    {
+      "word": "prkno",
+      "an": false
+    },
+    {
+      "word": "úraz",
+      "an": false
+    },
+    {
+      "word": "příznak",
+      "an": false
+    },
+    {
+      "word": "záchvat",
+      "an": false
+    },
+    {
+      "word": "úzkost",
+      "an": false
+    },
+    {
+      "word": "ekonom",
+      "an": true
+    },
+    {
+      "word": "tečka",
+      "an": false
+    },
+    {
+      "word": "listina",
+      "an": false
+    },
+    {
+      "word": "štáb",
+      "an": false
+    },
+    {
+      "word": "objednávka",
+      "an": false
+    },
+    {
+      "word": "identifikovat",
+      "an": false
+    },
+    {
+      "word": "experiment",
+      "an": false
+    },
+    {
+      "word": "hudebník",
+      "an": true
+    },
+    {
+      "word": "vyhlídka",
+      "an": false
+    },
+    {
+      "word": "nařízení",
+      "an": false
+    },
+    {
+      "word": "pláč",
+      "an": false
+    },
+    {
+      "word": "milost",
+      "an": false
+    },
+    {
+      "word": "střelec",
+      "an": true
+    },
+    {
+      "word": "připomínka",
+      "an": false
+    },
+    {
+      "word": "neto",
+      "an": false
+    },
+    {
+      "word": "znění",
+      "an": false
+    },
+    {
+      "word": "stres",
+      "an": false
+    },
+    {
+      "word": "favorit",
+      "an": true
+    },
+    {
+      "word": "společník",
+      "an": true
+    },
+    {
+      "word": "fungování",
+      "an": false
+    },
+    {
+      "word": "doplněk",
+      "an": false
+    },
+    {
+      "word": "jezdec",
+      "an": true
+    },
+    {
+      "word": "budování",
+      "an": false
+    },
+    {
+      "word": "divize",
+      "an": false
+    },
+    {
+      "word": "omáčka",
+      "an": false
+    },
+    {
+      "word": "východisko",
+      "an": false
+    },
+    {
+      "word": "havárie",
+      "an": false
+    },
+    {
+      "word": "školka",
+      "an": false
+    },
+    {
+      "word": "schůze",
+      "an": false
+    },
+    {
+      "word": "bilance",
+      "an": false
+    },
+    {
+      "word": "manipulace",
+      "an": false
+    },
+    {
+      "word": "zvyšování",
+      "an": false
+    },
+    {
+      "word": "dokončení",
+      "an": false
+    },
+    {
+      "word": "zastoupení",
+      "an": false
+    },
+    {
+      "word": "vrata",
+      "an": false
+    },
+    {
+      "word": "němčina",
+      "an": false
+    },
+    {
+      "word": "příčka",
+      "an": false
+    },
+    {
+      "word": "výkonnost",
+      "an": false
+    },
+    {
+      "word": "obřad",
+      "an": false
+    },
+    {
+      "word": "představenstvo",
+      "an": false
+    },
+    {
+      "word": "protivník",
+      "an": true
+    },
+    {
+      "word": "pozorování",
+      "an": false
+    },
+    {
+      "word": "formulovat",
+      "an": false
+    },
+    {
+      "word": "tunel",
+      "an": false
+    },
+    {
+      "word": "peněženka",
+      "an": false
+    },
+    {
+      "word": "inspirace",
+      "an": false
+    },
+    {
+      "word": "skupinka",
+      "an": false
+    },
+    {
+      "word": "hajzl",
+      "an": false
+    },
+    {
+      "word": "zastupitel",
+      "an": true
+    },
+    {
+      "word": "rukavice",
+      "an": false
+    },
+    {
+      "word": "čepice",
+      "an": false
+    },
+    {
+      "word": "čistota",
+      "an": false
+    },
+    {
+      "word": "pout",
+      "an": false
+    },
+    {
+      "word": "sportovec",
+      "an": true
+    },
+    {
+      "word": "trojice",
+      "an": false
+    },
+    {
+      "word": "kalendář",
+      "an": false
+    },
+    {
+      "word": "poklad",
+      "an": false
+    },
+    {
+      "word": "šíření",
+      "an": false
+    },
+    {
+      "word": "interiér",
+      "an": false
+    },
+    {
+      "word": "mouka",
+      "an": false
+    },
+    {
+      "word": "věřící",
+      "an": false
+    },
+    {
+      "word": "pára",
+      "an": false
+    },
+    {
+      "word": "formát",
+      "an": false
+    },
+    {
+      "word": "dodržování",
+      "an": false
+    },
+    {
+      "word": "trvání",
+      "an": false
+    },
+    {
+      "word": "melodie",
+      "an": false
+    },
+    {
+      "word": "zodpovědnost",
+      "an": false
+    },
+    {
+      "word": "plakát",
+      "an": false
+    },
+    {
+      "word": "kloub",
+      "an": false
+    },
+    {
+      "word": "kabina",
+      "an": false
+    },
+    {
+      "word": "volant",
+      "an": false
+    },
+    {
+      "word": "koláč",
+      "an": false
+    },
+    {
+      "word": "ambice",
+      "an": false
+    },
+    {
+      "word": "plet",
+      "an": false
+    },
+    {
+      "word": "stezka",
+      "an": false
+    },
+    {
+      "word": "slabost",
+      "an": false
+    },
+    {
+      "word": "zkoumání",
+      "an": false
+    },
+    {
+      "word": "interval",
+      "an": false
+    },
+    {
+      "word": "redaktor",
+      "an": true
+    },
+    {
+      "word": "doktorka",
+      "an": false
+    },
+    {
+      "word": "vzkaz",
+      "an": false
+    },
+    {
+      "word": "uvedení",
+      "an": false
+    },
+    {
+      "word": "princ",
+      "an": true
+    },
+    {
+      "word": "varování",
+      "an": false
+    },
+    {
+      "word": "nájem",
+      "an": false
+    },
+    {
+      "word": "šířka",
+      "an": false
+    },
+    {
+      "word": "ráz",
+      "an": false
+    },
+    {
+      "word": "veletrh",
+      "an": false
+    },
+    {
+      "word": "originál",
+      "an": false
+    },
+    {
+      "word": "žebříček",
+      "an": false
+    },
+    {
+      "word": "srážka",
+      "an": false
+    },
+    {
+      "word": "hrana",
+      "an": false
+    },
+    {
+      "word": "show",
+      "an": false
+    },
+    {
+      "word": "verš",
+      "an": false
+    },
+    {
+      "word": "spořitelna",
+      "an": false
+    },
+    {
+      "word": "lžíce",
+      "an": false
+    },
+    {
+      "word": "trojka",
+      "an": false
+    },
+    {
+      "word": "hřbet",
+      "an": false
+    },
+    {
+      "word": "mříž",
+      "an": false
+    },
+    {
+      "word": "provozovatel",
+      "an": true
+    },
+    {
+      "word": "impuls",
+      "an": false
+    },
+    {
+      "word": "komunita",
+      "an": false
+    },
+    {
+      "word": "hit",
+      "an": false
+    },
+    {
+      "word": "účetní",
+      "an": false
+    },
+    {
+      "word": "flaška",
+      "an": false
+    },
+    {
+      "word": "hrnec",
+      "an": false
+    },
+    {
+      "word": "publikovat",
+      "an": false
+    },
+    {
+      "word": "zoufalství",
+      "an": false
+    },
+    {
+      "word": "vada",
+      "an": false
+    },
+    {
+      "word": "obývák",
+      "an": false
+    },
+    {
+      "word": "večírek",
+      "an": false
+    },
+    {
+      "word": "moucha",
+      "an": false
+    },
+    {
+      "word": "pozdrav",
+      "an": false
+    },
+    {
+      "word": "volání",
+      "an": false
+    },
+    {
+      "word": "osvětlení",
+      "an": false
+    },
+    {
+      "word": "zábradlí",
+      "an": false
+    },
+    {
+      "word": "slepice",
+      "an": false
+    },
+    {
+      "word": "paluba",
+      "an": false
+    },
+    {
+      "word": "sebevědomí",
+      "an": false
+    },
+    {
+      "word": "ideál",
+      "an": false
+    },
+    {
+      "word": "absolvent",
+      "an": true
+    },
+    {
+      "word": "důležitost",
+      "an": false
+    },
+    {
+      "word": "strava",
+      "an": false
+    },
+    {
+      "word": "vnímání",
+      "an": false
+    },
+    {
+      "word": "uspokojení",
+      "an": false
+    },
+    {
+      "word": "páteř",
+      "an": false
+    },
+    {
+      "word": "bariéra",
+      "an": false
+    },
+    {
+      "word": "ves",
+      "an": false
+    },
+    {
+      "word": "udržení",
+      "an": false
+    },
+    {
+      "word": "sraz",
+      "an": false
+    },
+    {
+      "word": "mlčení",
+      "an": false
+    },
+    {
+      "word": "přesnost",
+      "an": false
+    },
+    {
+      "word": "obdiv",
+      "an": false
+    },
+    {
+      "word": "index",
+      "an": false
+    },
+    {
+      "word": "deprese",
+      "an": false
+    },
+    {
+      "word": "dovednost",
+      "an": false
+    },
+    {
+      "word": "morálka",
+      "an": false
+    },
+    {
+      "word": "psycholog",
+      "an": true
+    },
+    {
+      "word": "náprava",
+      "an": false
+    },
+    {
+      "word": "bojovník",
+      "an": true
+    },
+    {
+      "word": "ruch",
+      "an": false
+    },
+    {
+      "word": "prevence",
+      "an": false
+    },
+    {
+      "word": "rozhodčí",
+      "an": false
+    },
+    {
+      "word": "vyhláška",
+      "an": false
+    },
+    {
+      "word": "plánování",
+      "an": false
+    },
+    {
+      "word": "koutek",
+      "an": false
+    },
+    {
+      "word": "brigáda",
+      "an": false
+    },
+    {
+      "word": "škála",
+      "an": false
+    },
+    {
+      "word": "náruč",
+      "an": false
+    },
+    {
+      "word": "výhrada",
+      "an": false
+    },
+    {
+      "word": "stadium",
+      "an": false
+    },
+    {
+      "word": "tržba",
+      "an": false
+    },
+    {
+      "word": "učebnice",
+      "an": false
+    },
+    {
+      "word": "pódium",
+      "an": false
+    },
+    {
+      "word": "nadace",
+      "an": false
+    },
+    {
+      "word": "protokol",
+      "an": false
+    },
+    {
+      "word": "kompromis",
+      "an": false
+    },
+    {
+      "word": "obsluha",
+      "an": false
+    },
+    {
+      "word": "dědek",
+      "an": true
+    },
+    {
+      "word": "tenis",
+      "an": false
+    },
+    {
+      "word": "uvolnění",
+      "an": false
+    },
+    {
+      "word": "respekt",
+      "an": false
+    },
+    {
+      "word": "pasáž",
+      "an": false
+    },
+    {
+      "word": "aféra",
+      "an": false
+    },
+    {
+      "word": "keř",
+      "an": false
+    },
+    {
+      "word": "zájezd",
+      "an": false
+    },
+    {
+      "word": "zánik",
+      "an": false
+    },
+    {
+      "word": "stehno",
+      "an": false
+    },
+    {
+      "word": "aparát",
+      "an": false
+    },
+    {
+      "word": "orchestr",
+      "an": false
+    },
+    {
+      "word": "psychologie",
+      "an": false
+    },
+    {
+      "word": "výslech",
+      "an": false
+    },
+    {
+      "word": "lednička",
+      "an": false
+    },
+    {
+      "word": "demonstrace",
+      "an": false
+    },
+    {
+      "word": "rukopis",
+      "an": false
+    },
+    {
+      "word": "zkratka",
+      "an": false
+    },
+    {
+      "word": "licence",
+      "an": false
+    },
+    {
+      "word": "vzrušení",
+      "an": false
+    },
+    {
+      "word": "kamna",
+      "an": false
+    },
+    {
+      "word": "poušt",
+      "an": false
+    },
+    {
+      "word": "komplikace",
+      "an": false
+    },
+    {
+      "word": "nástupce",
+      "an": true
+    },
+    {
+      "word": "zpoždění",
+      "an": false
+    },
+    {
+      "word": "vkus",
+      "an": false
+    },
+    {
+      "word": "lyže",
+      "an": false
+    },
+    {
+      "word": "kůra",
+      "an": false
+    },
+    {
+      "word": "měna",
+      "an": false
+    },
+    {
+      "word": "vyhlášení",
+      "an": false
+    },
+    {
+      "word": "platba",
+      "an": false
+    },
+    {
+      "word": "kotel",
+      "an": false
+    },
+    {
+      "word": "posílení",
+      "an": false
+    },
+    {
+      "word": "vzestup",
+      "an": false
+    },
+    {
+      "word": "rám",
+      "an": false
+    },
+    {
+      "word": "splnění",
+      "an": false
+    },
+    {
+      "word": "pomůcka",
+      "an": false
+    },
+    {
+      "word": "sponzor",
+      "an": true
+    },
+    {
+      "word": "sekunda",
+      "an": false
+    },
+    {
+      "word": "mýtus",
+      "an": false
+    },
+    {
+      "word": "věznice",
+      "an": false
+    },
+    {
+      "word": "fenomén",
+      "an": false
+    },
+    {
+      "word": "tekutina",
+      "an": false
+    },
+    {
+      "word": "přeprava",
+      "an": false
+    },
+    {
+      "word": "vrch",
+      "an": false
+    },
+    {
+      "word": "lev",
+      "an": true
+    },
+    {
+      "word": "křik",
+      "an": false
+    },
+    {
+      "word": "legislativa",
+      "an": false
+    },
+    {
+      "word": "těleso",
+      "an": false
+    },
+    {
+      "word": "prsten",
+      "an": false
+    },
+    {
+      "word": "propojení",
+      "an": false
+    },
+    {
+      "word": "kongres",
+      "an": false
+    },
+    {
+      "word": "popel",
+      "an": false
+    },
+    {
+      "word": "hnízdo",
+      "an": false
+    },
+    {
+      "word": "beton",
+      "an": false
+    },
+    {
+      "word": "přesun",
+      "an": false
+    },
+    {
+      "word": "odbory",
+      "an": false
+    },
+    {
+      "word": "distribuce",
+      "an": false
+    },
+    {
+      "word": "zastavení",
+      "an": false
+    },
+    {
+      "word": "obočí",
+      "an": false
+    },
+    {
+      "word": "horko",
+      "an": false
+    },
+    {
+      "word": "ropa",
+      "an": false
+    },
+    {
+      "word": "odstín",
+      "an": false
+    },
+    {
+      "word": "pach",
+      "an": false
+    },
+    {
+      "word": "strýc",
+      "an": true
+    },
+    {
+      "word": "kytara",
+      "an": false
+    },
+    {
+      "word": "pouto",
+      "an": false
+    },
+    {
+      "word": "katalog",
+      "an": false
+    },
+    {
+      "word": "skladatel",
+      "an": true
+    },
+    {
+      "word": "medvěd",
+      "an": true
+    },
+    {
+      "word": "játra",
+      "an": false
+    },
+    {
+      "word": "železo",
+      "an": false
+    },
+    {
+      "word": "cestování",
+      "an": false
+    },
+    {
+      "word": "zákrok",
+      "an": false
+    },
+    {
+      "word": "popularita",
+      "an": false
+    },
+    {
+      "word": "cibule",
+      "an": false
+    },
+    {
+      "word": "ostuda",
+      "an": false
+    },
+    {
+      "word": "ovzduší",
+      "an": false
+    },
+    {
+      "word": "server",
+      "an": false
+    },
+    {
+      "word": "horečka",
+      "an": false
+    },
+    {
+      "word": "šňůra",
+      "an": false
+    },
+    {
+      "word": "pánbůh",
+      "an": true
+    },
+    {
+      "word": "průvod",
+      "an": false
+    },
+    {
+      "word": "bída",
+      "an": false
+    },
+    {
+      "word": "šampionát",
+      "an": false
+    },
+    {
+      "word": "záhada",
+      "an": false
+    },
+    {
+      "word": "žíla",
+      "an": false
+    },
+    {
+      "word": "připojení",
+      "an": false
+    },
+    {
+      "word": "čekání",
+      "an": false
+    },
+    {
+      "word": "kostým",
+      "an": false
+    },
+    {
+      "word": "sluchátko",
+      "an": false
+    },
+    {
+      "word": "knedlík",
+      "an": false
+    },
+    {
+      "word": "buchta",
+      "an": false
+    },
+    {
+      "word": "analytik",
+      "an": true
+    },
+    {
+      "word": "člun",
+      "an": false
+    },
+    {
+      "word": "tušení",
+      "an": false
+    },
+    {
+      "word": "příhoda",
+      "an": false
+    },
+    {
+      "word": "automat",
+      "an": false
+    },
+    {
+      "word": "prohra",
+      "an": false
+    },
+    {
+      "word": "spaní",
+      "an": false
+    },
+    {
+      "word": "pohotovost",
+      "an": false
+    },
+    {
+      "word": "klec",
+      "an": false
+    },
+    {
+      "word": "stříbro",
+      "an": false
+    },
+    {
+      "word": "tvor",
+      "an": true
+    },
+    {
+      "word": "vlákno",
+      "an": false
+    },
+    {
+      "word": "dominovat",
+      "an": false
+    },
+    {
+      "word": "půle",
+      "an": false
+    },
+    {
+      "word": "hrud",
+      "an": false
+    },
+    {
+      "word": "jeskyně",
+      "an": false
+    },
+    {
+      "word": "ocas",
+      "an": false
+    },
+    {
+      "word": "dort",
+      "an": false
+    },
+    {
+      "word": "burza",
+      "an": false
+    },
+    {
+      "word": "těsto",
+      "an": false
+    },
+    {
+      "word": "stráž",
+      "an": false
+    },
+    {
+      "word": "absence",
+      "an": false
+    },
+    {
+      "word": "rakovina",
+      "an": false
+    },
+    {
+      "word": "zřízení",
+      "an": false
+    },
+    {
+      "word": "propast",
+      "an": false
+    },
+    {
+      "word": "dovoz",
+      "an": false
+    },
+    {
+      "word": "oblak",
+      "an": false
+    },
+    {
+      "word": "spotřebitel",
+      "an": true
+    },
+    {
+      "word": "stařec",
+      "an": true
+    },
+    {
+      "word": "modlitba",
+      "an": false
+    },
+    {
+      "word": "spekulace",
+      "an": false
+    },
+    {
+      "word": "zeleň",
+      "an": false
+    },
+    {
+      "word": "pozvání",
+      "an": false
+    },
+    {
+      "word": "výplata",
+      "an": false
+    },
+    {
+      "word": "zatáčka",
+      "an": false
+    },
+    {
+      "word": "libra",
+      "an": false
+    },
+    {
+      "word": "lebka",
+      "an": false
+    },
+    {
+      "word": "živočich",
+      "an": true
+    },
+    {
+      "word": "nahrávka",
+      "an": false
+    },
+    {
+      "word": "milovník",
+      "an": true
+    },
+    {
+      "word": "porozumění",
+      "an": false
+    },
+    {
+      "word": "trubka",
+      "an": false
+    },
+    {
+      "word": "filozof",
+      "an": true
+    },
+    {
+      "word": "šperk",
+      "an": false
+    },
+    {
+      "word": "hmyz",
+      "an": false
+    },
+    {
+      "word": "členství",
+      "an": false
+    },
+    {
+      "word": "lídr",
+      "an": true
+    },
+    {
+      "word": "nuda",
+      "an": false
+    },
+    {
+      "word": "povídka",
+      "an": false
+    },
+    {
+      "word": "menšina",
+      "an": false
+    },
+    {
+      "word": "autorka",
+      "an": false
+    },
+    {
+      "word": "salon",
+      "an": false
+    },
+    {
+      "word": "působnost",
+      "an": false
+    },
+    {
+      "word": "transakce",
+      "an": false
+    },
+    {
+      "word": "sako",
+      "an": false
+    },
+    {
+      "word": "kompetence",
+      "an": false
+    },
+    {
+      "word": "meč",
+      "an": false
+    },
+    {
+      "word": "princezna",
+      "an": false
+    },
+    {
+      "word": "skříňka",
+      "an": false
+    },
+    {
+      "word": "spokojenost",
+      "an": false
+    },
+    {
+      "word": "pozorovatel",
+      "an": true
+    },
+    {
+      "word": "vyrovnání",
+      "an": false
+    },
+    {
+      "word": "malba",
+      "an": false
+    },
+    {
+      "word": "identita",
+      "an": false
+    },
+    {
+      "word": "cédéčko",
+      "an": false
+    },
+    {
+      "word": "kód",
+      "an": false
+    },
+    {
+      "word": "hněv",
+      "an": false
+    },
+    {
+      "word": "d",
+      "an": false
+    },
+    {
+      "word": "hloupost",
+      "an": false
+    },
+    {
+      "word": "cela",
+      "an": false
+    },
+    {
+      "word": "sjezd",
+      "an": false
+    },
+    {
+      "word": "maturita",
+      "an": false
+    },
+    {
+      "word": "kilogram",
+      "an": false
+    },
+    {
+      "word": "e",
+      "an": false
+    },
+    {
+      "word": "řízek",
+      "an": false
+    },
+    {
+      "word": "trik",
+      "an": false
+    },
+    {
+      "word": "prodejce",
+      "an": true
+    },
+    {
+      "word": "minus",
+      "an": false
+    },
+    {
+      "word": "baterka",
+      "an": false
+    },
+    {
+      "word": "kamión",
+      "an": false
+    },
+    {
+      "word": "úkor",
+      "an": false
+    },
+    {
+      "word": "kabel",
+      "an": false
+    },
+    {
+      "word": "směrnice",
+      "an": false
+    },
+    {
+      "word": "past",
+      "an": false
+    },
+    {
+      "word": "chlad",
+      "an": false
+    },
+    {
+      "word": "pětka",
+      "an": false
+    },
+    {
+      "word": "dobytek",
+      "an": false
+    },
+    {
+      "word": "konkurent",
+      "an": true
+    },
+    {
+      "word": "ponožka",
+      "an": false
+    },
+    {
+      "word": "horizont",
+      "an": false
+    },
+    {
+      "word": "sucho",
+      "an": false
+    },
+    {
+      "word": "koncept",
+      "an": false
+    },
+    {
+      "word": "zajímavost",
+      "an": false
+    },
+    {
+      "word": "páska",
+      "an": false
+    },
+    {
+      "word": "paráda",
+      "an": false
+    },
+    {
+      "word": "chodec",
+      "an": true
+    },
+    {
+      "word": "prodloužení",
+      "an": false
+    },
+    {
+      "word": "federace",
+      "an": false
+    },
+    {
+      "word": "ocel",
+      "an": false
+    },
+    {
+      "word": "sprcha",
+      "an": false
+    },
+    {
+      "word": "uchazeč",
+      "an": true
+    }
+  ]
+}

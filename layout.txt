@@ -1,0 +1,27 @@
+TABLES V1
+    - Word
+        - Lemma (PK)
+        - Rank
+        [declensions]
+        - 1S
+        - 1P
+        - 2S
+        - 2P
+        ...
+        - 7S
+        - 7P
+
+    - Sentence
+        - Lemma (PK)
+        - Sentence without word
+        - sentence with word
+        - sentenceTranslation
+        - Correct answer
+        - wordTranslation
+
+
++TABLES V2
+    - User
+        - login info
+        - high score
+        - saved "top x" setting

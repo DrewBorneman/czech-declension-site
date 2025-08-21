@@ -12,14 +12,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {    $this->call([
-        ContactDataSeeder::class,
-        HomeDataSeeder::class,
-        ProjectDataSeeder::class,
-        ProjectsSeeder::class,
-        ResumeDataSeeder::class,
-        ResumeFileSeeder::class,
-        SiteInfoSeeder::class,
-        SocialMediaLinkSeeder::class,
+        WordSeeder::class,
+        SentenceSeeder::class,
     ]);
     }
 }

@@ -1,0 +1,6 @@
+ - test migrations, seeders, etc.
+ 
+ - create API concept
+ - implement Question API
+
+ - FE stuff

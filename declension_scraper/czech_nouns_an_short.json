@@ -1,0 +1,16 @@
+{
+  "nouns": [
+    {
+      "word": "rok",
+      "an": false
+    },
+    {
+      "word": "člověk",
+      "an": true
+    },
+    {
+      "word": "den",
+      "an": false
+    }
+  ]
+}
