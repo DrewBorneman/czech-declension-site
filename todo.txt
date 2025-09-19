@@ -1,6 +1,11 @@
  - test migrations, seeders, etc.
- 
- - create API concept
- - implement Question API
-
- - FE stuff
+ - test question API
+ - FE
+  - make basic page for one question
+  - test right vs wrong answers
+  - add session for 10 questions in a row, with review page
+  - customize which ranks are use (up to 500, 1000, etc)
+  - decorate, make nice presentation
+  - remove extraneous pages & files
+  - host
+  - post on Reddit

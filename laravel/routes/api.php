@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/question', [QuestionController::class, 'get']);
+Route::get('/get/question/{rank}', [QuestionController::class, 'get']);

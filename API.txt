@@ -1,0 +1,10 @@
+Question
+    in: Rank
+    out:
+     - Lemma
+     - Rank
+     - Sentence without answer
+     - Sentence with answer
+     - Correct answer
+     - all declension options
+     - sentence translation (EN)

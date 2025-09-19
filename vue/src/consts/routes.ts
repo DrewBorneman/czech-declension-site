@@ -1,12 +1,2 @@
 export const HomeRouteURL : string = '/'
-export const HomeDataGetURL : string = '/api/home'
-export const SiteInfoGetURL : string = '/api/site'
-export const ContactDataGetURL : string = '/api/contact'
-export const ResumeDataGetURL : string = '/api/resume'
-export const projectsDataGetURL : string = '/api/projects'
-
-export const HomeDataPostURL : string = '/api/home/post'
-export const SiteInfoPostURL : string = '/api/site/post'
-export const ContactDataPostURL : string = '/api/contact/post'
-export const ResumeDataPostURL : string = '/api/resume/post'
-export const projectsDataPostURL : string = '/api/projects/post'
+export const QuestionGetURL : string = '/api/get/question'
