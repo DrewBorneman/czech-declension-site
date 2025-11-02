@@ -15,20 +15,20 @@ return new class extends Migration
             $table->id();
             $table->string('lemma');
             $table->integer("rank");
-            $table->string('1S');
-            $table->string('1P');
-            $table->string('2S');
-            $table->string('2P');
-            $table->string('3S');
-            $table->string('3P');
-            $table->string('4S');
-            $table->string('4P');
-            $table->string('5S');
-            $table->string('5P');
-            $table->string('6S');
-            $table->string('6P');
-            $table->string('7S');
-            $table->string('7P');
+            $table->json('S1');
+            $table->json('P1');
+            $table->json('S2');
+            $table->json('P2');
+            $table->json('S3');
+            $table->json('P3');
+            $table->json('S4');
+            $table->json('P4');
+            $table->json('S5');
+            $table->json('P5');
+            $table->json('S6');
+            $table->json('P6');
+            $table->json('S7');
+            $table->json('P7');
         });
     }
 

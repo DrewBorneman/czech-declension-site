@@ -4,16 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Word;
-use Symfony\Component\HttpFoundation\Response;
+use App\Models\Question;
+use App\Models\Sentence;
 
 class QuestionController extends Controller
 {
-    # placeholder
     public function get(Request $request)
     {
+        $request->validate([
+            'rank' => 'integer|min:1'
+        ]);
+
         $question = new Question();
-        $word = Word::first()->where('rank', $request->route('rank'));
-        $sentence = Sentence::first()->where('lemma', $word->lemma)
+        $word = Word::where('rank', $request->route('rank'))->firstOrFail();
+        $sentence = Sentence::where('lemma', $word->lemma)->first();
 
         $question->word = $word->lemma;
         $question->rank = $word->rank;
@@ -23,14 +27,25 @@ class QuestionController extends Controller
         $question->correctAnswer = $sentence->correctAnswer;
 
         // get the conjugations - all word members except lemma and rank
-        $wordProperties = get_object_vars($word);
-        $conjugations = [];
+        $wordProperties = $word->getAttributes();
+        $possibleDeclensions = [];
         foreach ($wordProperties as $key => $value) {
-            if (strpos($key, 'rank') == false && strpos($key, 'lemma') == false) {
-                $conjugations[] = $value;
+            if (!in_array($key, ['lemma', 'rank'])) {
+                if (is_string($value)) {
+                    $decoded = json_decode($value, true);
+                    $value = is_array($decoded) ? $decoded : [$value];
+                }
+                // flatten array and add values individually
+                foreach ((array)$value as $item) {
+                    if (is_string($item)) {
+                        $possibleDeclensions[] = $item;
+                    }
+                }
             }
         }
-        $question->allOptions = $conjugations;
+        // remove duplicates
+        $possibleDeclensions = array_values(array_unique($possibleDeclensions));
+        $question->allOptions = $possibleDeclensions;
 
         return response()->json($question);
     }

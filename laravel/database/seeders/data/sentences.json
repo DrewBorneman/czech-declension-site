@@ -493,12 +493,6 @@
       "sentenceEN": "Our goal is to win."
     },
     {
-      "word": "jmenovat",
-      "sentence": "biasp Jak se to tu jmenuje?",
-      "wordEN": "to name, appoint, (se) be called",
-      "sentenceEN": "What’s this place called?"
-    },
-    {
       "word": "tělo",
       "sentence": "O své tělo se musíme starat.",
       "wordEN": "body",
@@ -614,8 +608,8 @@
     },
     {
       "word": "století",
-      "sentence": "Kostel pochází z 15.",
-      "wordEN": "století.\tcentury",
+      "sentence": "Kostel pochází z 15. století.",
+      "wordEN": "century",
       "sentenceEN": "The church dates from the 15th century."
     },
     {
@@ -841,12 +835,6 @@
       "sentenceEN": "I have shot a lot of films."
     },
     {
-      "word": "hodit",
-      "sentence": "pf/impf Hodí se ti čtvrtek?",
-      "wordEN": "to throw, (se) suit",
-      "sentenceEN": "Does Thursday suit you?"
-    },
-    {
       "word": "hranice",
       "sentence": "Kde je hranice mezi šílenstvím a zdravým rozumem?",
       "wordEN": "border, borderline, limit",
@@ -925,7 +913,7 @@
       "sentenceEN": "Her heart almost stopped."
     },
     {
-      "word": "Bůh",
+      "word": "bůh",
       "sentence": "Bůh miluje všechny stejně.",
       "wordEN": "God",
       "sentenceEN": "God loves everybody the same."
@@ -974,7 +962,7 @@
     },
     {
       "word": "podnik",
-      "sentence": "Byla by to záchranná sít’ pro malé podniky.",
+      "sentence": "Byla by to záchranná síť pro malé podniky.",
       "wordEN": "enterprise, business",
       "sentenceEN": "It would be a safety net for small enterprises."
     },
@@ -994,7 +982,7 @@
       "word": "podstata",
       "sentence": "V tom spočívá podstata problému.",
       "wordEN": "essence, foundation, root",
-      "sentenceEN": "That’s the root of the problem."
+      "sentenceEN": "Thať.s the root of the problem."
     },
     {
       "word": "autor",
@@ -1028,7 +1016,7 @@
     },
     {
       "word": "úkol",
-      "sentence": "Co je ted’ naším úkolem?",
+      "sentence": "Co je teď naším úkolem?",
       "wordEN": "task, mission",
       "sentenceEN": "What is our task now?"
     },
@@ -1297,14 +1285,14 @@
       "sentenceEN": "She paid special attention to him."
     },
     {
-      "word": "odpověd’",
-      "sentence": "Tohle je moje odpověd’.",
+      "word": "odpověď",
+      "sentence": "Tohle je moje odpověď.",
       "wordEN": "answer, reply",
       "sentenceEN": "This is my answer."
     },
     {
       "word": "zima",
-      "sentence": "Letos byla zima zvlášt’ tuhá.",
+      "sentence": "Letos byla zima zvlášť tuhá.",
       "wordEN": "winter, cold",
       "sentenceEN": "The winter was exceptionally hard this year."
     },
@@ -1508,9 +1496,9 @@
     },
     {
       "word": "vůz",
-      "sentence": "Nasedla do vozidla.",
+      "sentence": "Luxusní vozy se pak staly důležitou součástí výroby.",
       "wordEN": "vehicle",
-      "sentenceEN": "She got into the vehicle."
+      "sentenceEN": "Luxury vehicles then became an important part of production."
     },
     {
       "word": "návštěva",
@@ -1537,8 +1525,8 @@
       "sentenceEN": "My folks don’t have a phone."
     },
     {
-      "word": "sít’",
-      "sentence": "Chybí nám distribuční sít’.",
+      "word": "síť",
+      "sentence": "Chybí nám distribuční síť.",
       "wordEN": "network, web",
       "sentenceEN": "We lack a distribution network."
     },
@@ -1562,7 +1550,7 @@
     },
     {
       "word": "historie",
-      "sentence": "Zed’ oživuje historii Německa.",
+      "sentence": "Zeď oživuje historii Německa.",
       "wordEN": "history",
       "sentenceEN": "The wall recalls the history of Germany."
     },
@@ -1831,8 +1819,8 @@
       "sentenceEN": "The community council failed to maintain sufficient dialogue with the citizens."
     },
     {
-      "word": "chut’",
-      "sentence": "Oblíbil jsem si hořkou chut’ kávy.",
+      "word": "chuť",
+      "sentence": "Oblíbil jsem si hořkou chuť kávy.",
       "wordEN": "flavour, appetite, desire",
       "sentenceEN": "I developed a taste for coffee’s bitter flavour."
     },
@@ -1969,8 +1957,8 @@
       "sentenceEN": "He won the award for the best worker of the month."
     },
     {
-      "word": "zed’",
-      "sentence": "Velká čínská zed’ je viditelná i z vesmíru.",
+      "word": "zeď",
+      "sentence": "Velká čínská zeď je viditelná i z vesmíru.",
       "wordEN": "wall",
       "sentenceEN": "The Great Wall of China is even visible from space."
     },
@@ -2581,14 +2569,14 @@
       "sentenceEN": "They were sitting on the river bank."
     },
     {
-      "word": "lod’",
-      "sentence": "Rybář vytáhl do lodi sít’ plnou ryb.",
+      "word": "loď",
+      "sentence": "Rybář vytáhl do lodi síť plnou ryb.",
       "wordEN": "ship, boat",
       "sentenceEN": "The fisherman pulled a net full of fish into the boat."
     },
     {
       "word": "vrstva",
-      "sentence": "Na plet’ nanášejte jen tenkou vrstvu krému.",
+      "sentence": "Na pleť nanášejte jen tenkou vrstvu krému.",
       "wordEN": "layer, (social) class",
       "sentenceEN": "Apply only a thin layer of cream to the skin."
     },
@@ -2738,7 +2726,7 @@
     },
     {
       "word": "vlna",
-      "sentence": "Lod’ zmizela v rozbouřených vlnách.",
+      "sentence": "Loď zmizela v rozbouřených vlnách.",
       "wordEN": "wave, wool",
       "sentenceEN": "The ship disappeared in the raging waves."
     },
@@ -2767,7 +2755,7 @@
       "sentenceEN": "His works follow the tradition of our culture."
     },
     {
-      "word": "obět’",
+      "word": "oběť",
       "sentence": "Památník byl věnován obětem války.",
       "wordEN": "victim, sacrifice",
       "sentenceEN": "The monument was dedicated to war victims."
@@ -2903,12 +2891,6 @@
       "sentence": "Vědci podali důkaz existence černých děr.",
       "wordEN": "existence",
       "sentenceEN": "Scientists have proved the existence of black holes."
-    },
-    {
-      "word": "informovat",
-      "sentence": "Je třeba okamžitě informovat policii.",
-      "wordEN": "to inform, report",
-      "sentenceEN": "The police have to be informed immediately."
     },
     {
       "word": "výrobek",
@@ -3139,8 +3121,8 @@
       "sentenceEN": "A bicycle race goes through the town every year."
     },
     {
-      "word": "pamět’",
-      "sentence": "Od dětství měl dobrou pamět’.",
+      "word": "paměť",
+      "sentence": "Od dětství měl dobrou paměť.",
       "wordEN": "memory",
       "sentenceEN": "He has had a good memory since childhood."
     },
@@ -3278,7 +3260,7 @@
     },
     {
       "word": "karta",
-      "sentence": "Pojd’ si zahrát karty.",
+      "sentence": "Pojď si zahrát karty.",
       "wordEN": "card",
       "sentenceEN": "Come and play cards."
     },
@@ -3824,7 +3806,7 @@
     },
     {
       "word": "půlka",
-      "sentence": "Z půlky citrónu vymačkala št’ávu.",
+      "sentence": "Z půlky citrónu vymačkala šťávu.",
       "wordEN": "half",
       "sentenceEN": "She squeezed juice from half a lemon."
     },
@@ -3929,12 +3911,6 @@
       "sentence": "Šli se projít po břehu jezera.",
       "wordEN": "bank, shore, coast",
       "sentenceEN": "They went for a walk along the lake shore."
-    },
-    {
-      "word": "konstatovat",
-      "sentence": "Musím konstatovat, že vyhrál zaslouženě.",
-      "wordEN": "to state, claim, note",
-      "sentenceEN": "I have to state that he deserved to win."
     },
     {
       "word": "atmosféra",
@@ -4298,7 +4274,7 @@
     },
     {
       "word": "hladina",
-      "sentence": "Lod’ka se houpala na hladině.",
+      "sentence": "Loďka se houpala na hladině.",
       "wordEN": "level, surface",
       "sentenceEN": "The boat bobbed on the surface."
     },
@@ -4471,8 +4447,8 @@
       "sentenceEN": "Little fish were swimming near the bottom."
     },
     {
-      "word": "déšt’",
-      "sentence": "V létě slunce často střídá déšt’.",
+      "word": "déšť",
+      "sentence": "V létě slunce často střídá déšť.",
       "wordEN": "rain, shower",
       "sentenceEN": "In summer, sun is often followed by rain."
     },
@@ -5234,7 +5210,7 @@
     },
     {
       "word": "myšlení",
-      "sentence": "Odpověd’ se skrývá ve způsobu myšlení.",
+      "sentence": "Odpověď se skrývá ve způsobu myšlení.",
       "wordEN": "thinking, thought",
       "sentenceEN": "The answer is to change your way of thinking."
     },
@@ -5357,12 +5333,6 @@
       "sentence": "Vězně mohou navštěvovat pouze rodinní příslušníci.",
       "wordEN": "member",
       "sentenceEN": "Prisoners may be visited only by family members."
-    },
-    {
-      "word": "realizovat",
-      "sentence": "Kdy bude projekt realizován?",
-      "wordEN": "to implement, carry out",
-      "sentenceEN": "When will the project be implemented?"
     },
     {
       "word": "jádro",
@@ -5696,7 +5666,7 @@
     },
     {
       "word": "rozpor",
-      "sentence": "Jeho výpověd’ byla plná rozporů.",
+      "sentence": "Jeho výpověď byla plná rozporů.",
       "wordEN": "contradiction",
       "sentenceEN": "His testimony was full of contradictions."
     },
@@ -6109,12 +6079,6 @@
       "sentenceEN": "Scholars have monitored endangered animal species."
     },
     {
-      "word": "komentovat",
-      "sentence": "Prezident komentoval rozhodnutí vlády.",
-      "wordEN": "to comment",
-      "sentenceEN": "The president commented on the government’s decision."
-    },
-    {
       "word": "litr",
       "sentence": "Přidejte litr vody.",
       "wordEN": "litre",
@@ -6295,7 +6259,7 @@
       "sentenceEN": "They disconnected the drinking water supply."
     },
     {
-      "word": "trat’",
+      "word": "trať",
       "sentence": "Řítili se k železniční trati za lesem.",
       "wordEN": "railway, track",
       "sentenceEN": "They were dashing towards the railway behind the forest."
@@ -6373,12 +6337,6 @@
       "sentenceEN": "The learning process is influenced by physiological factors."
     },
     {
-      "word": "definovat",
-      "sentence": "Agregaci definujeme jako vztah celku k jedné části.",
-      "wordEN": "to define, specify",
-      "sentenceEN": "Aggregation is defined as a relationship of a whole to one part."
-    },
-    {
       "word": "blbost",
       "sentence": "Nevykládej mi takový blbosti.",
       "wordEN": "crap, nonsense",
@@ -6404,7 +6362,7 @@
     },
     {
       "word": "přenos",
-      "sentence": "Nová technologie zajišt’uje spolehlivý přenos dat.",
+      "sentence": "Nová technologie zajišťuje spolehlivý přenos dat.",
       "wordEN": "broadcast, transmission, transfer",
       "sentenceEN": "The new technology ensures reliable data transfer."
     },
@@ -6413,12 +6371,6 @@
       "sentence": "Ptáci hnízdili na břehu jezera.",
       "wordEN": "lake",
       "sentenceEN": "Birds nested on the shore of the lake."
-    },
-    {
-      "word": "investovat",
-      "sentence": "Vyplatí se investovat do nových technologií.",
-      "wordEN": "to invest",
-      "sentenceEN": "It is worth investing in new technologies."
     },
     {
       "word": "společenství",
@@ -6433,8 +6385,8 @@
       "sentenceEN": "She changed channels at will."
     },
     {
-      "word": "tat’ka",
-      "sentence": "Koupil pár piv pro tat’ku.",
+      "word": "taťka",
+      "sentence": "Koupil pár piv pro taťku.",
       "wordEN": "daddy",
       "sentenceEN": "He bought a few beers for his daddy."
     },
@@ -6476,7 +6428,7 @@
     },
     {
       "word": "podklad",
-      "sentence": "Její výpověd’ byla podkladem pro trestní stíhání.",
+      "sentence": "Její výpověď byla podkladem pro trestní stíhání.",
       "wordEN": "basis, foundation, documents",
       "sentenceEN": "Her dismissal was the basis for criminal prosecution."
     },
@@ -6560,7 +6512,7 @@
     },
     {
       "word": "brácha",
-      "sentence": "Tak pod’, brácho.",
+      "sentence": "Tak poď, brácho.",
       "wordEN": "brother, buddy",
       "sentenceEN": "Let’s go, buddy."
     },
@@ -6577,12 +6529,6 @@
       "sentenceEN": "The image represents the structure of motor fuels."
     },
     {
-      "word": "charakterizovat",
-      "sentence": "Jak byste charakterizovala svoji novou knihu?",
-      "wordEN": "to characterize, describe",
-      "sentenceEN": "How would you characterize your new book?"
-    },
-    {
       "word": "pohádka",
       "sentence": "Často čtu dětem pohádky.",
       "wordEN": "fairy tale",
@@ -6595,7 +6541,7 @@
       "sentenceEN": "The statues on the bridge are also by the same sculptor."
     },
     {
-      "word": "výpověd’",
+      "word": "výpověď",
       "sentence": "Výpovědi očitých svědků jsou nespolehlivé.",
       "wordEN": "testimony, statement, dismissal",
       "sentenceEN": "Eye-witness statements are unreliable."
@@ -6830,7 +6776,7 @@
     },
     {
       "word": "rod",
-      "sentence": "Tato čeled’ zahrnuje čtyři rody.",
+      "sentence": "Tato čeleď zahrnuje čtyři rody.",
       "wordEN": "genus, race",
       "sentenceEN": "This family consists of four genera."
     },
@@ -6943,8 +6889,8 @@
       "sentenceEN": "The state should not interfere with the economic sphere."
     },
     {
-      "word": "pojišt’ovna",
-      "sentence": "Pojišt’ovna musí uhradit poskytnutou péči.",
+      "word": "pojišťovna",
+      "sentence": "Pojišťovna musí uhradit poskytnutou péči.",
       "wordEN": "insurance company",
       "sentenceEN": "The insurance company has to pay for treatment provided."
     },
@@ -6979,13 +6925,13 @@
       "sentenceEN": "To stay healthy, you should eat two apples a day."
     },
     {
-      "word": "tragedie",
+      "word": "tragédie",
       "sentence": "V jeho osobním životě se odehrála tragédie.",
       "wordEN": "tragedy",
       "sentenceEN": "A tragedy occurred in his personal life."
     },
     {
-      "word": "2846",
+      "word": "fanoušek",
       "sentence": "anim Jako zapálený fotbalový fanoušek si vychutnal zápas.",
       "wordEN": "fan",
       "sentenceEN": "As a keen soccer fan he enjoyed the match."
@@ -7075,18 +7021,6 @@
       "sentenceEN": "He took the children to the pavement."
     },
     {
-      "word": "absolvovat",
-      "sentence": "Hráči absolvují dvoufázový trénink.",
-      "wordEN": "to undergo, graduate",
-      "sentenceEN": "Players undergo a two-phase training."
-    },
-    {
-      "word": "organizovat",
-      "sentence": "Když organizujeme nějakou akci, žena mi pomáhá.",
-      "wordEN": "to organize",
-      "sentenceEN": "When we organize an event, my wife helps me."
-    },
-    {
       "word": "tok",
       "sentence": "Odmlčela se, protože přerušil tok jejích myšlenek.",
       "wordEN": "stream, flow",
@@ -7112,7 +7046,7 @@
     },
     {
       "word": "prášek",
-      "sentence": "Vezmi kousek křídy a rozdrt’ ho na prášek.",
+      "sentence": "Vezmi kousek křídy a rozdrť ho na prášek.",
       "wordEN": "powder, pill",
       "sentenceEN": "Take a piece of chalk and crush it to powder."
     },
@@ -7292,7 +7226,7 @@
     },
     {
       "word": "ulička",
-      "sentence": "Je to čtvrt’ nízkých domů a úzkých uliček.",
+      "sentence": "Je to čtvrť nízkých domů a úzkých uliček.",
       "wordEN": "lane, alley",
       "sentenceEN": "It is a neighbourhood of low houses and narrow lanes."
     },
@@ -7525,7 +7459,7 @@
       "sentenceEN": "The team is increasingly more experienced."
     },
     {
-      "word": "plášt’",
+      "word": "plášť",
       "sentence": "Strčila ruce do hlubokých kapes dlouhého pláště.",
       "wordEN": "coat, cloak, casing",
       "sentenceEN": "She put her hands in the deep pockets of her long coat."
@@ -7580,7 +7514,7 @@
     },
     {
       "word": "obal",
-      "sentence": "Výrobci se soustřed’ují na recyklaci obalů.",
+      "sentence": "Výrobci se soustřeďují na recyklaci obalů.",
       "wordEN": "cover, packaging",
       "sentenceEN": "Producers focus on recycling packaging."
     },
@@ -7801,12 +7735,6 @@
       "sentenceEN": "You’re reading between the lines."
     },
     {
-      "word": "prezentovat",
-      "sentence": "Studenti se naučí prezentovat svoje myšlenky.",
-      "wordEN": "to present",
-      "sentenceEN": "Students are learning to present their ideas."
-    },
-    {
       "word": "léčba",
       "sentence": "K léčbě infekcí lze použít vhodná antibiotika.",
       "wordEN": "treatment, therapy",
@@ -7916,7 +7844,7 @@
     },
     {
       "word": "obnova",
-      "sentence": "Obnova sídlišt’ je současnou prioritou.",
+      "sentence": "Obnova sídlišť je současnou prioritou.",
       "wordEN": "restoration, regeneration",
       "sentenceEN": "The housing estate regeneration is a current priority."
     },
@@ -8023,7 +7951,7 @@
       "sentenceEN": "I return home from work by tram."
     },
     {
-      "word": "stadión",
+      "word": "stadion",
       "sentence": "Vítězství domácích sledoval zaplněný stadion.",
       "wordEN": "stadium",
       "sentenceEN": "A full stadium watched the home team’s victory."
@@ -8087,12 +8015,6 @@
       "sentence": "Cena se stanoví porovnáním s podobným zbožím.",
       "wordEN": "comparison",
       "sentenceEN": "The price is set by comparison with similar goods."
-    },
-    {
-      "word": "babi",
-      "sentence": "Babi, můžu si vzít buchtu?",
-      "wordEN": "granny",
-      "sentenceEN": "Granny, can I have a cookie?"
     },
     {
       "word": "překlad",
@@ -8162,8 +8084,8 @@
     },
     {
       "word": "založení",
-      "sentence": "Oslavujeme 500.",
-      "wordEN": "výročí založení města.\tfounding, nature",
+      "sentence": "Oslavujeme 500. výročí založení města.",
+      "wordEN": "founding, nature",
       "sentenceEN": "We are celebrating the 500th anniversary of the town’s founding."
     },
     {
@@ -8222,7 +8144,7 @@
     },
     {
       "word": "pohár",
-      "sentence": "Postavil na stůl pohár z křišt’álového skla.",
+      "sentence": "Postavil na stůl pohár z křišťálového skla.",
       "wordEN": "cup",
       "sentenceEN": "He put a crystal cup on the table."
     },
@@ -8599,12 +8521,6 @@
       "sentenceEN": "He shifted into second gear."
     },
     {
-      "word": "orientovat",
-      "sentence": "biasp Žáci se naučili zorientovat mapu.",
-      "wordEN": "to orientate, find position",
-      "sentenceEN": "The students learned to orientate their maps."
-    },
-    {
       "word": "trouba",
       "sentence": "Dostal koláč, ještě teplý z trouby.",
       "wordEN": "oven, pipe",
@@ -8827,12 +8743,6 @@
       "sentenceEN": "She is a director of an international company."
     },
     {
-      "word": "vypovídat",
-      "sentence": "biasp Svědci vypovídali podle očekávání.",
-      "wordEN": "to talk, testify, (se) have a good chat",
-      "sentenceEN": "The witnesses testified as expected."
-    },
-    {
       "word": "profese",
       "sentence": "Nedokázala by věnovat se jen profesi.",
       "wordEN": "profession, career",
@@ -8990,7 +8900,7 @@
     },
     {
       "word": "kontext",
-      "sentence": "Tato odpověd’ byla vytržena z kontextu.",
+      "sentence": "Tato odpověď byla vytržena z kontextu.",
       "wordEN": "context",
       "sentenceEN": "This answer was taken out of context."
     },
@@ -9211,12 +9121,6 @@
       "sentenceEN": "Social security is provided in two ways."
     },
     {
-      "word": "komunikovat",
-      "sentence": "Naučte se komunikovat!",
-      "wordEN": "to communicate",
-      "sentenceEN": "Learn how to communicate!"
-    },
-    {
       "word": "spolek",
       "sentence": "Včelařský spolek oslavil jubileum.",
       "wordEN": "club, association",
@@ -9403,8 +9307,8 @@
       "sentenceEN": "The house has two staircases."
     },
     {
-      "word": "št’áva",
-      "sentence": "Citrónová št’áva odstraňuje pach rybiny.",
+      "word": "šťáva",
+      "sentence": "Citrónová šťáva odstraňuje pach rybiny.",
       "wordEN": "juice",
       "sentenceEN": "Lemon juice removes the smell of fish."
     },
@@ -9661,12 +9565,6 @@
       "sentenceEN": "How long is the term of notice?"
     },
     {
-      "word": "inspirovat",
-      "sentence": "biasp Nic člověka neinspiruje tak jako láska.",
-      "wordEN": "to inspire",
-      "sentenceEN": "Nothing inspires us more than love."
-    },
-    {
       "word": "parkoviště",
       "sentence": "Zastavili jsme na parkovišti.",
       "wordEN": "car park, parking lot",
@@ -9698,8 +9596,8 @@
     },
     {
       "word": "privatizace",
-      "sentence": "V 90.",
-      "wordEN": "letech docházelo k divokým privatizacím.\tprivatization",
+      "sentence": "V 90. letech docházelo k divokým privatizacím.",
+      "wordEN": "privatization",
       "sentenceEN": "The 1990s saw a rush of wild privatizations."
     },
     {
@@ -10105,12 +10003,6 @@
       "sentenceEN": "The police found some blood stains."
     },
     {
-      "word": "reprezentovat",
-      "sentence": "Reprezentoval svou zemi.",
-      "wordEN": "to represent",
-      "sentenceEN": "He represented his country."
-    },
-    {
       "word": "námaha",
       "sentence": "Oba se zpotili velkou námahou.",
       "wordEN": "effort, labour",
@@ -10235,12 +10127,6 @@
       "sentence": "Budete potřebovat průhlednou nádobu.",
       "wordEN": "container, vessel",
       "sentenceEN": "You will need a transparent container."
-    },
-    {
-      "word": "aplikovat",
-      "sentence": "Tyto zásady byly aplikovány s jistými změnami.",
-      "wordEN": "to apply, use",
-      "sentenceEN": "These principles were applied with certain changes."
     },
     {
       "word": "rozkaz",
@@ -10484,7 +10370,7 @@
     },
     {
       "word": "mince",
-      "sentence": "Vhod’te minci.",
+      "sentence": "Vhoďte minci.",
       "wordEN": "coin, small change",
       "sentenceEN": "Insert a coin."
     },
@@ -10772,7 +10658,7 @@
     },
     {
       "word": "jídelna",
-      "sentence": "Vrat’ se do jídelny, prosím tě, a nasnídej se.",
+      "sentence": "Vrať se do jídelny, prosím tě, a nasnídej se.",
       "wordEN": "dining room, cafeteria",
       "sentenceEN": "Please go back to the dining room and have breakfast."
     },
@@ -10898,7 +10784,7 @@
     },
     {
       "word": "obzor",
-      "sentence": "Na obzoru se objevila nepřátelská lod’.",
+      "sentence": "Na obzoru se objevila nepřátelská loď.",
       "wordEN": "horizon",
       "sentenceEN": "An enemy ship appeared on the horizon."
     },
@@ -10921,7 +10807,7 @@
       "sentenceEN": "We help people in need."
     },
     {
-      "word": "konkurs",
+      "word": "konkurz",
       "sentence": "Tady se pořádají herecké konkurzy.",
       "wordEN": "competition, bankruptcy, audition",
       "sentenceEN": "Acting auditions are held here."
@@ -10945,8 +10831,8 @@
       "sentenceEN": "Transfers of small amounts are relatively expensive."
     },
     {
-      "word": "čtvrt’",
-      "sentence": "Není to bezpečná čtvrt’.",
+      "word": "čtvrť",
+      "sentence": "Není to bezpečná čtvrť.",
       "wordEN": "quarter, area",
       "sentenceEN": "It is not a safe area."
     },
@@ -11033,12 +10919,6 @@
       "sentence": "Firma dostala velkou objednávku.",
       "wordEN": "order, commission",
       "sentenceEN": "The company got a large commission."
-    },
-    {
-      "word": "identifikovat",
-      "sentence": "Identifikovali ho podle otisků prstů.",
-      "wordEN": "to identify",
-      "sentenceEN": "He was identified by fingerprints."
     },
     {
       "word": "experiment",
@@ -11257,12 +11137,6 @@
       "sentenceEN": "He stayed in hospital for observation."
     },
     {
-      "word": "formulovat",
-      "sentence": "Snažil se formulovat otázku co nejpřesněji.",
-      "wordEN": "to word, formulate",
-      "sentenceEN": "He tried to formulate the question as precisely as possible."
-    },
-    {
       "word": "tunel",
       "sentence": "Vlak vjel do dlouhého tunelu.",
       "wordEN": "tunnel",
@@ -11317,7 +11191,7 @@
       "sentenceEN": "The bathroom smelled of cleanliness and soap."
     },
     {
-      "word": "pout’",
+      "word": "pouť",
       "sentence": "Na pouti jezdili na kolotočích.",
       "wordEN": "funfair, pilgrimage",
       "sentenceEN": "They rode the merry-go-round at the funfair."
@@ -11443,8 +11317,8 @@
       "sentenceEN": "He has neither ambition nor talent."
     },
     {
-      "word": "plet’",
-      "sentence": "Měl snědou plet’ a tmavé vlasy.",
+      "word": "pleť",
+      "sentence": "Měl snědou pleť a tmavé vlasy.",
       "wordEN": "complexion",
       "sentenceEN": "He had a dark complexion and dark hair."
     },
@@ -11557,12 +11431,6 @@
       "sentenceEN": "Beware of sharp edges."
     },
     {
-      "word": "show",
-      "sentence": "Show musí pokračovat.",
-      "wordEN": "show",
-      "sentenceEN": "The show must go on."
-    },
-    {
       "word": "verš",
       "sentence": "Jak zní ten verš z knihy Jobovy?",
       "wordEN": "verse",
@@ -11641,12 +11509,6 @@
       "sentenceEN": "He put a pot of water on the stove."
     },
     {
-      "word": "publikovat",
-      "sentence": "Publikoval své básně v literárním časopise.",
-      "wordEN": "to publish",
-      "sentenceEN": "He published his poems in a literary magazine."
-    },
-    {
       "word": "zoufalství",
       "sentence": "Naději střídá pocit zoufalství.",
       "wordEN": "despair",
@@ -11678,7 +11540,7 @@
     },
     {
       "word": "pozdrav",
-      "sentence": "Vyřid’te pozdrav celé rodině.",
+      "sentence": "Vyřiďte pozdrav celé rodině.",
       "wordEN": "greeting, regard",
       "sentenceEN": "Greetings to the whole family."
     },
@@ -11888,7 +11750,7 @@
     },
     {
       "word": "škála",
-      "sentence": "Kvalitu zhodnot’te pomocí pětistupňové škály.",
+      "sentence": "Kvalitu zhodnoťte pomocí pětistupňové škály.",
       "wordEN": "scale, range",
       "sentenceEN": "Rate the quality on a scale of one to five."
     },
@@ -11906,7 +11768,7 @@
     },
     {
       "word": "stadium",
-      "sentence": "Tělo je v posledním stádiu rozkladu.",
+      "sentence": "Tělo je v posledním stadiu rozkladu.",
       "wordEN": "stage, phase",
       "sentenceEN": "The body is in the final stages of decomposition."
     },
@@ -12079,8 +11941,8 @@
       "sentenceEN": "They have a tiled stove in the kitchen."
     },
     {
-      "word": "poušt’",
-      "sentence": "Kolem nás je jen kamenitá poušt’.",
+      "word": "poušť",
+      "sentence": "Kolem nás je jen kamenitá poušť.",
       "wordEN": "desert",
       "sentenceEN": "There is just rocky desert around us."
     },
@@ -12583,19 +12445,13 @@
       "sentenceEN": "The cloth is made of cotton fibres."
     },
     {
-      "word": "dominovat",
-      "sentence": "Dominovali soutěži.",
-      "wordEN": "to dominate",
-      "sentenceEN": "They dominated the competition."
-    },
-    {
       "word": "půle",
       "sentence": "Druhá půle byla mnohem lepší.",
       "wordEN": "half, middle",
       "sentenceEN": "The second half was much better."
     },
     {
-      "word": "hrud’",
+      "word": "hruď",
       "sentence": "Cítil bolest na hrudi.",
       "wordEN": "chest, breast",
       "sentenceEN": "He felt a pain in his chest."
@@ -12662,7 +12518,7 @@
     },
     {
       "word": "dovoz",
-      "sentence": "Import klesl.",
+      "sentence": "Dovoz klesl.",
       "wordEN": "import",
       "sentenceEN": "Imports have fallen."
     },
@@ -12896,7 +12752,7 @@
     },
     {
       "word": "cédéčko",
-      "sentence": "Pust’ to cédéčko.",
+      "sentence": "Pusť to cédéčko.",
       "wordEN": "C",
       "sentenceEN": "D Play the CD."
     },
@@ -12913,8 +12769,8 @@
       "sentenceEN": "His eyes blazed with anger."
     },
     {
-      "word": "d’ábel",
-      "sentence": "Ten muž je d’ábel!",
+      "word": "ďábel",
+      "sentence": "Ten muž je ďábel!",
       "wordEN": "devil",
       "sentenceEN": "That man is a devil!"
     },
