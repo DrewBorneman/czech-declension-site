@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" xmlns:bx="https://boxy-svg.com">
+  <path d="M 480 576 L 192 576 C 139 576 108.814 553.645 110 500 L 110 123 C 110 32 110 32 192 32 L 496 32 C 536 32 536 32 536 70 L 536 405 C 536 430 536 445.3 512 445.3 L 512.7 551.2 C 530.724 551.177 535.323 553.688 536 564.4 C 535.849 575.18 524.197 575.528 510.1 576 L 480 576 Z M 192 448 C 167.893 448.712 127.101 446.749 127.3 500 C 127.3 546.7 159.9 553.3 192 553.29 L 490 551.2 L 490 445.3 L 192 448 Z M 128 123 L 128 413 C 128 423 128 423 138 423 L 490 423 C 518 423 518 421.5 518 405 C 518 396.4 518 144.1 518 70 C 518 50 518 50 500 50 L 192 50 C 128 50 128 50 128 123 Z" style="stroke-opacity: 0;"/>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Libertinus Mono&quot;; font-size: 350px; font-weight: 700; white-space: pre;" x="220.088" y="349.626" dx="-4.434">S</text>
+  <defs>
+    <style bx:fonts="Libertinus Mono">@import url(https://fonts.googleapis.com/css2?family=Libertinus+Mono%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+</svg>
