@@ -7,8 +7,8 @@ RewriteEngine On
 RewriteBase /
 
 # Ensure API requests go to Laravel, not Vue
-RewriteCond %{REQUEST_URI} ^/api/ [NC]
-RewriteRule ^api/(.*)$ api/index.php [L,QSA]
+# RewriteCond %{REQUEST_URI} ^/api/ [NC]
+# RewriteRule ^api/(.*)$ api/index.php [L,QSA]
 
 # Serve existing files directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
