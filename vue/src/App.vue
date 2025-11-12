@@ -2,22 +2,18 @@
   <div v-if="mobile">
     <div class="flex flex-col h-screen overflow-hidden">
       <TopBarMobile />
-      <router-view class="flex-grow main-overflow" v-slot="{ Component, route }">
-        <Transition :name="DetermineTransitionName(route.name)">
+      <router-view class="flex-grow main-overflow" v-slot="{ Component }">
           <component :is="Component"/>
-        </Transition>
       </router-view>
     </div>
   </div>
   <div v-else>
     <div class="flex flex-col h-screen overflow-hidden">
       <TopBar />
-      <router-view class="flex-grow main-overflow" v-slot="{ Component, route }">
-        <Transition :name="DetermineTransitionName(route.name)">
+      <router-view class="flex-grow main-overflow" v-slot="{ Component }">
           <component :is="Component"/>
-        </Transition>
       </router-view>
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>
@@ -27,7 +23,6 @@ import TopBar from './components/TopBar.vue'
 import TopBarMobile from './components/TopBarMobile.vue'
 import Footer from './components/Footer.vue'
 import { useIsMobile } from './composables/useIsMobile.ts'
-import type { RouteRecordNameGeneric } from 'vue-router'
 import { computed, provide } from 'vue'
 
 export default {
@@ -36,24 +31,6 @@ export default {
     TopBar,
     TopBarMobile,
     Footer
-  },
-  methods: {
-    DetermineTransitionName(routeName: RouteRecordNameGeneric) {
-      let fromRoute = this.$router.resolve({ path: this.$router.options.history.state.back?.toString()});
-      let toRoute = this.$router.resolve({ name: routeName?.toString() });
-      
-      if(!fromRoute.meta.order || !toRoute.meta.order) return 'fade';
-
-      if(fromRoute.meta.order < toRoute.meta.order) {
-        return 'slide-fade-right'
-      } 
-      else if(fromRoute.meta.order > toRoute.meta.order) {
-        return 'slide-fade-left'
-      }
-      else {
-        return 'fade'
-      }
-    }
   },
 
   setup() {

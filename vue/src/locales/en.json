@@ -1,0 +1,17 @@
+{
+    "siteInfo": {
+        "title": "Sklon.me",
+        "subtitle": "Czech Declension Trainer",
+        "hello": "Ahoj!",
+        "description": "Quiz yourself on Czech declensions - you'll get a series of sentences with a missing word, along with a choice of its possible forms - choose the correct one!",
+        "subdescription": "This is very much a work in progress; answers have been verified for accuracy, but all the possible answers might not always align with all of the given word's valid declensions.",
+        "countDescription": "There are currently {count} questions.",
+        "begin": "Begin!",
+        "check": "Check",
+        "correct": "Correct!",
+        "incorrect": "Incorrect :(",
+        "next": "Next",
+        "score": "Current Score: ",
+        "footer": "This text is in the footer"
+    }
+}

@@ -44,17 +44,23 @@ class SentenceSeeder extends Seeder
 
             foreach($possible_matches as $needle)
             {
-                if(str_contains($haystack, $needle))
-                {
+                //if(str_contains($haystack, $needle))
+                $matches = [];
+                $escaped = preg_quote($needle, '/');
+                if (preg_match('/\b' . $escaped . '\b/u', $haystack, $matches) === 1) {
                     $answer = $needle;
                     break;
                 }
             }
             if($answer == '')
             {
-                $this->command->info("processing sentence " . $haystack);
+                $this->command->info("NOT FOUND: CHECK DATA");
+                $this->command->info("processing sentence: " . $haystack);
                 $this->command->info(string: "possible matches: " . implode(',',$possible_matches));
-                throw new \ErrorException('word not found in sentence');
+                $this->command->info("");
+                $this->command->info("");
+                continue;
+                //throw new \ErrorException('word not found in sentence');
             }
 
             $blankSpace = str_repeat("_", strlen($answer));

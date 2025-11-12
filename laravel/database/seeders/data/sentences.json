@@ -1087,12 +1087,6 @@
       "sentenceEN": "Good evening!"
     },
     {
-      "word": "fakt",
-      "sentence": "Nás zajímají fakta.",
-      "wordEN": "fact",
-      "sentenceEN": "We are interested in facts."
-    },
-    {
       "word": "rozhodnutí",
       "sentence": "Své rozhodnutí můžete kdykoliv změnit.",
       "wordEN": "decision",
@@ -4958,7 +4952,7 @@
     },
     {
       "word": "taška",
-      "sentence": "Jdu pomoct mámě s taškama.",
+      "sentence": "Jdu pomoct mámě s taškami.",
       "wordEN": "bag",
       "sentenceEN": "I’ll go and help my mum with her bags."
     },
@@ -6146,7 +6140,7 @@
     },
     {
       "word": "droga",
-      "sentence": "Ten barák je plnej obchodníků s drogama.",
+      "sentence": "Ten barák je plnej obchodníků s drogami.",
       "wordEN": "drug, narcotic",
       "sentenceEN": "That building is full of drug dealers."
     },

@@ -1,14 +1,18 @@
 VERSION 1
     - No login
     - when visiting the site, users get a start page
-    - can select "top X words"
-    - can select no. of questions
-    - play the game: users get points for each correct answer
-    - hint: removes random wrong answer for minus some points
-    - finish: some summary screen
+    - launches into endless questions
+    - mobile layout
 
 BETWEEN 1 AND 2
     - find better resources for both declensions, words and sentences
+
+VERSION 1.5
+ - layout improvements
+ - on the home page, select no. of questions and top X words
+ - score for quiz, and hints if need be (remove wrong answers, show English translation, etc.)
+ - summary screen
+ - language picker w/ Czech
 
 VERSION 2
     - User login

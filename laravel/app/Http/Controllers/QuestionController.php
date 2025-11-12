@@ -9,7 +9,7 @@ use App\Models\Sentence;
 
 class QuestionController extends Controller
 {
-    public function get(Request $request)
+    public function getQuestion(Request $request)
     {
         $request->validate([
             'rank' => 'integer|min:1'
@@ -48,5 +48,12 @@ class QuestionController extends Controller
         $question->allOptions = $possibleDeclensions;
 
         return response()->json($question);
+    }
+
+    public function getCount(Request $request)
+    {
+        $count = Word::count();
+
+        return response()->json(['count' => $count]);
     }
 }

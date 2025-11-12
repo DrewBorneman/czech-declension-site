@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/get/question/{rank}', [QuestionController::class, 'get']);
+Route::get('/get/question/{rank}', [QuestionController::class, 'getQuestion']);
+Route::get('/get/words/count', [QuestionController::class, 'getCount']);

@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-if (file_exists(base_path('routes/api.php'))) {
-    require base_path('routes/api.php');
-}
+// if (file_exists(base_path('routes/api.php'))) {
+//     require base_path('routes/api.php');
+// }
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +17,16 @@ if (file_exists(base_path('routes/api.php'))) {
 */
 
 // 🔥 ENSURE API REQUESTS ARE NOT HANDLED HERE
-Route::prefix('api')->group(base_path('routes/api.php'));
+// Route::prefix('api')->group(base_path('routes/api.php'));
 
-Route::middleware('web')->group(function () {
+if (file_exists(public_path('index.html'))) {
+    // Production build only – serve the compiled Vue app
     Route::get('/{any}', function () {
-        return view('index'); // Vue app entry point
-    })->where('any', '^(?!api).*'); // Exclude API requests
-});
+        return file_get_contents(public_path('index.html'));
+    })->where('any', '.*');
+} else {
+    // Dev mode – do nothing, Vite serves the frontend
+    Route::get('/', function () {
+        return 'Vue dev server running...';
+    });
+}

@@ -1,4 +1,5 @@
 import { createApp } from 'vue';
+import { createI18n } from 'vue-i18n'
 import { createVuetify } from 'vuetify'
 import {
     VApp, // required
@@ -22,11 +23,8 @@ import { AddIconsToLibrary } from './helpers/FontAwesome'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import MainContent from './views/MainContent.vue'
-import Contact from './views/Contact.vue'
-import Resume from './views/Resume.vue'
-import Projects from './views/Projects.vue'
-import CMS from './views/cms.vue'
-import { verifyPassword } from './helpers/password';
+import Quiz from './views/Quiz.vue'
+import { languages } from "./locales/index.js";
 
 /* add icons to the library */
 AddIconsToLibrary(library);
@@ -43,35 +41,11 @@ const router =  createRouter({
             },
         },
         {
-            path:'/resume',
-            name:'resume',
-            component: Resume,
+            path:'/quiz',
+            name:'quiz',
+            component: Quiz,
             meta: {
                 order: 2
-            },
-        },
-        {
-            path:'/projects',
-            name:'projects',
-            component: Projects,
-            meta: {
-                order: 3
-            },
-        },
-        {
-            path:'/contact',
-            name:'contact',
-            component: Contact,
-            meta: {
-                order: 4
-            },
-        },
-        {
-            path:'/cms',
-            name:'cms',
-            component: CMS,
-            beforeEnter: async () => {
-                return verifyPassword();
             },
         },
         {
@@ -79,6 +53,14 @@ const router =  createRouter({
             redirect: '/',
         },
     ]})
+
+const i18n = createI18n({
+  locale: 'en',
+  fallbackLocale: 'en',
+  legacy: false,
+  globalInjection: true,
+  messages: languages
+})
 
 const vuetify = createVuetify({
     components: {
@@ -100,5 +82,6 @@ const vuetify = createVuetify({
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
     .use(router)
+    .use(i18n)
     .use(vuetify)
     .mount('#app')

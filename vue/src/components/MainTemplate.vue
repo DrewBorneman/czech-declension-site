@@ -1,36 +1,35 @@
 <template>
-  <TwoColumnTemplate>
-    <template v-slot:left>
-      <div v-if="!mobile" class="flex flex-col items-end">
-        <img :src="HomeData.imagePath" class="max-w-xs mb-8" />
-        <h2 class="text-2xl font-bold">{{ SiteInfo.name }}</h2>
-        <h3 class="text-basis text-slate-500">{{ HomeData.tagline }}</h3>
-        <IconLinks :links="SiteInfo.links" size="xl" :text="false" :col="false"/>
-      </div>
-    </template>
-    <template v-slot:right>
-      <div class="bg-neutral-100 pt-8 pb-12">
+  <div v-if="mobile" class="content">
+    <div class="flex flex-col mt-6 pl-8 pr-8">
+      <div class="flex-grow flex-shrink basis-auto space-y-2">
         <slot></slot>
       </div>
-    </template>
-  </TwoColumnTemplate>
+    </div>
+    <!-- <FooterMobile /> -->
+  </div>
+
+  <div v-else class="content">
+    <div class="flex flex-row space-x-12 mt-24">
+      <div class="flex-grow"></div>
+      <div class="flex-grow flex-shrink flex-basis-half space-y-2">
+        <slot></slot>
+      </div>
+      <div class="flex-grow"></div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
-import { onBeforeMount, inject } from 'vue';
-import { ref } from '@vue/reactivity';
-import { GetHomeData, GetSiteInfo } from './../helpers/getRequests';
-import { THomeRouteInfo, TSiteInfo } from '../types/routes';
-import IconLinks from '../components/IconLinks.vue';
-import TwoColumnTemplate from './TwoColumnTemplate.vue';
+  // import FooterMobile from '../components/FooterMobile.vue'
+  import { inject } from 'vue'
 
-const HomeData = ref<THomeRouteInfo>(<THomeRouteInfo>{});
-const SiteInfo = ref<TSiteInfo>(<TSiteInfo>{});
+  const mobile = inject('mobile');
 
-const mobile = inject('mobile');
 
-onBeforeMount(async () => {
-  HomeData.value = await GetHomeData();
-  SiteInfo.value = await GetSiteInfo();
-})
 </script>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.flex-basis-half {
+  flex-basis: 50%;
+}
+</style>

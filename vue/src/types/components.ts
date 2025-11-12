@@ -1,5 +1,3 @@
-import { IconType } from "./enums";
-
 export interface TQuestion {
     rank: number;
     word: string;
@@ -8,4 +6,8 @@ export interface TQuestion {
     sentenceTranslation: string;
     correctAnswer: string;
     allOptions: string[];
+}
+
+export interface TCount {
+    count: number;
 }
