@@ -12,6 +12,7 @@
         "incorrect": "Incorrect :(",
         "next": "Next",
         "score": "Current Score: ",
-        "footer": "This text is in the footer"
+        "footer": "This text is in the footer",
+        "enTranslations": "Show sentence translations"
     }
 }

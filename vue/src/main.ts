@@ -3,12 +3,8 @@ import { createI18n } from 'vue-i18n'
 import { createVuetify } from 'vuetify'
 import {
     VApp, // required
-    VCarousel,
-    VPagination,
-    VMenu,
     VBtn,
-    VList,
-    VListItem
+    VSwitch
   } from 'vuetify/components';
 import 'vuetify/dist/vuetify.min.css'; // Ensure you are using css-loader
 import '@mdi/font/css/materialdesignicons.css'
@@ -65,12 +61,8 @@ const i18n = createI18n({
 const vuetify = createVuetify({
     components: {
         VApp,
-        VPagination,
-        VCarousel,
-        VMenu, 
         VBtn, 
-        VList, 
-        VListItem 
+        VSwitch
     },
     directives: {},
     theme: {

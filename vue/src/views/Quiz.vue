@@ -2,10 +2,23 @@
   <MainTemplate>
     <div class="content flex flex-row">
       <div class="flex-grow"></div>
-      <div class="flex-grow flex-shrink flex flex-col space-y-8 mt-2 items-center" :class="mobile ? 'basis-full' : 'basis-70'">
-        <div class="w-full box-border font-bold text-center p-4 my-2 mx-8 rounded-md bg-theme-bluegray">{{ Question.sentenceWithoutWord }}</div>
-        <div v-show="currState == State.Review || !mobile" class="w-full box-border font-bold text-center text-lg mt-4 mx-8 rounded-md" :class="currState == State.Question ? 'invisible' : 'visible'">{{ feedback }}</div>
-        <div class="flex flex-row flex-wrap w-full" :class = "mobile ? '' : 'px-2'">
+      <div class="flex-grow flex-shrink flex flex-col mt-2 items-center" :class="mobile ? 'basis-full' : 'basis-70'">
+        <div class="w-full box-border float-right text-sm">
+          <v-switch class="w-fit float-right small-switch" v-model="TranslationOn" hide-details>
+            <template v-slot:label>
+              <div class="text-s" >{{$t('siteInfo.enTranslations')}}</div>
+            </template>
+          </v-switch>
+          </div>
+        <div class="w-full box-border text-center p-4 my-2 mx-8 mb-4 rounded-md bg-theme-bluegray">
+          <div class="font-bold ">{{ Question.sentenceWithoutWord }}</div>
+          <div v-show="TranslationOn" class="font-italic text-sm">
+            <br />
+            {{ Question.sentenceTranslation }}
+          </div>
+        </div>
+        <div v-show="currState == State.Review || !mobile" class="w-full box-border font-bold text-center text-lg mt-4 mx-8 rounded-md mb-4" :class="currState == State.Question ? 'invisible' : 'visible'">{{ feedback }}</div>
+        <div class="flex flex-row flex-wrap w-full mb-8" :class = "mobile ? '' : 'px-2'">
           <div v-for="option in Question.allOptions" class="basis-half">
             <div class="box-border text-center my-2 rounded-md" :class="answerColorMap.get(option), mobile ? 'mx-3' : 'mx-6'">
                 <button v-on:click="selectOption(option)" class="w-full p-2">{{ option }}</button>
@@ -43,6 +56,7 @@ enum State {
 
 const Question = ref<TQuestion>(<TQuestion>{});
 const Count = ref<number>(0);
+const TranslationOn = ref<boolean>(true);
 const selectedOption = ref("");
 const answerColorMap = reactive(new Map<string, string>());
 const currState = ref<State>(State.Question);
@@ -123,4 +137,8 @@ function getRandomInt(max: number): number {
   .basis-90 {
     flex-basis: 90%;
   }
+  .small-switch {
+    transform: scale(0.8);
+    transform-origin: right;
+}
 </style>
