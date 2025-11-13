@@ -20,5 +20,15 @@ export default defineConfig(({}) => {
           vue: 'vue/dist/vue.esm-bundler.js',
       },
     },
+    // server: {
+    //   host: 'localhost',
+    //   proxy: {
+    //     '/api': {
+    //       target: 'https://sklon.me/api',
+    //       changeOrigin: true,
+    //       secure: false,
+    //     },
+    //   },
+    // }
   }
 })
